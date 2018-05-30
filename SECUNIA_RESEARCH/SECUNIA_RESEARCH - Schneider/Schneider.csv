@@ -1,0 +1,76 @@
+CVE_Reference,Description,Last_Update,Original_Advisory,Provided_or_Discovered,Release_Date,Solution,Title
+,,,,,,,
+"CVE-2017-3635
+CVE-2017-3636
+CVE-2017-3652
+","Multiple vulnerabilities have been reported in Schneider Electric EcoStruxure Substation Operation User Interface, which can by exploited by malicious, local users and by malicious users to disclose sensitive information, manipulate certain data, and cause a DoS (Denial of Service).
+
+For more information:
+SA78103 (#3, #4, #9, #19, #20)
+
+The vulnerabilities are reported in versions prior to 2.1.17285.",,SEVD-2017-341-01:,,12/11/2017,Update to version 2.1.17285.,Schneider Electric EcoStruxure Substation Operation User Interface MySQL Multiple Vulnerabilities
+,,,,,,,
+"CVE-2017-7965
+CVE-2017-7966
+","Multiple vulnerabilities have been reported in Schneider Electric SoMachine HVAC, which can be exploited by malicious, local users to gain escalated privileges and by malicious people to compromise a vulnerable system.
+
+1) An unspecified error can be exploited to cause a buffer overflow.
+
+Successful exploitation of this vulnerability may allow execution of arbitrary code with elevated privileges.
+
+2) The application loads an unspecified library in an insecure manner. This can be exploited to load arbitrary libraries by tricking a user into e.g. opening a file located on a remote WebDAV or SMB share.
+
+The vulnerabilities are reported in Schneider Electric SoMachine HVAC version 2.1.0 for M171/M172 Controllers.",5/19/2017,http://download.schneider-electric.com/files?p_enDocType=Technical+leaflet&p_File_Id=7262360271&p_File_Name=SEVD-2017-125-01-SoMachine+HVAC+Programming+Software.pdf&p_Reference=SEVD-2017-125-01,US-Cert credits:,5/15/2017,Update to version 2.2.,Schneider Electric SoMachine HVAC Multiple Vulnerabilities
+,,,,,,,
+"CVE-2016-6273
+","A vulnerability has been reported in Schneider Floating License Manager, which can be exploited by malicious people to cause a DoS (Denial of Service).
+
+For more information:
+SA72958 (#1)
+
+The vulnerability is reported in versions prior to 1.9.10.0.",,https://www.citect.schneider-electric.com/safety-and-security-notifications/36-security-notifications/9056-vulnerability-within-schneider-electric-floating-license-manager-2017,,4/3/2017,Update to version 1.9.10.0.,Schneider Floating License Manager Denial of Service Vulnerability
+,,,,,,,
+"CVE-2015-8277
+","A vulnerability has been reported in Schneider Floating License Manager, which can be exploited by malicious people to compromise a vulnerable system.
+
+For more information:
+SA69145 (#1)
+
+The vulnerability is reported in versions prior to 1.9.4.0.",,https://www.citect.schneider-electric.com/safety-and-security-notifications/36-security-notifications/9036-vulnerability-within-schneider-electric-floating-license-manager,,1/4/2017,Update to version 1.9.4.0.,Schneider Floating License Manager Buffer Overflow Vulnerability
+,,,,,,,
+"CVE-2016-5809
+","A vulnerability has been reported in multiple Schneider products, which can be exploited by malicious people to conduct cross-site request forgery.
+
+The application allows users to perform certain actions via HTTP requests without performing proper validity checks to verify the requests. This can be exploited to e.g. change configuration when a logged-in user visits a specially crafted web page.
+
+Successful exploitation requires the ""Enable Webserver"" and ""Webserver Config Access"" registers to be enabled (enabled by default). 
+
+The vulnerability is reported in the following products:
+* Schneider PowerLogic ION7300 Series 
+* Schneider PowerLogic ION7650 
+* Schneider PowerLogic ION8650",,http://download.schneider-electric.com/files?p_enDocType=Technical+leaflet&p_File_Id=4478049248&p_File_Name=SEVD-2016-256-02.pdf&p_Reference=SEVD-2016-256-02,The vendor credits Karn Ganeshen.,11/7/2016,No official solution is currently available.,Schneider Multiple Products Cross-Site Request Forgery Vulnerability
+,,,,,,,
+"No CVE references.
+
+","A vulnerability has been reported in Schneider Electric Unity PRO, which can be exploited by malicious people to bypass certain security restrictions.
+
+The vulnerability is caused due to the product not properly restricting access to the PLC Simulator, which can be exploited to load otherwise restricted patched project and subsequently execute arbitrary code.
+
+Successful exploitation requires that no Unity application is loaded onto the simulator.
+
+The vulnerability is reported in versions 7.x.",,Schneider:,"Mille Gandelsman and Avihay Kain, Indegy",11/7/2016,Upgrade to version 11.1.,Schneider Electric Unity PRO PLC Simulator Security Bypass Vulnerability
+,,,,,,,
+"CVE-2016-4529
+","A vulnerability has been reported in Schneider Electric SoMachine HVAC, which can be exploited by malicious people to compromise a vulnerable system.
+
+The vulnerability is caused due to an error within the ""SetDataIntf()"" method of the AxEditGrid control related to ActiveX and can be exploited to execute arbitrary code.
+
+The vulnerability is reported in version 2.0.2.",7/21/2016,Schneider Electric:,rgod via ZDI.,7/15/2016,Update to version 2.1.0.,Schneider Electric SoMachine HVAC Unsafe ActiveX Control Code Execution Vulnerability
+,,,,,,,
+"No CVE references.
+
+","A vulnerability has been reported in Schneider Electric MiCOM, which can be exploited by malicious people to compromise a vulnerable system.
+
+The vulnerability is caused due to an integer overflow error within VxWorks RPC component and can be exploited to execute arbitrary code.
+
+The vulnerability is reported in MiCOM Px40 Series all versions.",,SEVD-2016-060-01 :,Reported by the vendor.,3/17/2016,No official solution is currently available.,Schneider Electric MiCOM VxWorks RPC Integer Overflow Vulnerability

@@ -1,0 +1,892 @@
+date,id,summary
+17 Apr 2014,ASB-2014.0054 - [Appliance] Siemens eLAN-8.2: Access privileged data - Remote/unauthenticated,"... Siemens  eLAN-8.2
+                       Siemens  WinCC OA
+                       Siemens  S7-1500
+      ...
+                                    
+                                
+                                [Score: 13.33]"
+23 Jul 2010,ASB-2010.0174.4 - UPDATED ALERT Siemens Simatic WinCC and PCS 7: Unauthorised access - Unknown/unspecified,"... Siemens  Simatic software WinCC and PCS 7. [1]
+        
+         Siemens  have now made available a SIM...
+                                    
+                                
+                                [Score: 13.10]"
+14 Apr 2016,ESB-2016.0954 - [Linux][Appliance] Siemens Industrial Products: Multiple vulnerabilities,"... Siemens  SCALANCE S613 device.  Siemens 
+recommends that customers contact  Siemens  customer support in ...
+                                    
+                                
+                                [Score: 13.10]"
+10 Jun 2016,ESB-2016.1465 - [Win][Appliance] Siemens SIMATIC S7-300 and Siemens SIMATIC WinCC: Multiple vulnerabilities,"... Siemens  SIMATIC S7-300 and  Siemens  SIMATIC WinCC Vulnerabilities
+                               10 J...
+                                    
+                                
+                                [Score: 13.04]"
+17 Mar 2016,ESB-2016.0712 - [Appliance] Siemens SIMATIC S7-1200: Reduced security - Remote/unauthenticated,"... Siemens .  Siemens  provides
+SIMATIC S7-1200 CPU product, release V4.0 or newer, to mitigate this 
+vuln...
+                                    
+                                
+                                [Score: 13.03]"
+10 May 2017,ESB-2017.1180 - [Win][Appliance] Siemens products: Denial of service - Remote/unauthenticated,"... Siemens  SIMATIC products
+                    Siemens  SCALANCE products
+                    Siemens  SIR...
+                                    
+                                
+                                [Score: 13.00]"
+25 Nov 2014,"ASB-2014.0136 - [Win] Siemens SIMATIC WinCC, Siemens SIMATIC PCS 7 and Siemens TIA Portal: Multiple vulnerabilities","... Siemens  SIMATIC WinCC
+                       Siemens  SIMATIC PCS 7
+                       Siemens  TIA ...
+                                    
+                                
+                                [Score: 12.98]"
+31 Aug 2015,ESB-2015.2270 - [Appliance] Siemens SIMATIC S7-1200: Cross-site request forgery - Remote with user interaction,"... Siemens  
+by Ralf Spenneberg, Hendrik Schwartke, and Maik Brggemann from OpenSource 
+Training. Siemen...
+                                    
+                                
+                                [Score: 12.98]"
+9 Jan 2012,ESB-2012.0034 - [Win] Siemens FactoryLink: Multiple vulnerabilities,"... Siemens ;  Siemens  has released a patch that
+addresses the identified vulnerabilities. ICS-CERT has co...
+                                    
+                                
+                                [Score: 12.96]"
+23 Nov 2016,ESB-2016.2799 - [Appliance] Siemens Simatic products: Multiple vulnerabilities,"... Siemens  SIMATIC CP 1543-1 Vulnerabilities and  Siemens  SIMATIC CP 343-1/CP
+       443-1 Modules and S...
+                                    
+                                
+                                [Score: 12.95]"
+27 Jul 2016,ESB-2016.1822 - [Win][Appliance] Siemens SIMATIC products: Multiple vulnerabilities,"... Siemens  SIMATIC NET PC-Software
+                    Siemens  SIMATIC WinCC products
+                  ...
+                                    
+                                
+                                [Score: 12.95]"
+11 Oct 2017,ESB-2017.2457.2 - UPDATE [Appliance] Siemens Ruggedcom ROS and Siemens SCALANCE: Unauthorised access - Remote/unauthenticated,"... Siemens  Ruggedcom ROS
+                    Siemens  SCALANCE
+Publisher:         US-CERT
+Operating Syste...
+                                    
+                                
+                                [Score: 12.95]"
+4 Aug 2017,ESB-2017.1932.2 - UPDATED ALERT [Win] Siemens Molecular Imaging: Execute arbitrary code/commands - Remote/unauthenticated,"... Siemens  has identified four vulnerabilities in  Siemens ' Molecular
+Imaging products running on Wi...
+                                    
+                                
+                                [Score: 12.94]"
+14 Oct 2016,ESB-2016.2413 - [Win] Siemens Automation License Manager: Multiple vulnerabilities,"... Siemens  has released ALM Version V5.3 SP3 Update 1, which fixes the
+vulnerabilities.  Siemens  strongl...
+                                    
+                                
+                                [Score: 12.93]"
+9 Jan 2012,ESB-2012.0033 - ALERT [Win] Siemens Automation License Manager: Multiple vulnerabilities,"... Siemens  ALM should deploy the  Siemens 
+patch available at: http://support.automation. siemens .com/WW/v...
+                                    
+                                
+                                [Score: 12.93]"
+20 Dec 2012,ESB-2012.1208 - [Win] Siemens Automation License Manager: Denial of service - Remote/unauthenticated,"... Siemens  ALM, which is used for license management by 
+various  Siemens  software products.  Siemens  has...
+                                    
+                                
+                                [Score: 12.93]"
+20 Dec 2012,ESB-2012.1209 - [Win] Siemens ProcessSuite and Invensys Wonderware InTouch: Multiple vulnerabilities,"... Siemens  
+ProcessSuite and Invensys Wonderware InTouch applications.  Siemens  states that 
+ProcessSuit...
+                                    
+                                
+                                [Score: 12.90]"
+10 Feb 2016,ESB-2016.0344 - [Appliance] Siemens SIMATIC S7-1500 CPU : Multiple vulnerabilities,"... Siemens  has identified two vulnerabilities in the  Siemens  SIMATIC S7-1500 CPU
+family.  Siemens  has pr...
+                                    
+                                
+                                [Score: 12.90]"
+28 Sep 2016,ESB-2016.2278 - [Appliance] Siemen SCALANCE M-800 and S615 modules: Access confidential data - Remote/unauthenticated,"... Siemens 
+by Alexander Van Maele and Tijl Deneut from HOWEST.  Siemens  has produced
+a new firmware vers...
+                                    
+                                
+                                [Score: 12.89]"
+16 Jul 2015,ESB-2015.1881 - ALERT [Appliance] Siemens SICAM MIC: Administrator compromise - Remote/unauthenticated,"... Siemens  by 
+Philippe Oechslin from Objectif Scurit.  Siemens  has produced a new firmware 
+update to m...
+                                    
+                                
+                                [Score: 12.88]"
+26 Oct 2016,ESB-2016.2495 - [Appliance] Siemens SICAM RTU: Denial of service - Remote/unauthenticated,"... Siemens  SICAM products.  Siemens  has produced a firmware update to mitigate
+this vulnerability.
+
+This...
+                                    
+                                
+                                [Score: 12.87]"
+24 Mar 2016,ESB-2016.0779 - [Win] Siemens APOGEE Insight: Modify arbitrary files - Existing account,"... Siemens .  Siemens  has 
+provided workaround instructions to mitigate this vulnerability.
+
+AFFECTED PRO...
+                                    
+                                
+                                [Score: 12.83]"
+15 Dec 2016,ESB-2016.2982 - [Win][Appliance] Siemens SIMATIC WinCC and SIMATIC PCS 7: Denial of service - Remote with user interaction,"... Siemens  SIMATIC WinCC
+                    Siemens  SIMATIC PCS 7
+Publisher:         ICS-CERT
+Operating...
+                                    
+                                
+                                [Score: 12.83]"
+4 Dec 2015,ESB-2015.3023 - ALERT [Appliance] Siemens SIMATIC Communication Processor devices: Administrator compromise - Remote/unauthenticated,"... Siemens  has identified an authentication bypass vulnerability in  Siemens  
+SIMATIC Communication Proc...
+                                    
+                                
+                                [Score: 12.81]"
+22 Dec 2016,ESB-2016.3072 - [Appliance] Siemens Desigo PX: Access confidential data - Remote/unauthenticated,"... Siemens .
+
+This vulnerability could be exploited remotely.
+
+AFFECTED PRODUCTS
+
+ Siemens  reports that t...
+                                    
+                                
+                                [Score: 12.81]"
+21 Jan 2016,ESB-2016.0155 - [Appliance] Siemens OZW672 and OZW772: Cross-site scripting - Remote with user interaction,"... Siemens  OZW672
+                    Siemens  OZW772
+Publisher:         US-CERT
+Operating System:  Netwo...
+                                    
+                                
+                                [Score: 12.81]"
+3 Aug 2016,ESB-2016.1877 - [Win] Siemens SINEMA Server: Increased privileges - Existing account,"... Siemens  hotline center:
+
+https://w3. siemens .com/aspa_app/ (link is external)
+
+ Siemens  is working on ...
+                                    
+                                
+                                [Score: 12.80]"
+20 May 2016,ESB-2016.1281 - [Appliance] Siemens SIPROTEC: Access confidential data - Remote/unauthenticated,"... Siemens  web site:
+
+http://www. siemens .com/downloads/siprotec-4 (link is external)
+
+http://www.siemen...
+                                    
+                                
+                                [Score: 12.78]"
+13 Jul 2017,ESB-2017.1646.2 - UPDATE [Appliance] Siemens Products: Root compromise - Remote/unauthenticated,"... Siemens  reports that the vulnerability affects  Siemens  Industrial products 
+which use Intel processo...
+                                    
+                                
+                                [Score: 12.78]"
+6 Oct 2017,ESB-2017.2518 - [Appliance] Siemens 7KT PAC1200 Data Manager: Administrator compromise - Remote/unauthenticated,"... Siemens 
+web site at the following location:
+
+https://support.industry. siemens .com/cs/ww/de/view/1097...
+                                    
+                                
+                                [Score: 12.78]"
+21 Jan 2015,ESB-2015.0139 - [Appliance] Siemens SCALANCE X-300 and SCALANCE X408 Switches: Denial of service - Remote/unauthenticated,"... Siemens  SCALANCE X-300 Switches
+                    Siemens  SCALANCE X408 Switches
+Publisher:        ...
+                                    
+                                
+                                [Score: 12.75]"
+28 Apr 2015,"ESB-2015.1151 - [Appliance] Siemens SINUMERIK, SIMATIC HMI Basic Panels and Ruggedcom APE: Denial of service - Console/physical","... Siemens  SINUMERIK
+                    Siemens  SIMATIC HMI Basic Panels
+                    Siemens  Rug...
+                                    
+                                
+                                [Score: 12.75]"
+23 Jun 2017,ESB-2017.1588 - [Win] Siemens XHQ: Access confidential data - Existing account,"... Siemens  hotline center:
+
+https://w3. siemens .com/aspa_app/
+
+ Siemens  strongly recommends users protect...
+                                    
+                                
+                                [Score: 12.75]"
+13 Jul 2017,ESB-2017.1733 - [Win] Siemens SIMATIC Logon: Denial of service - Remote/unauthenticated,"... Siemens 
+
+Equipment: SIMATIC Logon
+
+Vulnerability: Out-of-Bounds Write
+
+AFFECTED PRODUCTS
+
+ Siemens  re...
+                                    
+                                
+                                [Score: 12.75]"
+14 Oct 2016,ESB-2016.2414 - [Win] SIMATIC STEP 7 (TIA Portal): Access privileged data - Existing account,"... Siemens  web site:
+
+https://support.industry. siemens .com/cs/ww/en/view/109740340
+
+ Siemens  strongly re...
+                                    
+                                
+                                [Score: 12.74]"
+16 Oct 2012,ESB-2012.0992 - [Appliance] Siemens SIMATIC S7-1200: Cross-site scripting - Remote with user interaction,"... Siemens  for a
+vulnerability that impacts the  Siemens  S7-1200 Web Application Module. 
+
+ Siemens  has r...
+                                    
+                                
+                                [Score: 12.72]"
+11 Apr 2014,ASB-2014.0049 - [Appliance] Siemens Ruggedcom WIN7000: Access privileged data - Remote with user interaction,"... Siemens  Ruggedcom WIN7000
+                       Siemens  Ruggedcom WIN7200
+                      Siem...
+                                    
+                                
+                                [Score: 12.72]"
+1 Jul 2016,ESB-2016.1648 - [Appliance] Siemens SICAM Power Automation System: Access privileged data - Existing account,"... Siemens  SICAM PAS (Power Automation System).  Siemens  
+has produced a new version and mitigation inst...
+                                    
+                                
+                                [Score: 12.70]"
+20 Dec 2017,ESB-2017.3248 - [Appliance] LOGO! Soft Comfort: Reduced security - Remote/unauthenticated,"... siemens .com/logo-update
+
+As a general security measure,  Siemens  strongly recommends protecting netwo...
+                                    
+                                
+                                [Score: 12.68]"
+11 Nov 2016,ESB-2016.2708 - [Win][Appliance] Siemens Industrial Products: Increased privileges - Existing account,"... Siemens  by WATERSURE
+and KIANDRA IT.  Siemens  has produced updates for several products and
+a tempora...
+                                    
+                                
+                                [Score: 12.67]"
+17 Nov 2017,ESB-2017.2954 - [Appliance] Siemens SICAM RTU: Multiple vulnerabilities,"... Siemens 
+                         SICAM RTUs  Siemens  SICAM
+                             17 November 2...
+                                    
+                                
+                                [Score: 12.67]"
+21 Nov 2016,ESB-2016.2757 - [Appliance] Siemens IP CCTV Cameras: Access privileged data - Remote/unauthenticated,"... Siemens  reports that there is a vulnerability in  Siemens -branded IP cameras 
+from Vanderbilt Industr...
+                                    
+                                
+                                [Score: 12.67]"
+29 Jun 2015,ESB-2015.1676 - [Appliance] Climatix BACnet/IP communication module: Cross-site scripting - Remote with user interaction,"... Siemens  by Juan Francisco Bolivar Hernandez.  Siemens  has produced
+a new firmware update to mitigate ...
+                                    
+                                
+                                [Score: 12.67]"
+1 Sep 2017,ESB-2017.2186 - [Appliance] Siemens LOGO!: Multiple vulnerabilities,"... Siemens  strongly recommends protecting network
+access to the devices with appropriate mechanisms. Si...
+                                    
+                                
+                                [Score: 12.66]"
+22 Jul 2015,ESB-2015.1915 - [Appliance] Siemens RuggedCom ROS and ROX devices: Access privileged data - Remote with user interaction,"... Siemens  RuggedCom ROS and ROX-based devices.  Siemens  
+has produced a firmware update to mitigate thi...
+                                    
+                                
+                                [Score: 12.66]"
+15 Dec 2016,ESB-2016.2987 - [Appliance] Siemens S7-300/400 PLC: Multiple vulnerabilities,"... Siemens ' S7-300 and S7-400
+programmable logic controllers.  Siemens  has released Security Advisor...
+                                    
+                                
+                                [Score: 12.66]"
+28 Oct 2015,ESB-2015.2712 - [Appliance] Siemens RuggedCom ROS: Access confidential data - Remote/unauthenticated,"... Siemens  RuggedCom. 
+ Siemens  has already released a revision that eliminates this vulnerability. 
+Thi...
+                                    
+                                
+                                [Score: 12.64]"
+18 Aug 2014,ESB-2014.1403 - [Appliance] Siemens SIMATIC S7-1500 CPU: Denial of service - Remote/unauthenticated,"... Siemens  products, please see the  Siemens  ProductCERT security
+advisory page at:
+
+www. siemens .com/cer...
+                                    
+                                
+                                [Score: 12.63]"
+6 Dec 2013,ESB-2013.1747 - ALERT [Appliance] Siemens SINAMICS S/G family: Administrator compromise - Remote/unauthenticated,"... Siemens  account manager.
+
+ Siemens  security advisory is located here:
+
+http://www. siemens .com/innovat...
+                                    
+                                
+                                [Score: 12.63]"
+2 Jan 2013,ASB-2013.0001 - [Appliance] Siemens SIMATIC S7-1200 PLC: Denial of service - Remote/unauthenticated,"... Siemens  SIMATIC S7-1200 PLC
+Operating System:     Network Appliance
+Impact/Access:        Denial of ...
+                                    
+                                
+                                [Score: 12.63]"
+26 Jul 2012,ASB-2012.0108 - [Win] Siemens SIMATIC STEP7 and PCS7: Execute arbitrary code/commands - Existing account,"... Siemens  SIMATIC STEP7
+                       Siemens  SIMATIC PCS7
+Operating System:     Windows XP
+  ...
+                                    
+                                
+                                [Score: 12.63]"
+5 Dec 2016,ESB-2016.2853 - ALERT [Win] Siemens SICAM PAS: Multiple vulnerabilities,"... Siemens . 
+ Siemens  has produced an update to mitigate some of these vulnerabilities. 
+
+Some of these ...
+                                    
+                                
+                                [Score: 12.63]"
+1 Sep 2017,ESB-2017.2190 - [Appliance] Siemens 7KM PAC Switched Ethernet: Denial of service - Remote/unauthenticated,"... siemens .com/cs/ww/en/view/109749555 (link is 
+external)
+
+ Siemens  recommends users protect network ac...
+                                    
+                                
+                                [Score: 12.62]"
+7 Jul 2017,ESB-2017.1708 - [Appliance] Siemens Reyrolle: Multiple vulnerabilities,"... Siemens  web site:
+
+http://www. siemens .com/downloads/siprotec-4 (link is external)
+
+ Siemens  recommend...
+                                    
+                                
+                                [Score: 12.60]"
+22 Jul 2015,ESB-2015.1913 - [Appliance] Siemens SIPROTEC: Denial of service - Remote/unauthenticated,"... Siemens 
+by Victor Nikitin from iGrids LLC Russia.  Siemens  has produced a new firmware
+update to miti...
+                                    
+                                
+                                [Score: 12.60]"
+25 Feb 2014,ESB-2014.0243 - [Appliance] Siemens RuggedCom family: Denial of service - Remote/unauthenticated,"... Siemens  RuggedCom ROS-based devices. 
+ Siemens  has produced a firmware update that mitigates this vul...
+                                    
+                                
+                                [Score: 12.60]"
+8 Aug 2012,ESB-2012.0746 - ALERT [Appliance] Siemens Synco OZW Web Server: Administrator compromise - Remote/unauthenticated,"... SIEMENS  SYNCO OZW DEFAULT PASSWORD
+
+August 01, 2012 
+
+OVERVIEW
+
+ Siemens  has reported to ICS-CERT tha...
+                                    
+                                
+                                [Score: 12.60]"
+19 Jun 2013,ASB-2013.0076 - [Win] Siemens COMOS: Increased privileges - Existing account,"... Siemens  COMOS
+            http://www. siemens .com/corporate-technology/pool/de/forschungsfelder/sieme...
+                                    
+                                
+                                [Score: 12.58]"
+4 Oct 2017,ESB-2017.2188.2 - UPDATE [Win][Appliance] Various SIMATIC Products: Denial of service - Remote/unauthenticated,"... Siemens  also advises that users 
+configure the operational environment according to  Siemens  Operatio...
+                                    
+                                
+                                [Score: 12.57]"
+22 Jul 2015,ESB-2015.1914 - [Android] Siemens Sm@rtClient: Access privileged data - Console/physical,"... Siemens  by 
+Karsten Sohr from Universitt Bremen and Stephan Huber from Fraunhofer SIT. 
+ Siemens  has ...
+                                    
+                                
+                                [Score: 12.57]"
+3 Sep 2015,ESB-2015.2310 - [Appliance] Siemens RUGGEDCOM ROS: Unauthorised access - Remote/unauthenticated,"... Siemens  RUGGEDCOM ROS.  Siemens  
+recommends updating to the latest version to mitigate this vulnerabi...
+                                    
+                                
+                                [Score: 12.57]"
+23 Jan 2015,ESB-2015.0160 - [Appliance] Siemens SIMATIC S7-1200 CPU Family: Provide misleading information - Remote with user interaction,"... Siemens  by Ralf 
+Spenneberg, Hendrik Schwartke, and Maik Brggemann from OpenSource Training. 
+Siemen...
+                                    
+                                
+                                [Score: 12.56]"
+22 Jul 2014,ESB-2014.1207 - [Win][Appliance] Siemens industrial products: Multiple vulnerabilities,"... siemens .com/WW/view/en/97654933
+
+WinCC OA (PVSS) available at the  Siemens  ETM portal.
+
+ Siemens  is pr...
+                                    
+                                
+                                [Score: 12.53]"
+30 Jun 2017,ESB-2017.1648 - [Appliance] Siemens Viewport for Web Office Portal: Root compromise - Remote/unauthenticated,"... Siemens  Energy
+Customer Support Center at: support.energy@ siemens .com (link sends e-mail)
+
+ Siemens  r...
+                                    
+                                
+                                [Score: 12.53]"
+8 Mar 2017,ESB-2017.0603 - Siemens SINUMERIK Integrate and SINUMERIK Operate,"... Siemens  service organization. If
+assistance is needed in identifying a local  Siemens  service organiz...
+                                    
+                                
+                                [Score: 12.52]"
+24 Dec 2015,ESB-2015.3235 - [Appliance] Siemens RUGGEDCOM ROX-based Devices: Multiple vulnerabilities,"... Siemens  has reported to NCCIC/ICS-CERT that NTP daemon vulnerabilities
+exist in the  Siemens  RUGGEDCO...
+                                    
+                                
+                                [Score: 12.51]"
+28 Jul 2017,ESB-2017.1707.3 - UPDATE [Appliance] Siemens SIPROTEC 4 and SIPROTEC Compact: Multiple vulnerabilities,"... siemens .com/downloads/siprotec-4
+
+http://www. siemens .com/downloads/siprotec-compact
+
+    EN100 Ether...
+                                    
+                                
+                                [Score: 12.51]"
+19 Dec 2017,ESB-2017.3112.2 - UPDATE [Appliance] Siemens Industrial Products: Denial of service - Remote/unauthenticated,"... siemens .com/cs/de/en/view/109474874
+
+  * EK-ERTEC 200P: Update to V4.5:
+
+https://support.industry.si...
+                                    
+                                
+                                [Score: 12.50]"
+27 Jul 2016,ESB-2016.1823 - [Appliance] Siemens SINEMA Remote Connect Server: Cross-site scripting - Remote with user interaction,"... Siemens  SINEMA Remote Connect Server application.  Siemens 
+has produced an update to mitigate this vu...
+                                    
+                                
+                                [Score: 12.50]"
+20 Apr 2012,ESB-2012.0396 - [Appliance] Scalance S Security Modules: Multiple vulnerabilities,"... siemens .com/WW/view/en/59869684
+ Information about industrial security by  Siemens : http://www.siemen...
+                                    
+                                
+                                [Score: 12.50]"
+10 May 2017,ESB-2017.1182 - [Win][Appliance] Siemens SIMATIC WinCC: Denial of service - Existing account,"... Siemens  Security Advisory SSA-156872 at the following
+location:
+
+http://www. siemens .com/cert/en/cert...
+                                    
+                                
+                                [Score: 12.49]"
+3 Nov 2017,ESB-2017.2811 - [Win] Siemens SIMATIC PCS 7: Denial of service - Unknown/unspecified,"... siemens .com/cs/ww/en/view/109746452 (link is 
+external)
+
+ Siemens  is currently working on updates for...
+                                    
+                                
+                                [Score: 12.46]"
+1 Aug 2012,ESB-2012.0725 - [Appliance] SIEMENS SIMATIC S7-400 PN CPU: Denial of service - Remote/unauthenticated,"... Siemens  Security Advisories,
+http://www. siemens .com/corporate-technology/en/research-areas/ siemens -c...
+                                    
+                                
+                                [Score: 12.43]"
+30 Mar 2017,ESB-2017.0842 - [Appliance] Siemens RUGGEDCOM ROX I: Multiple vulnerabilities,"... Siemens 
+    support web site at the following location:
+
+https://support.industry. siemens .com/cs/ww/...
+                                    
+                                
+                                [Score: 12.43]"
+2 Mar 2017,ESB-2017.0557 - [Win][Linux] Siemens RUGGEDCOM NMS: Multiple vulnerabilities,"... Siemens  RUGGEDCOM NMS
+Publisher:          Siemens 
+Operating System:  Linux variants
+                 ...
+                                    
+                                
+                                [Score: 12.43]"
+28 Apr 2015,ESB-2015.0941.2 - UPDATE [Win][Appliance] Siemens SIMATIC HMI Devices: Multiple vulnerabilities,"... Siemens  by the Quarkslab team and 
+Ilya Karpov from Positive Technologies.  Siemens  has produced upda...
+                                    
+                                
+                                [Score: 12.37]"
+24 Mar 2014,ASB-2014.0036 - [Appliance] Siemens SIMATIC S7-1200 CPU: Multiple vulnerabilities,"... Siemens  Security Advisory by  Siemens  ProductCERT
+        
+        Vulnerability 3 (CVE-2014-2250)
+  ...
+                                    
+                                
+                                [Score: 12.37]"
+8 Sep 2016,ESB-2016.2101 - [Appliance] Siemens SIPROTEC 4 and SIPROTEC Compact devices: Multiple vulnerabilities,"... Siemens .
+
+These vulnerabilities could be exploited remotely.
+
+AFFECTED PRODUCTS
+
+ Siemens  reports tha...
+                                    
+                                
+                                [Score: 12.36]"
+1 Dec 2017,ESB-2017.3076 - [Appliance] Siemens SWT3000: Multiple vulnerabilities,"... siemens .com (link sends e-mail)
+
+ Siemens  recommends users protect network access with appropriate me...
+                                    
+                                
+                                [Score: 12.35]"
+27 Apr 2015,ESB-2015.1146 - [Appliance] SIMATIC products: Execute arbitrary code/commands - Console/physical,"... Siemens  SIMATIC ProSave, SIMATIC CFC, SIMATIC STEP 7, SIMOTION Scout, 
+and STARTER applications. Sie...
+                                    
+                                
+                                [Score: 12.32]"
+13 Oct 2017,ESB-2017.2586 - [Appliance] Siemens BACnet Field Panels: Access confidential data - Remote/unauthenticated,"... Siemens  web site:
+
+http://w3.usa. siemens .com/buildingtechnologies/us/en/contact-us/Pages/bt-contact-...
+                                    
+                                
+                                [Score: 12.32]"
+27 Sep 2012,ASB-2012.0129.2 - UPDATE [Appliance] Siemens SIMATIC S7-1200 PLC: Provide misleading information - Remote with user interaction,"... Siemens  SIMATIC S7-1200 PLC
+                             27 September 2012
+
+========================...
+                                    
+                                
+                                [Score: 12.31]"
+20 Apr 2012,ASB-2012.0053.2 - UPDATE [Appliance] Siemens Scalance X Switches: Denial of service - Remote/unauthenticated,"... Siemens  Scalance
+            X Switches
+            http://www. siemens .com/corporate-technology/pool...
+                                    
+                                
+                                [Score: 12.30]"
+19 Feb 2015,ESB-2015.0405 - [Win] Siemens SIMATIC WinCC TIA Portal: Multiple vulnerabilities,"... Siemens  SIMATIC WinCC TIA Portal application.  Siemens  has produced a service 
+pack that mitigates th...
+                                    
+                                
+                                [Score: 12.28]"
+12 Sep 2012,ASB-2012.0126 - ALERT [Win] Siemens SIMATIC WinCC: Multiple vulnerabilities,"... Siemens  SIMATIC WinCC Multiple Vulnerabilities
+            http://www. siemens .com/corporate-technolo...
+                                    
+                                
+                                [Score: 12.28]"
+14 Jul 2017,ESB-2017.1754 - [Win] Siemens SiPass integrated: Multiple vulnerabilities,"... Siemens  Security Advisory SSA-339433 at the following
+location:
+
+http://www. siemens .com/cert/advisor...
+                                    
+                                
+                                [Score: 12.20]"
+9 Oct 2014,ESB-2014.1246.2 - UPDATE [Win] SIMATIC WinCC & SIMATIC PCS7: Multiple vulnerabilities,"... Siemens  SIMATIC WinCC application. An anonymous researcher identified the
+remaining vulnerability. S...
+                                    
+                                
+                                [Score: 12.19]"
+7 Jul 2017,ESB-2017.1711 - [Appliance] Siemens OZW672 and OZW772: Multiple vulnerabilities,"... Siemens 
+
+Equipment: OZW672 and OZW772
+
+Vulnerabilities: Missing Authentication
+
+AFFECTED PRODUCTS
+
+S...
+                                    
+                                
+                                [Score: 12.18]"
+19 Feb 2015,ESB-2015.0400 - [Win] Siemens SIMATIC STEP 7 TIA Portal: Unauthorised access - Existing account,"... Siemens  SIMATIC STEP 7 TIA Portal application.  Siemens 
+has produced a service pack that mitigates th...
+                                    
+                                
+                                [Score: 12.16]"
+6 Mar 2015,ESB-2015.0527 - [Appliance] Siemens SIMATIC S7-300 CPU Family: Denial of service - Remote/unauthenticated,"... Siemens  SIMATIC S7-300 CPUs.  Siemens  has developed 
+mitigations for this vulnerability.
+
+This vulner...
+                                    
+                                
+                                [Score: 12.12]"
+2 Apr 2014,ASB-2014.0037 - [Appliance] Siemens Ruggedcom ROS-based devices: Denial of service - Remote/unauthenticated,"... Siemens  Ruggedcom ROS-based devices
+                               2 April 2014
+
+===================...
+                                    
+                                
+                                [Score: 12.11]"
+29 Nov 2017,ESB-2017.3020 - [Appliance] Siemens SCALANCE: Multiple vulnerabilities,"... Siemens  has produced an advisory that can be found at:
+
+https://www. siemens .com/cert/pool/cert/sieme...
+                                    
+                                
+                                [Score: 12.10]"
+14 Jul 2017,ESB-2017.1755 - [Android] Siemens SIMATIC Sm@rtClient Android App: Multiple vulnerabilities,"... Siemens  Security Advisory SSA-589378 at the following
+location:
+
+http://www. siemens .com/cert/advisor...
+                                    
+                                
+                                [Score: 12.05]"
+28 May 2013,ASB-2013.0068 - [Appliance] Siemens Scalance X200 IRT Switches: Multiple vulnerabilities,"... Siemens  Scalance X200 IRT Switch
+            Family
+            http://www. siemens .com/corporate-tec...
+                                    
+                                
+                                [Score: 12.02]"
+23 Jun 2017,ESB-2017.1587 - [Appliance] SIMATIC CP 44x-1 Redundant Network Access (RNA) modules: Administrator compromise - Remote/unauthenticated,"... siemens .com/cs/ww/en/view/109748227.
+
+ Siemens  recommends that users apply the firmware update.
+
+Siem...
+                                    
+                                
+                                [Score: 12.00]"
+23 Mar 2011,ASB-2011.0023 - ALERT [Win] SCADA Vendors: Execute arbitrary code/commands - Remote/unauthenticated,"... Siemens  Tecnomatix FactoryLink
+                      Iconics GENESIS32
+                      Iconics...
+                                    
+                                
+                                [Score: 11.89]"
+20 Dec 2017,"ESB-2017.2903.3 - UPDATE [Appliance] Siemens SCALANCE, SIMATIC, RUGGEDCOM, and SINAMICS Products: Multiple vulnerabilities","... Siemens  reports that the key reinstallation attacks (KRACK) potentially affect
+the following  Siemens ...
+                                    
+                                
+                                [Score: 11.79]"
+12 Aug 2013,ASB-2013.0099 - [Win] Siemens COMOS: Increased privileges - Existing account,"... Siemens  COMOS
+Operating System:     Windows
+Impact/Access:        Increased Privileges -- Existing A...
+                                    
+                                
+                                [Score: 11.76]"
+17 Aug 2012,ASB-2012.0115.2 - UPDATE [Win] Siemens COMOS: Increased privileges - Existing account,"... Siemens  COMOS
+                              17 August 2012
+
+========================================...
+                                    
+                                
+                                [Score: 11.76]"
+16 Oct 2012,ASB-2012.0142 - ALERT [Win] Siemens SiPass Server: Multiple vulnerabilities,"... Siemens  SiPass Server
+Operating System:     Windows
+Impact/Access:        Execute Arbitrary Code/Com...
+                                    
+                                
+                                [Score: 11.73]"
+4 Oct 2013,ASB-2013.0111 - ALERT [Appliance] Siemens SCALANCE X-200 Switches: Administrator compromise - Remote/unauthenticated,"... Siemens  SCALANCE X-200 Switch Family
+                              4 October 2013
+
+=================...
+                                    
+                                
+                                [Score: 11.73]"
+1 Aug 2013,ASB-2013.0090 - [Win] Siemens WinCC (TIA Portal): Multiple vulnerabilities,"... Siemens  WinCC (TIA Portal)
+Operating System:     Windows Server 2003
+                      Windows S...
+                                    
+                                
+                                [Score: 11.49]"
+1 Aug 2013,ASB-2013.0091 - ALERT [Appliance] Siemens Scalance W-7xx (a/b/g) Products: Multiple vulnerabilities,"... Siemens  Scalance W-7xx (a/b/g)
+            Product Family
+            http://www. siemens .com/corpora...
+                                    
+                                
+                                [Score: 11.49]"
+14 Mar 2014,ASB-2014.0027 - [Appliance] Siemens SIMATIC S7-1500 CPU: Multiple vulnerabilities,"... Siemens 
+                            SIMATIC S7-1500 CPU
+                               14 March 2014...
+                                    
+                                
+                                [Score: 11.41]"
+22 Apr 2014,ASB-2014.0055 - [Win] Siemens SINEMA Server: Multiple vulnerabilities,"... Siemens  SINEMA Server
+                               22 April 2014
+
+================================...
+                                    
+                                
+                                [Score: 11.37]"
+17 Jun 2013,ASB-2013.0074 - [Win] Siemens WinCC & SIMATIC PCS7: Multiple vulnerabilities,"... Siemens  WinCC
+                       Siemens  SIMATIC PCS7
+Operating System:     Windows Server 2003
+ ...
+                                    
+                                
+                                [Score: 11.32]"
+3 Apr 2009,ESB-2009.0311 -- [Win][UNIX/Linux] -- SAPgui EAI WebViewer3D: ActiveX control stack buffer overflow,"... Siemens  Unigraphics Solutions Teamcenter Visualization EAI 
+      WebViewer3D ActiveX control, which...
+                                    
+                                
+                                [Score: 11.19]"
+20 Mar 2013,ASB-2013.0043 - [Win] Siemens WinCC & SIMATIC PCS7: Multiple vulnerabilities,"... Siemens  WinCC & SIMATIC PCS7
+Operating System:     Windows Server 2003
+                      Win...
+                                    
+                                
+                                [Score: 10.00]"
+4 Aug 2017,AusCERT Week in Review for 4th August 2017,"... Siemens  Molecular Imaging: Execute arbitrary code/commands - Remote/unauthenticated https://www.ausc...
+                                    
+                                
+                                [Score: 9.88]"
+20 Mar 2013,ASB-2013.0044 - [Win] Siemens WinCC (TIA Portal): Multiple Vulnerabilities,"... Siemens  WinCC (TIA Portal)
+Operating System:     Windows Server 2003
+                      Windows S...
+                                    
+                                
+                                [Score: 9.82]"
+30 Jul 2014,ESB-2014.1263 - [Debian] kernel: Multiple vulnerabilities,"... Siemens  Networks discovered that the
+    sctp_association_free function does not properly manage a c...
+                                    
+                                
+                                [Score: 8.72]"
+16 Apr 2001,ESB-2001.154 -- Microsoft Security Bulletin MS01-021 -- Invalid Web Request Can Cause Access Violation in ISA Server Web Proxy Service,"... Siemens , and 
+   Kent Nicolson of FSC Internet Corp. / SecureXpert Labs 
+  (http://www.fscinternet.c...
+                                    
+                                
+                                [Score: 8.60]"
+16 Sep 1997,ESB-97.121 -- CERT Advisory CA-97.23 -- Buffer Overflow Problem in rdist,"... Siemens -Nixdorf Informationssysteme AG
+======================================
+   Siemens -Nixdorf does...
+                                    
+                                
+                                [Score: 8.55]"
+1 Sep 2008,ESB-2008.0777 -- [Win][UNIX/Linux] -- New opensc packages fix smart card vulnerability,"... Siemens  CardOS M4
+card operating system without proper access rights. This allowed everyone
+to chang...
+                                    
+                                
+                                [Score: 7.64]"
+14 May 2012,ESB-2012.0469 - [Win] ClearQuest Maintenance tool: Execute arbitrary code/commands - Existing account,"... Siemens  AG. 
+
+Change History: 
+ 
+May 10, 2012Ã¢Â€Â‹  Initial PublicationÃ¢Â€Â‹
+
+*The CVSS Environmen...
+                                    
+                                
+                                [Score: 7.25]"
+21 May 2014,ESB-2014.0784 - [RedHat] kernel: Root compromise - Existing account,"... Siemens  Networks for reporting
+CVE-2014-0101.
+
+This update also fixes the following bug:
+
+* Prior to...
+                                    
+                                
+                                [Score: 6.84]"
+6 Oct 2017,AusCERT Week in Review for 6th October 2017,"... Siemens  7KT PAC1200 Data Manager: Administrator compromise - Remote/unauthenticated https://www.ausc...
+                                    
+                                
+                                [Score: 6.50]"
+10 Dec 1997,ESB-97.160 -- CERT Advisory CA-97.27 -- FTP Bounce,"... Siemens -Nixdorf Informationssysteme AG
+- - --------------------------------------
+
+   ReliantUNIX is...
+                                    
+                                
+                                [Score: 6.37]"
+28 Apr 1998,ESB-98.062 -- CERT VB-98.04 -- Vulnerabilities in Xterm and Xaw,"... Siemens  Nixdorf
+    Starnet
+    SunSoft
+    WRQ
+    Xi Graphics
+
+The X Project Team periodically mak...
+                                    
+                                
+                                [Score: 6.24]"
+28 Apr 2014,ESB-2014.0595 - [RedHat] kernel: Denial of service - Remote/unauthenticated,"... Siemens  Networks for reporting this
+issue.
+
+This update also fixes several bugs. Documentation for t...
+                                    
+                                
+                                [Score: 6.06]"
+14 May 2012,ESB-2012.0469 - [Win] ClearQuest Maintenance tool: Execute arbitrary code/commands - Existing account,"... Siemens  AG. 
+
+Change History: 
+ 
+May 10, 2012Ã¢Â€Â‹  Initial PublicationÃ¢Â€Â‹
+
+*The CVSS Environmen...
+                                    
+                                
+                                [Score: 7.25]"
+21 May 2014,ESB-2014.0784 - [RedHat] kernel: Root compromise - Existing account,"... Siemens  Networks for reporting
+CVE-2014-0101.
+
+This update also fixes the following bug:
+
+* Prior to...
+                                    
+                                
+                                [Score: 6.84]"
+6 Oct 2017,AusCERT Week in Review for 6th October 2017,"... Siemens  7KT PAC1200 Data Manager: Administrator compromise - Remote/unauthenticated https://www.ausc...
+                                    
+                                
+                                [Score: 6.50]"
+10 Dec 1997,ESB-97.160 -- CERT Advisory CA-97.27 -- FTP Bounce,"... Siemens -Nixdorf Informationssysteme AG
+- - --------------------------------------
+
+   ReliantUNIX is...
+                                    
+                                
+                                [Score: 6.37]"
+28 Apr 1998,ESB-98.062 -- CERT VB-98.04 -- Vulnerabilities in Xterm and Xaw,"... Siemens  Nixdorf
+    Starnet
+    SunSoft
+    WRQ
+    Xi Graphics
+
+The X Project Team periodically mak...
+                                    
+                                
+                                [Score: 6.24]"
+28 Apr 2014,ESB-2014.0595 - [RedHat] kernel: Denial of service - Remote/unauthenticated,"... Siemens  Networks for reporting this
+issue.
+
+This update also fixes several bugs. Documentation for t...
+                                    
+                                
+                                [Score: 6.06]"
+23 Apr 2014,ESB-2014.0553 - [RedHat] kernel: Denial of service - Remote/unauthenticated,"... Siemens  Networks for reporting this
+issue.
+
+This update also fixes the following bug:
+
+* Due to an i...
+                                    
+                                
+                                [Score: 5.97]"
+20 Jul 2016,ESB-2016.1784 - ALERT [Appliance][Mobile] ASN1C: Execute arbitrary code/commands - Remote/unauthenticated,"... Siemens 					Unknown		19 Jul 2016	19 Jul 2016
+    Sony Corporation				Unknown		20 Jun 2016	20 Jun 201...
+                                    
+                                
+                                [Score: 5.97]"
+28 Apr 2014,ESB-2014.0592 - [Debian] linux-2.6: Multiple vulnerabilities,"... Siemens  Networks reported an issue in the SCTP network protocol
+    subsystem. Remote users could ca...
+                                    
+                                
+                                [Score: 5.79]"
+19 Nov 2009,ESB-2009.1547.2 - UPDATE [Win][RedHat][HP-UX][Solaris][AIX][SUSE] Core Security Technologies: Denial of service - Remote/unauthenticated,"... Siemens .
+The in-memory database is also used as core component of IBM SolidDB
+Universal Cache, a per...
+                                    
+                                
+                                [Score: 5.71]"
+6 Aug 2010,ESB-2010.0696 - ALERT [Appliance] VxWorks: Root compromise - Remote/unauthenticated,"... Siemens                          Affected 2010-06-14    2010-07-27
+   SMC Networks, Inc.             ...
+                                    
+                                
+                                [Score: 5.71]"
+23 Jul 2014,ESB-2014.1208 - [RedHat] kernel-rt: Multiple vulnerabilities,"... Siemens  Networks for
+reporting CVE-2014-4667. Google acknowledges Pinkie Pie as the original
+reporte...
+                                    
+                                
+                                [Score: 5.62]"
+30 Jan 2013,ESB-2013.0122 - ALERT [Linux][Appliance] libupnp: Multiple vulnerabilities,"... Siemens 			Affected	13 Dec 2012	29 Jan 2013
+Sony Corporation	Affected	13 Dec 2012	29 Jan 2013
+Ubiquit...
+                                    
+                                
+                                [Score: 5.53]"
+13 Aug 1997,ESB-97.105 -- CERT Advisory CA-97.22 -- BIND Vulnerability,"... Siemens -Nixdorf Informationssysteme AG
+======================================
+  We are investigating...
+                                    
+                                
+                                [Score: 5.08]"
+18 Aug 2010,ESB-2010.0736 - [RedHat] kernel-rt: Multiple vulnerabilities,"... Siemens  Networks, and Wind River on behalf of their
+customer, for responsibly reporting CVE-2010-117...
+                                    
+                                
+                                [Score: 4.99]"
+6 Aug 2010,ESB-2010.0688.3 - UPDATE [Appliance] VxWorks: Reduced security - Remote/unauthenticated,"... Siemens                              Unknown      2010-06-29    2010-08-04
+   SMC Networks, Inc.     ...
+                                    
+                                
+                                [Score: 4.91]"
+16 Jun 2010,ESB-2010.0537 - [RedHat] kernel: Multiple vulnerabilities,"... Siemens  Networks, and Wind River on behalf of their customer, for
+responsibly reporting CVE-2010-117...
+                                    
+                                
+                                [Score: 4.82]"
+3 Dec 1997,ESB-97.156 -- CERT Summary CS-97.06,"... Siemens -Nixdorf
+
+ftp://ftp.cert.org/pub/cert_summaries/
+
+    CS-97.05                               ...
+                                    
+                                
+                                [Score: 4.73]"
+20 Nov 2006,ESB-2006.0855 -- [NetBSD] -- NetBSD 3.0.2 and 3.1 available - multiple security fixes,"... Siemens  SS1021 WLAN.
+
+      o   Added twa(4): driver for the 3ware Apache RAID controllers.
+
+      o...
+                                    
+                                
+                                [Score: 4.73]"

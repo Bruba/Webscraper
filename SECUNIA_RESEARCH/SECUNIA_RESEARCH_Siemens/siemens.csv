@@ -1,0 +1,449 @@
+CVE_Reference,Description,Last_Update,Original_Advisory,Provided_or_Discovered,Release_Date,Solution,Title
+"CVE-2017-12741
+","A vulnerability has been reported in multiple Siemens products, which can be exploited by malicious people to cause a DoS (Denial of Service).
+
+1) An unspecified error can be exploited to cause a DoS condition via specially crafted packets sent to port 161.
+
+Please see the vendor's advisory for a list of affected products and versions.",2018-01-26,Siemens (SSA-346262):,"1) The vendor credits George Lashenko, CyberX",2017-11-24,Update to a fixed version if available (please see the vendor's advisory for further details).,Siemens Multiple Products Denial of Service Vulnerability
+"CVE-2017-13704
+CVE-2017-14491
+","Multiple vulnerabilities have been reported in Siemens Scalance S Security Modules, which can be exploited by malicious people to cause a DoS (Denial of Service) and compromise a vulnerable system.
+
+For more information:
+SA79130 (#1, #2, #6, and #7)
+
+The vulnerabilities are reported in Scalance S615.",2017-11-29,https://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-689071.pdf,,2017-11-17,No official solution is currently available.,Siemens Scalance S615 Dnsmasq Multiple Vulnerabilities
+"CVE-2017-13077
+CVE-2017-13078
+CVE-2017-13081
+CVE-2017-13082
+","Multiple vulnerabilities have been reported in multiple Siemens products, which can be exploited by malicious people to bypass certain security restrictions.
+
+For more information:
+SA79479 (#1 through #8)
+
+Please see the vendor's advisory for a list of affected configurations and versions.",2018-01-26,Siemens (SSA-901333):,,2017-11-10,Update to a fixed version if available.,Siemens Multiple Products KRACK Multiple Vulnerabilities
+"CVE-2017-12069
+","A vulnerability has been reported in multiple Siemens products, which can be exploited by malicious people to bypass certain security restrictions.
+
+1) An unspecified error can be exploited to gain access to otherwise restricted resources via specially crafted packets sent to the OPC Discovery Server.
+
+Please see the vendor's advisory for a list of affected products and versions.",2017-12-01,Siemens (SSA-535640):,"1) The vendor credits Sergey Temnikov, Kaspersky Lab ICS CERT.",2017-08-31,Apply workaround or update or upgrade to a fixed version if available (please see the vendor's advisory for further details).,Siemens Multiple Products Security Bypass Vulnerability
+"CVE-2017-5689
+","A vulnerability has been reported in Siemens IPC547D, which can be exploited by malicious people to compromise a vulnerable system.
+
+1) An error related to provisioned Intel manageability SKUs can be exploited to execute arbitrary code with system privileges.
+
+Please see the vendor's advisory for a list of affected versions.",2017-07-14,Siemens:,1) Reported by the vendor.,2017-06-28,Apply update (please see the vendor's advisory for details).,Siemens IPC547D Intel Arbitrary Code Execution Vulnerability
+"CVE-2017-2680
+CVE-2017-2681
+","Multiple vulnerabilities have been reported in multiple Siemens products, which can be exploited by malicious people to cause a DoS (Denial of Service).
+
+1) An error when handling PROFINET DCP broadcast packets can be exploited to cause a DoS condition.
+
+2) An error when handling PROFINET DCP packets can be exploited to cause a DoS condition.
+
+Please see the vendor's advisory for a list of affected products and versions per CVE.",2018-01-26,Siemens (SSA-293562):,"1, 2) The vendor credits Duan JinTong, Ma ShaoShuai, and Cheng Lei, NSFOCUS Security Team.",2017-05-09,Update to a fixed version if available (please see the vendor's advisory for further details).,Siemens Multiple Products Multiple Denial of Service Vulnerabilities
+"CVE-2017-6865
+","A vulnerability has been reported in multiple Siemens products, which can be exploited by malicious people to cause a DoS (Denial of Service).
+
+1) An error when handling PROFINET DCP broadcast packets can be exploited to cause a DoS condition.
+
+Please see the vendor's advisory for a list of affected products and versions.",2018-01-24,Siemens (SSA-275839):,"1) The vendor credits Duan JinTong, Ma ShaoShuai, and Cheng Lei, NSFOCUS Security Team.",2017-05-09,Update to a fixed version if available.,Siemens Multiple Products Denial of Service Vulnerability
+"CVE-2017-2684
+","A vulnerability has been reported in multiple Siemens SIMATIC products, which can be exploited by malicious people to bypass certain security restrictions.
+
+1) An unspecified error can be exploited to bypass the application-level authentication.
+
+Successful exploitation of the vulnerability requires knowledge of the username.
+
+Please see the vendor's advisory for a list of affected products and versions.",2017-11-30,https://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-931064.pdf,1) Reported by the vendor.,2017-02-14,Apply SIMATIC Logon version 1.5 SP 3 Update 2.,Siemens Multiple SIMATIC Products Security Bypass Vulnerability
+"CVE-2016-9160
+","A vulnerability has been reported in Siemens SIMATIC WinCC, which can be exploited by malicious people to disclose sensitive information.
+
+1) An error related to certain ActiveX component can be exploited to disclose memory contents.
+
+The vulnerability is reported in versions prior to 7.2.",2016-12-14,http://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-693129.pdf,"1) The vendor credits Mingzheng Li, Acorn Network Security Lab.",2016-12-13,Update or upgrade to version 7.2.,Siemens SIMATIC WinCC ActiveX Component Information Disclosure Vulnerability
+"CVE-2016-9158
+","A vulnerability has been reported in Siemens SIMATIC S7-300 and Siemens SIMATIC S7-400, which can be exploited by malicious people to cause a DoS (Denial of Service).
+
+1) An unspecified error can be exploited to cause the device to go into defect mode via specially crafted packets sent to TCP port 80.
+
+Successful exploitation requires the web server in the project to be enabled.
+
+The vulnerability is reported in the following products and versions:
+* Siemens SIMATIC S7-300 PN in all firmware versions.
+* Siemens SIMATIC S7-400 PN versions 6 and 7.",2018-01-24,http://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-731239.pdf,"1) The vendor credits Zhu WenZhe, Beijing Acorn Network Technology Co., Ltd",2016-12-12,Update to a fixed version.,Siemens SIMATIC S7-300 / S7-400 Web Server Denial of Service Vulnerability
+"CVE-2016-8673
+","A vulnerability has been reported in Siemens SIMATIC S7-300 and Siemens SIMATIC S7-400, which can be exploited by malicious people to conduct cross-site request forgery attacks.
+
+1) The integrated web server allows users to perform certain actions via HTTP requests without performing proper validity checks to verify the requests. This can be exploited to e.g. conduct certain actions when a logged-in user visits a specially crafted web page.
+
+This vulnerability is reported in all firmware versions.",2016-11-23,SSA-603476:,1) Inverse Path auditors and Airbus ICT Industrial Security team.,2016-11-22,No official solution is currently available.,Siemens SIMATIC S7-300 / S7-400 Cross-Site Request Forgery Vulnerability
+"CVE-2016-8563
+CVE-2016-8564
+","Multiple vulnerabilities have been reported in Siemens Automation License Manager, which can be exploited by malicious people to manipulate certain data, bypass certain security restrictions, and cause a DoS (Denial of Service). 
+
+1) An error within ALM service can be exploited to cause a DoS via a specially crafted packet sent to TCP port 4410.
+
+2) Certain unspecified input is not properly sanitised before being used in a SQL query. This can be exploited to manipulate SQL queries by injecting arbitrary SQL code. 
+
+3) An error when processing packets can be exploited to perform otherwise restricted actions e.g. upload files to the hard disk, create or delete directories, or move existing files on the hard disk.
+
+The vulnerability #3 does not affect version 5.3 SP3.
+
+The vulnerabilities are reported in versions prior to 5.3 SP3 Update 1.",2016-10-14,http://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-284342.pdf,"The vendor credits Sergey Temnikov and Vladimir Dashchenko, Critical Infrastructure Defence Team, Kaspersky Lab.",2016-10-13,Update to version 5.3 SP3 Update 1.,Siemens Automation License Manager Multiple Vulnerabilities
+"CVE-2016-7960
+","A vulnerability has been reported in Siemens SIMATIC STEP 7 Basic TIA Portal, which can be exploited by malicious, local users to bypass certain security restrictions.
+
+The vulnerability is caused due to the application not properly restricting access to the transport format of TIA Portal project files and can be exploited to gain access to otherwise restricted configuration settings.
+
+The vulnerability is reported in version 13.",2016-10-14,http://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-869766.pdf,"The vendor credits Dmitry Sklyarov and Gleb Gritsai, Positive Technologies.",2016-10-13,Upgrade to version 14.,Siemens SIMATIC STEP 7 Basic TIA Portal Security Bypass Vulnerability
+"CVE-2016-5874
+","A vulnerability has been reported in Siemens SIMATIC NET SOFTWARE, which can be exploited by malicious people to cause a DoS (Denial of Service).
+
+The vulnerability is caused due to an error related to the OPC UA service, which can be exploited to cause a DoS condition of the OPC UA service by sending a specially crafted packet to the TCP ports 55101, 55105, 4845, 4847, or 4850.
+
+Successful exploitation of this vulnerability requires OPC UA to be enabled.
+
+The vulnerability is reported in all versions prior to 13 SP2.",,Siemens (SSA-453276):,"The vendor credits Sergey Temnikov and Vladimir Dashchenko, Critical Infrastructure Defence Team, Kaspersky Lab.",2016-08-03,Upgrade to version 13 SP2.,Siemens SIMATIC NET SOFTWARE Denial of Service Vulnerability
+"CVE-2016-5743
+","A vulnerability has been reported in Siemens SIMATIC WinCC and PCS 7, which can be exploited by malicious people to compromise a vulnerable system.
+
+The vulnerability is caused due to an unspecified error and can be exploited to execute arbitrary code via a specially crafted packet.
+
+The vulnerability is reported in the following products:
+* Siemens SIMATIC WinCC versions prior to 7.0 SP2 Update 12, prior to 7.0 SP3 Update 8, prior to 7.2 Update 13, prior to 7.3 Update 10, and prior to 7.4 Update 1.
+* Siemens SIMATIC PCS 7 versions prior to 7.1 SP4, 8.0, prior to 8.1 Update 3, and prior to 8.2 Update 1.",2016-11-08,http://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-378531.pdf,"The vendor credits Sergey Temnikov and Vladimir Dashchenko, Critical Infrastructure Defence Team.",2016-07-25,Update to the latest version.,Siemens SIMATIC WinCC / PCS 7 Arbitrary Code Execution Vulnerability
+"CVE-2015-7547
+CVE-2016-6204
+","Multiple vulnerabilities have been reported in Siemens SINEMA, which can be exploited by malicious people to conduct cross-site scripting attacks and cause a DoS (Denial of Service) or compromise a vulnerable system.
+
+For more information:
+SA68941
+
+1) Certain unspecified input is not properly sanitised before being returned to the user. This can be exploited to execute arbitrary HTML and script code in a user's browser session in context of an affected site.
+
+The vulnerabilities are reported in versions prior to 1.2.",2016-07-27,http://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-119132.pdf,"1) The vendor credits Antonio Morales Maldonado, INNOTEC SYSTEM and Alexander Van Maele and Tijl Deneut, Howest.",2016-07-25,Update to version 1.2.,Siemens SINEMA Multiple Vulnerabilities
+"CVE-2016-3949
+","A vulnerability has been reported in Siemens SIMATIC S7-300, which can be exploited by malicious people to cause a DoS (Denial of Service).
+
+The vulnerability is caused due to an unspecified error and can be exploited to cause the device to go into defect mode via specially crafted packets sent to TCP port 102 or via Profibus.
+
+The vulnerability is reported in the following products and versions:
+* SIMATIC S7-300 CPUs with Profinet support versions prior to 3.2.12.
+* SIMATIC S7-300 CPUs without Profinet support versions prior to 3.3.12.",2016-06-14,SSA-818183:,"The vendor credits Mate J. Csorba, DNV GL, Marine Cybernetics Services and Amund Sole, Norwegian University of Science and Technology.",2016-06-09,Update to a fixed version.,Siemens SIMATIC S7-300 Denial of Service Vulnerability
+"CVE-2015-1358
+","A vulnerability has been reported in Siemens SIMATIC WinCC Flexible, which can be exploited by malicious people to bypass certain security restrictions.
+
+The vulnerability is caused due to the application transmits weakly protected credentials over the network, which can be exploited to reconstruct the credentials via Man-in-the-Middle (MitM) attacks and subsequently e.g. gain access to the management module.
+
+The vulnerability is reported in versions prior to 2008 SP3 Update 7.",2016-06-10,http://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-526760.pdf,"The vendor credits Gleb Gritsai and Roman Ilin, Positive Technologies.",2016-06-09,Update to version 2008 SP3 Update 7.,Siemens SIMATIC WinCC Flexible Weak Credentials Protection Security Bypass Vulnerability
+"CVE-2016-3963
+","A vulnerability has been reported in Siemens Scalance S Security Modules, which can be exploited by malicious people to cause a DoS (Denial of Service).
+
+The vulnerability is caused due to an unspecified error, which can be exploited to cause a DoS condition by sending a specially crafted message to Port 443.
+
+The vulnerability is reported in Scalance S613 (MLFB: 6GK5613-0BA00-2AA3).",2016-04-13,https://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-751155.pdf,Reported by the vendor.,2016-04-11,Please contact Siemens customer support.,Siemens Scalance S613 Denial of Service Vulnerability
+"CVE-2015-7547
+","Multiple vulnerabilities have been reported in multiple Siemens products, which can be exploited by malicious people to cause a DoS (Denial of Service) or compromise a vulnerable system.
+
+For more information:
+SA68941
+
+Please see the vendor's advisory for a list of affected products and versions.",2016-09-23,http://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-301706.pdf,,2016-04-11,Update to a fixed version.,"Siemens Multiple Products GNU C Library ""send_dg()"" and ""send_vc()"" Buffer Overflow Vulnerabilities"
+"CVE-2016-2200
+CVE-2016-2201
+","Two vulnerabilities have been reported in Siemens SIMATIC S7-1500, which can be exploited by malicious people to bypass certain security restrictions and cause a DoS (Denial of Service).
+
+1) An error when handling TCP packets can be exploited to cause the CPU to restart and remain in STOP mode.
+
+2) An error related to the replay protection can be exploited to bypass certain restrictions.
+
+The vulnerabilities are reported in versions prior to 1.8.3.",2016-02-11,Siemens SSA-253230:,The vendor credits:,2016-02-09,Update to firmware version 1.8.3.,Siemens SIMATIC S7-1500 Security Bypass and Denial of Service Vulnerabilities
+"CVE-2016-1488
+","A vulnerability has been reported in Siemens OZW672 and OZW772, which can be exploited by malicious people to conduct cross-site scripting attacks.
+
+Certain unspecified input is not properly sanitised before being returned to the user. This can be exploited to execute arbitrary HTML and script code in a user's browser session in context of an affected site.
+
+The vulnerability is reported in firmware versions prior to 6.00.",2016-01-20,http://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-743465.pdf,The vendor credits Aditya Sood.,2016-01-18,Update to firmware version 6.00 (please see the vendor's advisory for details).,Siemens OZW672 / OZW772 Cross-Site Scripting Vulnerability
+"CVE-2015-5698
+","A vulnerability has been reported in Siemens SIMATIC S7-1200, which can be exploited by malicious people to conduct cross-site request forgery attacks.
+
+The application allows users to perform certain actions via HTTP requests without performing any validity checks to verify the requests. This can be exploited to perform certain unspecified actions if a logged-in user visits a malicious web site.
+
+The vulnerability is reported in versions prior to 4.1.3.",,http://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-134003.pdf,"The vendor credits Ralf Spenneberg, Hendrik Schwartke, and Maik Brüggemann, OpenSource Training",2015-08-28,Update to version 4.1.3.,Siemens SIMATIC S7-1200 Cross-Site Request Forgery Vulnerability
+"CVE-2015-2823
+","A vulnerability has been reported in Siemens SIMATIC WinCC and PCS 7, which can be exploited by malicious people to bypass certain security restrictions.
+
+The vulnerability is caused due to an unspecified error and can be exploited to perform otherwise restricted authentication as a valid user.
+
+Successful exploitation requires knowledge of a password hash.
+
+The vulnerability is reported in the following products:
+* Siemens SIMATIC WinCC versions prior to 7.3 Upd4.
+* Siemens SIMATIC PCS 7 versions 8.1 prior to SP1 and 8.0 prior to SP2.",2015-10-01,http://www.siemens.com/innovation/pool/de/forschungsfelder/siemens_security_advisory_ssa-487246.pdf,"The vendor credits Ilya Karpov, Positive Technologies.",2015-04-09,Update to the latest version.,Siemens SIMATIC WinCC / PCS 7 Authentication Bypass Vulnerability
+"CVE-2015-2177
+","A vulnerability has been reported in Siemens SIMATIC S7-300, which can be exploited by malicious people to cause a DoS (Denial of Service).
+
+The vulnerability is caused due to an unspecified error and can be exploited to cause the device to go into defect mode via a specially crafted packet sent to TCP port 102 or via Profibus.",,http://www.siemens.com/innovation/pool/de/forschungsfelder/siemens_security_advisory_ssa-987029.pdf,"The vendor credits Johannes Klick, Christian Pfahl, Martin Gebert, and Lucas Jacob, Freie Universität Berlin's work team SCADACS.",2015-03-06,Apply workaround. Please see the vendor's advisory for details.,Siemens SIMATIC S7-300 Denial of Service Vulnerability
+"CVE-2015-1594
+","A vulnerability has been reported in Siemens SIMATIC STEP 7, which can be exploited by malicious people to compromise a vulnerable system.
+
+The vulnerability is caused due to an error related to insufficiently qualified paths and can be exploited to execute arbitrary code by tricking a user into opening a certain application file located on a remote WebDAV or SMB share.
+
+The vulnerability is reported in version 5.5.",2015-04-24,http://www.siemens.com/innovation/pool/de/forschungsfelder/siemens_security_advisory_ssa-451236.pdf,"The vendor credits Ivan Sanchez, WiseSecurity Team.",2015-03-06,Update to a fixed version.,Siemens SIMATIC STEP 7 Arbitrary Code Execution Vulnerability
+"CVE-2015-1049
+","A vulnerability has been reported in Siemens Scalance X-200 IRT Switches, which can be exploited by malicious people to bypass certain security restrictions.
+
+The vulnerability is caused due to an error related to the web interface, which can be exploited to impersonate an otherwise restricted user of the web interface.
+
+Successful exploitation of this vulnerability requires an active web session of an authenticated user.
+
+The vulnerability is reported in firmware versions prior to 5.2.0.",2015-02-04,SSA-954136:,Reported by the vendor.,2015-02-02,Update to firmware version 5.2.0.,Siemens Scalance X-200 IRT Switches Web Interface Security Bypass Vulnerability
+"CVE-2015-1448
+CVE-2015-1449
+","Two vulnerabilities have been reported in Siemens Ruggedcom WIN, which can be exploited by malicious people to bypass certain security restrictions and compromise a vulnerable device.
+
+1) An error within the integrated management service can be exploited to perform otherwise restricted, administrative actions.
+
+2) An error within the integrated web server can be exploited to cause a buffer overflow.
+
+Successful exploitation of this vulnerability may allow execution of arbitrary code.
+
+The vulnerabilities are reported in the following products and versions:
+* WIN51xx firmware versions prior to SS4.4.4624.35.
+* WIN52xx firmware versions prior to SS4.4.4624.35.
+* WIN70xx firmware versions prior to BS4.4.4621.32.
+* WIN72xx firmware versions prior to BS4.4.4621.32.",2015-02-04,SSA-753139:,The vendor credits IOActive.,2015-02-02,Update to a fixed firmware version (please see the vendor's advisory for details).,Siemens Ruggedcom WIN Two Vulnerabilities
+"CVE-2014-8478
+","A vulnerability has been reported in Siemens Scalance X-300 Series and Siemens Scalance X-408 Switches, which can be exploited by malicious people to cause a DoS (Denial of Service).
+
+The vulnerability is caused due to an error when handling HTTP requests, which can be exploited to cause a device reboot by sending a specially crafted HTTP request.
+
+The vulnerability is reported in Siemens Scalance X-300 Series and X-408 Switches versions prior to 4.0.",2015-01-21,SSA-321046:,The vendor credits Deja vu Security.,2015-01-20,Update to firmware version 4.0.,Siemens Scalance X-300 Series / X-408 Switches Denial of Service Vulnerability
+"CVE-2014-8551
+CVE-2014-8552
+","Two vulnerabilities have been reported in Siemens SIMATIC PCS and Siemens SIMATIC WinCC, which can be exploited by malicious people to disclose sensitive information and compromise a vulnerable system.
+
+1) An unspecified error within a component when handling certain packets can be exploited to execute arbitrary code.
+
+2) An unspecified error within a component can be exploited to disclose arbitrary files.
+
+Please see the vendor's advisory for a list of affected versions.",2015-02-11,http://www.siemens.com/innovation/pool/de/forschungsfelder/siemens_security_advisory_ssa-134508.pdf,The vendor credits Symantec Deepsight Intelligence.,2014-11-24,Apply fix (please see the vendor's advisory for details) or upgrade to a fixed product and version.,Siemens SIMATIC PCS / WinCC Two Vulnerabilities
+"CVE-2014-5074
+","A vulnerability has been reported in Siemens SIMATIC S7-1500, which can be exploited by malicious people to cause a DoS (Denial of Service).
+
+The vulnerability is caused due to an error when handling TCP packets, which can be exploited to cause the CPU to restart and remain in STOP mode by sending a specially crafted sequence of TCP packets.
+
+The vulnerability is reported in firmware versions prior to 1.6.",,Siemens SSA-310688:,"The vendor credits Arnaud Ebalard, Agence Nationale de la Securite des Systemes d'Information",2014-08-18,Update to firmware version 1.6.,Siemens SIMATIC S7-1500 TCP Packets Handling Denial of Service Vulnerability
+"CVE-2014-4682
+CVE-2014-4683
+CVE-2014-4686
+","Multiple vulnerabilities have been reported in Siemens SIMATIC WinCC, which can be exploited by malicious, local users to gain escalated privileges, by malicious users to bypass certain security restrictions, and by malicious people to disclose potentially sensitive information.
+
+1) An error within the WebNavigator can be exploited to disclose certain data via specially crafted requests sent to TCP ports 80 or 443.
+
+2) An error within the WebNavigator can be exploited to bypass certain security restrictions.
+
+3) An error within the database server could be exploited to bypass certain security restrictions via specially crafted request to TCP port 1443.
+
+4) An error related to access permission on system objects can be exploited to gain escalated privileges.
+
+5) An error due to a hardcoded encryption key can be exploited to gain access to otherwise restricted functionality via replay attacks.
+
+The vulnerabilities are reported in versions prior to 7.3.",2014-10-13,Siemens:,"1, 2, 4) Alexander Tlyapov, Positive Technologies.",2014-07-24,Update to version 7.3.,Siemens SIMATIC WinCC Multiple Vulnerabilities
+"CVE-2014-4682
+CVE-2014-4683
+CVE-2014-4686
+","Multiple vulnerabilities have been reported in Siemens SIMATIC PCS 7, which can be exploited by malicious, local users to gain escalated privileges, by malicious users to bypass certain security restrictions, and by malicious people to disclose potentially sensitive information.
+
+For more information:
+SA60388
+
+The vulnerabilities are reported in versions prior to 8.1.",2014-10-13,http://www.siemens.com/innovation/pool/de/forschungsfelder/siemens_security_advisory_ssa-214365.pdf,,2014-07-24,Update to version 8.1.,Siemens SIMATIC PCS 7 Multiple Vulnerabilities
+"CVE-2014-0198
+CVE-2014-0224
+","Siemens has acknowledged a security issue and two vulnerabilities in Siemens CP 1543-1, which can be exploited by malicious people to disclose potentially sensitive information, manipulate certain data, and cause a DoS (Denial of Service).
+
+For more information:
+SA58403 (#1, #4, and #5)
+
+The security issue and the vulnerabilities are reported in versions prior to 1.1.25.",2014-08-28,Siemens SSA-234763:,,2014-07-18,Update to version 1.1.25.,Siemens CP 1543-1 OpenSSL Security Issue and Two Vulnerabilities
+"CVE-2014-0198
+CVE-2014-0224
+","Siemens has acknowledged a security issue and two vulnerabilities Siemens SIMATIC S7-1500, which can be exploited by malicious people to disclose potentially sensitive information, manipulate certain data, and cause a DoS (Denial of Service).
+
+For more information:
+SA58403 (#1, #4, and #5)
+
+The security issue and the vulnerabilities are reported in versions prior to 1.6.",2014-08-18,Siemens SSA-234763:,,2014-07-18,Update to version 1.6.,Siemens SIMATIC S7-1500 OpenSSL Security Issue and Two Vulnerabilities
+"CVE-2014-0198
+CVE-2014-0224
+","Siemens has acknowledged a security issue and two vulnerabilities in Siemens SIMATIC WinCC Open Architecture, which can be exploited by malicious people to disclose potentially sensitive information, manipulate certain data, and cause a DoS (Denial of Service).
+
+For more information:
+SA58403 (#1, #4, and #5)
+
+The security issue and vulnerabilities are reported in versions 3.12-P001 through 3.12-P008.",,Siemens SSA-234763:,,2014-07-18,Update to version 3.12-P009.,Siemens SIMATIC WinCC Open Architecture OpenSSL Security Issue and Two Vulnerabilities
+"CVE-2014-2908
+CVE-2014-2909
+","Two vulnerabilities have been reported in Siemens SIMATIC S7-1200, which can be exploited by malicious people to conduct cross-site scripting attacks and HTTP response splitting attacks.
+
+1) Certain unspecified input is not properly sanitised before being returned to the user. This can be exploited to execute arbitrary HTML and script code in a user's browser session in context of an affected site.
+
+2) Certain unspecified input is not properly sanitised before being used to display HTTP headers. This can be exploited to include arbitrary HTTP headers in a response sent to the user.
+
+The vulnerabilities are reported in versions 2.x and 3.x.",2014-04-25,http://www.siemens.com/innovation/pool/de/forschungsfelder/siemens_security_advisory_ssa-892012.pdf,"The vendor credits Ralf Spenneberg, Hendrik Schwartke and Maik Brüggemann, OpenSource Training.",2014-04-24,Upgrade to version 4.x.,Siemens SIMATIC S7-1200 Cross-Site Scripting and HTTP Header Injection Vulnerabilities
+"CVE-2014-2731
+CVE-2014-2732
+","Multiple vulnerabilities have been reported in Siemens SINEMA, which can be exploited by malicious people to disclose potentially sensitive information, cause a DoS (Denial of Service), and compromise a vulnerable system.
+
+1) An error related to the web server can be exploited to execute arbitrary code by sending a specially crafted request to the TCP ports 4999 or 80.
+
+2) An error related to the web server can be exploited to disclose arbitrary files via directory traversal attacks by sending a specially crafted request to the TCP ports 4999 or 80.
+
+3) An error related to the web server can be exploited to cause a DoS condition by sending a specially crafted request to the TCP ports 4999 or 80.
+
+The vulnerabilities are reported in versions prior to 12 SP1.",,SSA-364879:,Reported by the vendor.,2014-04-18,Update to version 12 SP1.,Siemens SINEMA Multiple Vulnerabilities
+"CVE-2014-0160
+","Siemens has acknowledged two vulnerabilities in multiple Siemens products, which can be exploited by malicious people to disclose potentially sensitive information.
+
+The vulnerabilities are caused due to a bundled vulnerable version of OpenSSL.
+
+For more information:
+SA57347
+
+The vulnerabilities are reported in the following products and versions:
+* Siemens SIMATIC WinCC Open Architecture version 3.12
+* Siemens SIMATIC S7-1500 version 1.5 when HTTPS is enabled
+* Siemens CP 1543-1 version 1.1 when FTPS is enabled
+* RuggedCom RuggedAPE (Application Processing Engine) version 2.0 when the SSL/TLS component is used",2014-08-18,Siemens SSA-63565:,,2014-04-16,Update to a fixed version.,Siemens Multiple Products OpenSSL TLS/DTLS Heartbeat Two Information Disclosure Vulnerabilities
+"CVE-2011-3389
+","A weakness has been reported in Siemens Ruggedcom WIN, which can be exploited by malicious people to disclose potentially sensitive information and hijack a user's session.
+
+A design error exists within the implementation of SSL 3.0 and TLS 1.0 protocols.
+
+For more information:
+SA46168
+
+The weakness is reported in WiN5100, WiN5200, WiN7000, and WiN7200 firmware versions prior to 4.4.",,Siemens:,,2014-04-09,Update to firmware version 4.4.,Siemens Ruggedcom WIN SSL/TLS Initialization Vector Selection Weakness
+"CVE-2014-2249
+CVE-2014-2250
+CVE-2014-2256
+CVE-2014-2258
+","Multiple vulnerabilities have been reported in Siemens SIMATIC S7-1200, which can be exploited by malicious people to conduct cross-site request forgery, hijack another user's session, and cause a DoS (Denial of Service).
+
+For more information:
+SA57400 (#1)
+
+1) An unspecified error can be exploited to cause the device to enter defect mode via specially crafted packets sent to TCP port 443.
+
+2) An error related to weak entropy within the random number generator can be exploited to hijack another user's session.
+
+3) An unspecified error can be exploited to cause the device to enter defect mode via specially crafted PROFINET packets.
+
+4) An unspecified error can be exploited to cause the device to enter defect mode via specially crafted packets sent to TCP port 80.
+
+5) An unspecified error can be exploited to cause the device to enter defect mode via specially crafted packets sent to TCP port 102.
+
+The vulnerabilities are reported in versions prior to 4.0.0.",2014-03-28,Siemens:,"2, 3) Alexander Timorin and Alexey Osipov, Positive Technologies",2014-03-20,Upgrade to version 4.0.0.,Siemens SIMATIC S7-1200 Multiple Vulnerabilities
+"CVE-2014-2246
+CVE-2014-2247
+CVE-2014-2251
+CVE-2014-2253
+CVE-2014-2259
+","A weakness and multiple vulnerabilities have been reported in Siemens SIMATIC S7-1500, which can be exploited by malicious people to conduct spoofing, cross-site request forgery, and cross-site scripting attacks, manipulate certain data, hijack another user's session, and cause a DoS (Denial of Service).
+
+1) The application allows users to perform certain actions via HTTP requests without performing proper validity checks to verify the requests. This can be exploited to conduct certain actions when a logged-in user visits a specially crafted web page.
+
+2) Certain unspecified input is not properly sanitised before being returned to the user. This can be exploited to execute arbitrary HTML and script code in a user's browser session in context of an affected site.
+
+3) Certain input is not properly verified before being used to redirect users. This can be exploited to redirect a user to an arbitrary website e.g. when a user clicks a specially crafted link to the affected script hosted on a trusted domain.
+
+4) An unspecified error can be exploited to cause the device to go into defect mode by sending a specially crafted packet to TCP port 443.
+
+5) An unspecified error can be exploited to cause the device to go into defect mode via a specially crafted Profinet packet.
+
+6) An unspecified error can be exploited to cause the device to go into defect mode by sending a specially crafted packet to TCP port 80.
+
+7) An unspecified error can be exploited to cause the device to go into defect mode by sending a specially crafted packet to TCP port 102.
+
+8) An error related to weak entropy within the random number generator can be exploited to hijack another user's session.
+
+9) Certain unspecified input is not properly sanitised before being used to display HTTP headers. This can be exploited to include arbitrary HTTP headers in a response sent to the user.
+
+The weakness and vulnerabilities are reported in versions prior to 1.5.",2014-04-02,Siemens:,"1, 4-7) Reported by the vendor.",2014-03-13,Update to version 1.5.0.,Siemens SIMATIC S7-1500 Weakness and Multiple Vulnerabilities
+"CVE-2014-1697
+CVE-2014-1698
+","Positive Technologies has reported multiple vulnerabilities in Siemens SIMATIC WinCC Open Architecture, which can be exploited by malicious people to disclose potentially sensitive information, cause a DoS (Denial of Service), and compromise a vulnerable system.
+
+1) An error related to the web server can be exploited to cause a buffer overflow by sending specially crafted packets to TCP port 4999.
+
+Successful exploitation of this vulnerability may allow execution of arbitrary code.
+
+2) Another unspecified error related to the web server can be exploited to disclose the content of certain files via directory traversal sequences by sending specially crafted packets to TCP port 4999.
+
+3) Another unspecified error related to the web server can be exploited to cause a DoS of the monitoring service by sending specially crafted packets to TCP port 4999.
+
+The vulnerabilities are reported in versions prior to 3.12 patch P002 January.",2014-02-17,Siemens:,"Gleb Gritsai, Ilya Karpov, and Kirill Nesterov, Positive Technologies.",2014-02-04,Update to version 3.12 and apply patch P002 January.,Siemens SIMATIC WinCC Open Architecture Multiple Vulnerabilities
+"CVE-2013-6840
+","A vulnerability has been reported in Siemens COMOS, which can be exploited by malicious, local users to gain escalated privileges.
+
+The vulnerability is caused due to an unspecified error and can be exploited to gain escalated privileges related to the database access over the COMOS graphical user interface via the windows client application.
+
+Successful exploitation requires access permissions for COMOS projects.
+
+The vulnerability is reported in the following products:
+* COMOS versions prior to 9.2
+* COMOS 9.2 versions prior to V092_Upd08_Patch001 (9.2.0.8.1)
+* COMOS 10.0 versions prior to V100_SP03_Upd01_Patch040 (10.0.3.1.40)
+* COMOS 10.1 versions prior to V101_Patch002 (10.1.0.0.2)",2013-12-16,SSA-568732:,Reported by the vendor.,2013-12-09,Apply patch.,Siemens COMOS Database Access Privilege Escalation Vulnerability
+"CVE-2013-6920
+","A vulnerability has been reported in Siemens SINAMICS S/G, which can be exploited by malicious people to bypass certain security restrictions.
+
+The vulnerability is caused due to administrative commands not being being properly restricted and can be exploited to perform administrative operations via requests sent to TCP ports 21 or 23.
+
+The vulnerability is reported in firmware versions prior to 4.6.11.",,Siemens (SSA-742938):,Reported by the vendor.,2013-12-05,Update to firmware version 4.6.11 or 4.7.,Siemens SINAMICS S/G Security Bypass Vulnerability
+"CVE-2013-5944
+","A vulnerability has been reported in Siemens Scalance X-200 Series Switches, which can be exploited by malicious people to bypass certain security restrictions.
+
+The vulnerability is caused due to an unspecified error within the web server's authentication mechanism and can be exploited to bypass the intended authentication and e.g. perform certain administrative actions.
+
+The vulnerability is reported in the following products and versions:
+* SCALANCE X-200 versions prior to 4.5.0.
+* SCALANCE X-200IRT versions prior to 5.1.0.",2013-10-04,Siemens (SSA-176087):,"The vendor credits Eireann Leverett, IOActive.",2013-10-02,Update to a fixed version (please see the vendor's advisory for details).,Siemens Scalance X-200 Series Switches Authentication Security Bypass Vulnerability
+"CVE-2013-5709
+","A weakness has been reported in Siemens SCALANCE X-200 Series Switches, which can be exploited by malicious people to hijack a user's session.
+
+The weakness is caused due to an error in the random number generator and can be exploited to hijack web sessions.
+
+The weakness is reported in firmware versions prior to 5.0.0.",,Siemens:,"The vendor credits Eireann Leverett, IOActive",2013-09-12,Upgrade to firmware version 5.0.0.,Siemens SCALANCE X-200 Series Switches Session Hijacking Weakness
+"CVE-2013-4943
+","A vulnerability has been reported in Siemens COMOS, which can be exploited by malicious, local users to gain escalated privileges.
+
+The vulnerability is caused due to an unspecified error and can be exploited to gain escalated privileges over the COMOS graphical user interface via the client application.
+
+The vulnerability is reported in the following products:
+* COMOS versions prior to 9.1.
+* COMOS 9.1 versions prior to LyraUpdate458 (Update 458)
+* COMOS 9.2 versions prior to V092_Upd06_Patch037 (9.2.0.6.37)
+* COMOS 10.0 versions prior to V100_SP03_Patch019 (10.0.3.0.19)",2013-08-22,http://www.siemens.com/corporate-technology/pool/de/forschungsfelder/siemens_security_advisory_ssa-970879.pdf,Reported by the vendor.,2013-08-09,Apply patches.,Siemens COMOS Privilege Escalation Vulnerability
+"CVE-2013-4911
+CVE-2013-4912
+","Positive Technologies has reported a weakness and a vulnerability in Siemens SIMATIC WinCC TIA Portal, which can be exploited by malicious people to conduct cross-site request forgery and spoofing attacks.
+
+1) The application allows users to perform certain actions via HTTP requests without performing any validity checks to verify the requests. This can be exploited to e.g. submit arbitrary requests to the affected device if a logged-in user visits a malicious web site.
+
+2) Certain unspecified input is not properly verified before being used to redirect users. This can be exploited to redirect a user to an arbitrary website e.g. when a user clicks a specially crafted link to the affected script hosted on a trusted domain.
+
+The weakness and the vulnerability are reported in versions prior to 12SP1.",2013-08-19,Siemens:,"Timur Yunusov and Sergey Bobrov, Positive Technologies.",2013-07-31,Update to version 12SP1.,Siemens SIMATIC WinCC TIA Portal Two Vulnerabilities
+"CVE-2013-4651
+CVE-2013-4652
+","A security issue and a vulnerability have been reported in Siemens Scalance W-700 Series, which can be exploited by malicious people to conduct spoofing attacks and to compromise a vulnerable system.
+
+1) The application uses a hardcoded SSL certificate, which can be exploited to spoof the server via a MitM (Man-in-the-Middle) attack and subsequently e.g. disclose potentially sensitive information.
+
+2) An unspecified error within the implementation of the command-line based management interface can be exploited to gain access to the affected system via SSH or telnet.
+
+Please see the vendor's advisory for a list of affected products.",2013-08-02,Siemens:,Reported by the vendor.,2013-07-31,Update to firmware version 4.5.4 and configure a custom SSL certificate.,Siemens Scalance W-700 Series Two Vulnerabilities

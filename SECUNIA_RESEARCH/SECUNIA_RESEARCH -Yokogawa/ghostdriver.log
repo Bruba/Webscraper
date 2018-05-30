@@ -1,0 +1,173 @@
+[INFO  - 2018-02-16T17:45:52.846Z] GhostDriver - Main - running on port 63491
+[INFO  - 2018-02-16T17:45:57.014Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-16T17:45:57.014Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.customHeaders:  - {}
+[INFO  - 2018-02-16T17:45:57.014Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-16T17:45:57.014Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3e12edb0-1341-11e8-90ed-f7b5c5060f71
+[ERROR - 2018-02-16T17:46:00.829Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:00.829Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=yokogawa:163)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:13.233Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:13.233Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=yokogawa:527)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:18.108Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:18.108Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=yokogawa:527)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:23.936Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:23.936Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=yokogawa:527)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:29.043Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:29.043Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=yokogawa:527)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:36.324Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:36.325Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=yokogawa:527)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:41.043Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:41.043Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=yokogawa:527)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:46.336Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:46.336Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=yokogawa:527)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:53.820Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:46:53.820Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=yokogawa:527)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:47:06.053Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:47:06.053Z] Session [3e12edb0-1341-11e8-90ed-f7b5c5060f71] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=yokogawa:527)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:47:21.366Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1518803241318
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-02-16T17:50:52.843Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T17:55:52.849Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T18:00:52.849Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T18:05:52.850Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T18:10:52.850Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

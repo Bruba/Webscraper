@@ -1,0 +1,1221 @@
+Date,CVSS_Severity,id,summary
+"January 24, 2018; 10:29:00 PM -05:00","
+                            (not available)
+                        ",CVE-2018-5445,A Path Traversal issue was discovered in Advantech WebAccess/SCADA versions prior to V8.2_20170817. An attacker has read access to files within the directory structure of the target device.
+"January 12, 2018; 03:29:00 PM -05:00","
+                            (not available)
+                        ",CVE-2017-14030,An issue was discovered in Moxa MXview v2.8 and prior. The unquoted service path escalation vulnerability could allow an authorized user with file access to escalate privileges by inserting arbitrary code into the unquoted service path.
+"December 27, 2017; 12:08:22 PM -05:00","
+                            ,V3:, ,8.8 HIGH,
+                        ,
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2017-17915,"In GraphicsMagick 1.4 snapshot-20171217 Q8, there is a heap-based buffer over-read in ReadMNGImage in coders/png.c, related to accessing one byte before testing whether a limit has been reached."
+"December 21, 2017; 12:29:00 PM -05:00","
+                            ,V3:, ,7.5 HIGH,
+                        ,
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2017-6132,"In F5 BIG-IP LTM, AAM, AFM, Analytics, APM, ASM, DNS, GTM, Link Controller, PEM and Websafe software version 13.0.0, 12.0.0 to 12.1.2, 11.6.0 to 11.6.1 and 11.5.0 - 11.5.4, an undisclosed sequence of packets sent to BIG-IP High Availability state mirror listeners (primary and/or secondary IP) may cause TMM to restart."
+"December 09, 2017; 01:29:02 AM -05:00","
+                            ,V3:, ,8.8 HIGH,
+                        ,
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2017-16409,"An issue was discovered in Adobe Acrobat and Reader: 2017.012.20098 and earlier versions, 2017.011.30066 and earlier versions, 2015.006.30355 and earlier versions, and 11.0.22 and earlier versions. This vulnerability occurs as a result of a computation that reads data that is past the end of the target buffer; the computation is part of the Adobe graphics module responsible for displaying textual data. The use of an invalid (out-of-range) pointer offset during access of internal data structure fields causes the vulnerability. A successful attack can lead to sensitive data exposure."
+"November 13, 2017; 03:29:00 PM -05:00","
+                            ,V3:, ,7.8 HIGH,
+                        ,
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2017-14020,"An Uncontrolled Search Path Element issue was discovered in AutomationDirect CLICK Programming Software (Part Number C0-PGMSW) versions 2.10 and prior, C-More Programming Software (Part Number EA9-PGMSW) versions 6.30 and prior, C-More Micro (Part Number EA-PGMSW) versions 4.20.01.0 and prior, GS Drives Configuration Software (Part Number GSOFT) versions 4.0.6 and prior, and SL-SOFT SOLO Temperature Controller Configuration Software (Part Number SL-SOFT) versions 1.1.0.5 and prior. An uncontrolled search path element (DLL Hijacking) vulnerability has been identified. To exploit this vulnerability, an attacker could rename a malicious DLL to meet the criteria of the application, and the application would not verify that the DLL is correct. Once loaded by the application, the DLL could run malicious code at the privilege level of the application."
+"October 27, 2017; 10:29:00 AM -04:00","
+                            ,V3:, ,5.9 MEDIUM,
+                        ,
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2017-6159,"F5 BIG-IP LTM, AAM, AFM, Analytics, APM, ASM, DNS, GTM, Link Controller, PEM, Websafe software version 12.0.0 to 12.1.2, 11.6.0 to 11.6.1 are vulnerable to a denial of service attack when the MPTCP option is enabled on a virtual server. Data plane is vulnerable when using the MPTCP option of a TCP profile. There is no control plane exposure. An attacker may be able to disrupt services by causing TMM to restart hence temporarily failing to process traffic."
+"October 17, 2017; 06:29:00 PM -04:00","
+                            ,V3:, ,8.2 HIGH,
+                        ,
+                            ,V2:, ,6.4 MEDIUM,
+                        ",CVE-2017-9625,An Improper Authentication issue was discovered in Envitech EnviDAS Ultimate Versions prior to v1.0.0.5. The web application lacks proper authentication which could allow an attacker to view information and modify settings or execute code remotely.
+"October 12, 2017; 04:29:00 AM -04:00","
+                            ,V3:, ,6.5 MEDIUM,
+                        ,
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2017-15277,"ReadGIFImage in coders/gif.c in ImageMagick 7.0.6-1 and GraphicsMagick 1.3.26 leaves the palette uninitialized when processing a GIF file that has neither a global nor local palette. If the affected product is used as a library loaded into a process that operates on interesting data, this data sometimes can be leaked via the uninitialized palette."
+"October 03, 2017; 09:29:02 PM -04:00","
+                            ,V3:, ,7.5 HIGH,
+                        ,
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2017-12820,"Arbitrary memory read from controlled memory pointer in Gemalto's HASP SRM, Sentinel HASP and Sentinel LDK products prior to Sentinel LDK RTE version 7.55 leads to remote denial of service."
+"September 18, 2017; 01:29:01 PM -04:00","
+                            ,V3:, ,5.9 MEDIUM,
+                        ,
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2017-6147,"In F5 BIG-IP LTM, AAM, AFM, Analytics, APM, ASM, DNS, Link Controller, PEM, and WebSafe 12.1.2-HF1 and 13.0.0, an undisclosed type of responses may cause TMM to restart, causing an interruption of service when ""SSL Forward Proxy"" setting is enabled in both the Client and Server SSL profiles assigned to a BIG-IP Virtual Server."
+"August 30, 2017; 06:29:00 PM -04:00","
+                            ,V3:, ,6.5 MEDIUM,
+                        ,
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2017-14042,"A memory allocation failure was discovered in the ReadPNMImage function in coders/pnm.c in GraphicsMagick 1.3.26. The vulnerability causes a big memory allocation, which may lead to remote denial of service in the MagickRealloc function in magick/memory.c."
+"August 28, 2017; 09:35:12 PM -04:00","
+                            ,V3:, ,7.8 HIGH,
+                        ,
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2017-10828,Untrusted search path vulnerability in Flets Install Tool all versions distributed through the website till 2017 August 8 allows an attacker to gain privileges via a Trojan horse DLL in an unspecified directory.
+"August 22, 2017; 02:29:00 PM -04:00","
+                            ,V3:, ,5.3 MEDIUM,
+                        ,
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2016-2102,HAProxy statistics in openstack-tripleo-image-elements are non-authenticated over the network.
+"August 09, 2017; 12:29:00 PM -04:00","
+                            ,V3:, ,7.5 HIGH,
+                        ,
+                            ,V2:, ,6.0 MEDIUM,
+                        ",CVE-2015-4165,"The snapshot API in Elasticsearch before 1.6.0 when another application exists on the system that can read Lucene files and execute code from them, is accessible by the attacker, and the Java VM on which Elasticsearch is running can write to a location that the other application can read and execute from, allows remote authenticated users to write to and create arbitrary snapshot metadata files, and potentially execute arbitrary code."
+"July 31, 2017; 07:29:00 PM -04:00","
+                            ,V3:, ,8.8 HIGH,
+                        ,
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2017-11648,"Techroutes TR 1803-3G Wireless Cellular Router/Modem 2.4.25 devices do not possess any protection against a CSRF vulnerability, as demonstrated by a goform/BasicSettings request to disable port filtering."
+"July 20, 2017; 12:29:00 AM -04:00","
+                            ,V3:, ,9.8 CRITICAL,
+                        ,
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2017-11471,IDERA Uptime Monitor 7.8 has SQL injection in /gadgets/definitions/uptime.CapacityWhatIfGadget/getmetrics.php via the element parameter.
+"July 02, 2017; 09:29:00 PM -04:00","
+                            ,V3:, ,5.5 MEDIUM,
+                        ,
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2017-10799,"When GraphicsMagick 1.3.25 processes a DPX image (with metadata indicating a large width) in coders/dpx.c, a denial of service (OOM) can occur in ReadDPXImage()."
+"June 29, 2017; 11:29:00 PM -04:00","
+                            ,V3:, ,9.8 CRITICAL,
+                        ,
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2017-6022,"A hard-coded password issue was discovered in Becton, Dickinson and Company (BD) PerformA, Version 2.0.14.0 and prior versions, and KLA Journal Service, Version 1.0.51 and prior versions. They use hard-coded passwords to access the BD Kiestra Database, which could be leveraged to compromise the confidentiality of limited PHI/PII information stored in the BD Kiestra Database."
+"June 14, 2017; 09:29:02 PM -04:00","
+                            ,V3:, ,5.0 MEDIUM,
+                        ,
+                            ,V2:, ,1.9 LOW,
+                        ",CVE-2017-0289,"Graphics in Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allows improper disclosure of memory contents, aka ""Windows Graphics Information Disclosure Vulnerability"". This CVE ID is unique from CVE-2017-0286, CVE-2017-0287, CVE-2017-0288, CVE-2017-8531, CVE-2017-8532, and CVE-2017-8533."
+"May 22, 2017; 12:29:00 PM -04:00","
+                            ,V3:, ,7.8 HIGH,
+                        ,
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2016-4901,Untrusted search path vulnerability in The installer of e-Tax Software all versions allows remote attackers to gain privileges via a Trojan horse DLL in an unspecified directory.
+"May 11, 2017; 06:29:00 AM -04:00","
+                            ,V3:, ,6.5 MEDIUM,
+                        ,
+                            ,V2:, ,6.1 MEDIUM,
+                        ",CVE-2017-2681,"A vulnerability has been identified in Development/Evaluation Kit DK Standard Ethernet Controller, Development/Evaluation Kit EK-ERTEC 200 PN IO, Development/Evaluation Kit EK-ERTEC 200P PN IO, IE/AS-i Link PN IO, IE/PB-Link, SCALANCE M-800, S615, SCALANCE W700, SCALANCE X-200, SCALANCE X-200 IRT, SCALANCE X-300/X408, SCALANCE X414, SCALANCE XM400, SCALANCE XR500, SIMATIC WinAC RTX 2010 incl. F, SIMATIC CM 1542-1, SIMATIC CM 1542SP-1, SIMATIC CP 1243-1, SIMATIC CP 1243-1 DNP3, SIMATIC CP 1243-1 IEC, SIMATIC CP 1243-1 IRC, SIMATIC CP 1542SP-1 IRC, SIMATIC CP 1543-1, SIMATIC CP 1543SP-1, SIMATIC CP 1604, SIMATIC CP 1616, SIMATIC CP 343-1 Adv, SIMATIC CP 343-1 Lean, SIMATIC CP 343-1 Std, SIMATIC CP 443-1 Adv, SIMATIC CP 443-1 OPC-UA, SIMATIC CP 443-1 Std, SIMATIC DK-16xx PN IO, SIMATIC ET 200AL, SIMATIC ET 200M, SIMATIC ET 200MP, SIMATIC ET 200S, SIMATIC ET 200SP, SIMATIC ET 200ecoPN, SIMATIC ET 200pro, SIMATIC HMI Comfort Panels, HMI Multi Panels, HMI Mobile Panels, SIMATIC PN/PN Coupler, SIMATIC RF650R, SIMATIC RF680R, SIMATIC RF685R, SIMATIC S7-1200 incl. F, SIMATIC S7-1500 Software Controller incl. F, SIMATIC S7-1500 incl. F, T, and TF, SIMATIC S7-200 SMART, SIMATIC S7-300 incl. F and T, SIMATIC S7-400 PN/DP V6 Incl. F, SIMATIC S7-400 PN/DP V7 Incl. F, SIMATIC S7-400-H V6, SIMATIC S7-410, SIMATIC Teleservice Adapter Standard Modem, IE Basic, IE Advanced, SIMOCODE pro V PROFINET, SIMOTION, SINAMICS DCM w. PN, SINAMICS DCP w. PN, SINAMICS G110M w. PN, SINAMICS G120(C/P/D) w. PN, SINAMICS G130 V4.7 w. PN, SINAMICS G130 V4.8 w. PN, SINAMICS G150 V4.7 w. PN, SINAMICS G150 V4.8 w. PN, SINAMICS S110 w. PN, SINAMICS S120 V4.7 w. PN, SINAMICS S120 V4.8 w. PN, SINAMICS S150 V4.7 w. PN, SINAMICS S150 V4.8 w. PN, SINAMICS V90 w. PN, SINUMERIK 828D V4.5 and prior, SINUMERIK 828D V4.7, SINUMERIK 840D sl V4.5 and prior, SINUMERIK 840D sl V4.7, SIRIUS ACT 3SU1 interface module PROFINET, SIRIUS Motor Starter M200D PROFINET, SIRIUS Soft Starter 3RW44 PN, SITOP PSU8600 PROFINET, SITOP UPS1600 PROFINET, Softnet PROFINET IO for PC-based Windows systems. Specially crafted PROFINET DCP packets sent on a local Ethernet segment (Layer 2) to an affected product could cause a Denial-of-Service condition of that product. Human interaction is required to recover the system. PROFIBUS interfaces are not affected. This vulnerability affects only SIMATIC HMI Multi Panels and HMI Mobile Panels, and S7-300/S7-400 devices."
+"April 28, 2017; 12:59:01 PM -04:00","
+                            ,V3:, ,6.1 MEDIUM,
+                        ,
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2017-2136,Cross-site scripting vulnerability in WP Statistics version 12.0.4 and earlier allows remote attackers to inject arbitrary web script or HTML via specially crafted HTTP Referer headers.
+"April 11, 2017; 12:59:00 PM -04:00","
+                            ,V3:, ,7.5 HIGH,
+                        ,
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2016-4483,"The xmlBufAttrSerializeTxtContent function in xmlsave.c in libxml2 allows context-dependent attackers to cause a denial of service (out-of-bounds read and application crash) via a non-UTF-8 attribute value, related to serialization.  NOTE: this vulnerability may be a duplicate of CVE-2016-3627."
+"March 28, 2017; 09:59:01 PM -04:00","
+                            ,V3:, ,8.8 HIGH,
+                        ,
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2017-2688,"The integrated web server in Siemens RUGGEDCOM ROX I (all versions) at port 10000/TCP could allow remote attackers to perform actions with the privileges of an authenticated user, provided the targeted user has an active session and is induced into clicking on a malicious link or into visiting a malicious website, aka CSRF."
+"March 16, 2017; 08:59:00 PM -04:00","
+                            ,V3:, ,7.0 HIGH,
+                        ,
+                            ,V2:, ,6.9 MEDIUM,
+                        ",CVE-2017-0005,"The Graphics Device Interface (GDI) in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607 allows local users to gain privileges via a crafted application, aka ""Windows GDI Elevation of Privilege Vulnerability."" This vulnerability is different from those described in CVE-2017-0001, CVE-2017-0025, and CVE-2017-0047."
+"February 28, 2017; 02:59:00 PM -05:00","
+                            ,V3:, ,7.3 HIGH,
+                        ,
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2017-5682,"Intel PSET Application Install wrapper of Intel Parallel Studio XE, Intel System Studio, Intel VTune Amplifier, Intel Inspector, Intel Advisor, Intel MPI Library, Intel Trace Analyzer and Collector, Intel Integrated Performance Primitives, Cryptography for Intel Integrated Performance Primitives, Intel Math Kernel Library, Intel Data Analytics Acceleration Library, and Intel Threading Building Blocks before 2017 Update 2 allows an attacker to launch a process with escalated privileges."
+"February 15, 2017; 02:59:00 PM -05:00","
+                            ,V3:, ,7.8 HIGH,
+                        ,
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2016-8683,"The ReadPCXImage function in coders/pcx.c in GraphicsMagick 1.3.25 allows remote attackers to have unspecified impact via a crafted image, which triggers a memory allocation failure and a ""file truncation error for corrupt file."""
+"February 13, 2017; 04:59:02 PM -05:00","
+                            ,V3:, ,7.8 HIGH,
+                        ,
+                            ,V2:, ,2.1 LOW,
+                        ",CVE-2017-5153,"An issue was discovered in OSIsoft PI Coresight 2016 R2 and earlier versions, and PI Web API 2016 R2 when deployed using the PI AF Services 2016 R2 integrated install kit. An information exposure through server log files vulnerability has been identified, which may allow service account passwords to become exposed for the affected services, potentially leading to unauthorized shutdown of the affected PI services as well as potential reuse of domain credentials."
+"February 13, 2017; 04:59:02 PM -05:00","
+                            ,V3:, ,6.7 MEDIUM,
+                        ,
+                            ,V2:, ,4.4 MEDIUM,
+                        ",CVE-2016-9360,"An issue was discovered in General Electric (GE) Proficy HMI/SCADA iFIX Version 5.8 SIM 13 and prior versions, Proficy HMI/SCADA CIMPLICITY Version 9.0 and prior versions, and Proficy Historian Version 6.0 and prior versions. An attacker may be able to retrieve user passwords if he or she has access to an authenticated session."
+"February 13, 2017; 04:59:01 PM -05:00","
+                            ,V3:, ,7.8 HIGH,
+                        ,
+                            ,V2:, ,4.6 MEDIUM,
+                        ",CVE-2016-8566,"An issue was discovered in Siemens SICAM PAS before 8.00. Because of Storing Passwords in a Recoverable Format, an authenticated local attacker with certain privileges could possibly reconstruct the passwords of users for accessing the database."
+"February 13, 2017; 04:59:00 PM -05:00","
+                            ,V3:, ,6.4 MEDIUM,
+                        ,
+                            ,V2:, ,5.5 MEDIUM,
+                        ",CVE-2016-8353,An issue was discovered in OSIsoft PI Web API 2015 R2 (Version 1.5.1). There is a weakness in this product that may allow an attacker to access the PI system without the proper permissions.
+"February 13, 2017; 04:59:00 PM -05:00","
+                            ,V3:, ,7.5 HIGH,
+                        ,
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2016-5786,"An issue was discovered in OmniMetrix OmniView, Version 1.2. The OmniView web application transmits credentials with the HTTP protocol, which could be sniffed by an attacker that may result in the compromise of account credentials."
+"January 30, 2017; 04:59:01 PM -05:00","
+                            ,V3:, ,5.3 MEDIUM,
+                        ,
+                            ,V2:, ,4.9 MEDIUM,
+                        ",CVE-2016-2517,"NTP before 4.2.8p7 and 4.3.x before 4.3.92 allows remote attackers to cause a denial of service (prevent subsequent authentication) by leveraging knowledge of the controlkey or requestkey and sending a crafted packet to ntpd, which changes the value of trustedkey, controlkey, or requestkey.  NOTE: this vulnerability exists because of a CVE-2016-2516 regression."
+"January 12, 2017; 03:59:01 PM -05:00","
+                            ,V3:, ,7.0 HIGH,
+                        ,
+                            ,V2:, ,7.6 HIGH,
+                        ",CVE-2016-8458,"An elevation of privilege vulnerability in the Synaptics touchscreen driver could enable a local malicious application to execute arbitrary code within the context of the kernel. This issue is rated as High because it first requires compromising a privileged process. Product: Android. Versions: Kernel-3.10, Kernel-3.18. Android ID: A-31968442."
+"December 16, 2016; 10:59:00 PM -05:00","
+                            ,V3:, ,7.5 HIGH,
+                        ,
+                            ,V2:, ,7.8 HIGH,
+                        ",CVE-2016-9158,"A vulnerability has been identified in SIMATIC S7-300 CPU family, SIMATIC S7-400 V6 and earlier CPU family, SIMATIC S7-400 V7 CPU family. Specially crafted packets sent to port 80/tcp could cause the affected devices to go into defect mode. A cold restart is required to recover the system. This vulnerability affects all SIMATIC S7-300 PN CPUs, and all SIMATIC S7-400 PN V6 and V7 CPUs."
+"December 03, 2016; 01:59:04 AM -05:00","
+                            ,V3:, ,5.3 MEDIUM,
+                        ,
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2016-9799,"In BlueZ 5.42, a buffer overflow was observed in ""pklg_read_hci"" function in ""btsnoop.c"" source file. This issue can be triggered by processing a corrupted dump file and will result in btmon crash."
+"October 16, 2016; 05:59:11 PM -04:00","
+                            ,V3:, ,4.4 MEDIUM,
+                        ,
+                            ,V2:, ,3.6 LOW,
+                        ",CVE-2016-7097,"The filesystem implementation in the Linux kernel through 4.8.2 preserves the setgid bit during a setxattr call, which allows local users to gain group privileges by leveraging the existence of a setgid program with restrictions on execute permissions."
+"October 05, 2016; 04:59:05 PM -04:00","
+                            ,V3:, ,7.5 HIGH,
+                        ,
+                            ,V2:, ,7.8 HIGH,
+                        ",CVE-2016-6385,"Memory leak in the Smart Install client implementation in Cisco IOS 12.2 and 15.0 through 15.2 and IOS XE 3.2 through 3.8 allows remote attackers to cause a denial of service (memory consumption) via crafted image-list parameters, aka Bug ID CSCuy82367."
+"September 24, 2016; 06:59:02 AM -04:00","
+                            ,V3:, ,8.8 HIGH,
+                        ,
+                            ,V2:, ,7.2 HIGH,
+                        ",CVE-2016-5793,Unquoted Windows search path vulnerability in Moxa Active OPC Server before 2.4.19 allows local users to gain privileges via a Trojan horse executable file in the %SYSTEMDRIVE% directory.
+"September 21, 2016; 10:25:16 AM -04:00","
+                            ,V3:, ,6.5 MEDIUM,
+                        ,
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2016-5844,Integer overflow in the ISO parser in libarchive before 3.2.1 allows remote attackers to cause a denial of service (application crash) via a crafted ISO file.
+"September 20, 2016; 10:15:05 AM -04:00","
+                            ,V3:, ,7.5 HIGH,
+                        ,
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2015-8919,The lha_read_file_extended_header function in archive_read_support_format_lha.c in libarchive before 3.2.0 allows remote attackers to cause a denial of service (out-of-bounds heap) via a crafted (1) lzh or (2) lha file.
+"September 07, 2016; 04:59:01 PM -04:00","
+                            ,V3:, ,6.5 MEDIUM,
+                        ,
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2016-5404,"The cert_revoke command in FreeIPA does not check for the ""revoke certificate"" permission, which allows remote authenticated users to revoke arbitrary certificates by leveraging the ""retrieve certificate"" permission."
+"August 10, 2016; 10:59:02 AM -04:00","
+                            ,V3:, ,9.8 CRITICAL,
+                        ,
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2016-5408,Stack-based buffer overflow in the munge_other_line function in cachemgr.cgi in the squid package before 3.1.23-16.el6_8.6 in Red Hat Enterprise Linux 6 allows remote attackers to execute arbitrary code via unspecified vectors.  NOTE: this vulnerability exists because of an incorrect fix for CVE-2016-4051.
+"August 07, 2016; 06:59:12 AM -04:00","
+                            ,V3:, ,9.1 CRITICAL,
+                        ,
+                            ,V2:, ,6.4 MEDIUM,
+                        ",CVE-2016-5116,"gd_xbm.c in the GD Graphics Library (aka libgd) before 2.2.0, as used in certain custom PHP 5.5.x configurations, allows context-dependent attackers to obtain sensitive information from process memory or cause a denial of service (stack-based buffer under-read and application crash) via a long name."
+"August 04, 2016; 09:59:00 PM -04:00","
+                            ,V3:, ,4.3 MEDIUM,
+                        ,
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2016-2830,"Mozilla Firefox before 48.0 and Firefox ESR 45.x before 45.3 preserve the network connection used for favicon resource retrieval after the associated browser window is closed, which makes it easier for remote web servers to track users by observing network traffic from multiple IP addresses."
+"July 21, 2016; 10:59:54 PM -04:00","
+                            ,V3:, ,7.8 HIGH,
+                        ,
+                            ,V2:, ,6.9 MEDIUM,
+                        ",CVE-2016-4633,Intel Graphics Driver in Apple OS X before 10.11.6 allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app.
+"July 19, 2016; 06:59:02 PM -04:00","
+                            ,V3:, ,6.5 MEDIUM,
+                        ,
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2016-5653,Multiple SQL injection vulnerabilities in Misys FusionCapital Opics Plus allow remote authenticated users to execute arbitrary SQL commands via the (1) ID or (2) Branch parameter.
+"July 06, 2016; 10:59:03 AM -04:00","
+                            ,V3:, ,6.1 MEDIUM,
+                        ,
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2016-4508,Cross-site scripting (XSS) vulnerability in Rexroth Bosch BLADEcontrol-WebVIS 3.0.2 and earlier allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+"July 02, 2016; 10:59:03 AM -04:00","
+                            ,V3:, ,4.3 MEDIUM,
+                        ,
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2016-0398,IBM Cognos Analytics (CA) 11.0 before 11.0.2 allows remote attackers to conduct content-spoofing attacks via a crafted URL.
+"June 19, 2016; 04:59:08 PM -04:00","
+                            ,V3:, ,7.8 HIGH,
+                        ,
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2016-1861,"The NVIDIA Graphics Drivers subsystem in Apple OS X before 10.11.5 allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app, a different vulnerability than CVE-2016-1846."
+"June 09, 2016; 12:59:07 PM -04:00","
+                            ,V3:, ,7.1 HIGH,
+                        ,
+                            ,V2:, ,5.8 MEDIUM,
+                        ",CVE-2016-4449,"XML external entity (XXE) vulnerability in the xmlStringLenDecodeEntities function in parser.c in libxml2 before 2.9.4, when not in validating mode, allows context-dependent attackers to read arbitrary files or cause a denial of service (resource consumption) via unspecified vectors."
+"May 30, 2016; 09:59:11 PM -04:00","
+                            ,V3:, ,9.8 CRITICAL,
+                        ,
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2016-4521,"Sixnet BT-5xxx and BT-6xxx M2M devices before 3.8.21 and 3.9.x before 3.9.8 have hardcoded credentials, which allows remote attackers to obtain access via unspecified vectors."
+"May 23, 2016; 06:59:13 AM -04:00","
+                            ,V3:, ,7.8 HIGH,
+                        ,
+                            ,V2:, ,7.2 HIGH,
+                        ",CVE-2016-4805,"Use-after-free vulnerability in drivers/net/ppp/ppp_generic.c in the Linux kernel before 4.5.2 allows local users to cause a denial of service (memory corruption and system crash, or spinlock) or possibly have unspecified other impact by removing a network namespace, related to the ppp_register_net_channel and ppp_unregister_channel functions."
+"May 17, 2016; 10:08:02 AM -04:00","
+                            ,V3:, ,7.5 HIGH,
+                        ,
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2016-3627,"The xmlStringGetNodeList function in tree.c in libxml2 2.9.3 and earlier, when used in recovery mode, allows context-dependent attackers to cause a denial of service (infinite recursion, stack consumption, and application crash) via a crafted XML document."
+"May 11, 2016; 09:59:14 PM -04:00","
+                            ,V3:, ,4.2 MEDIUM,
+                        ,
+                            ,V2:, ,4.4 MEDIUM,
+                        ",CVE-2016-4499,Heap-based buffer overflow in Panasonic FPWIN Pro 5.x through 7.x before 7.130 allows local users to cause a denial of service (application crash) via unspecified vectors.
+"May 05, 2016; 02:59:04 PM -04:00","
+                            ,V3:, ,5.5 MEDIUM,
+                        ,
+                            ,V2:, ,5.8 MEDIUM,
+                        ",CVE-2016-3715,The EPHEMERAL coder in ImageMagick before 6.9.3-10 and 7.x before 7.0.1-1 allows remote attackers to delete arbitrary files via a crafted image.
+"April 30, 2016; 01:59:01 PM -04:00","
+                            ,V3:, ,8.8 HIGH,
+                        ,
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2016-2805,Unspecified vulnerability in the browser engine in Mozilla Firefox ESR 38.x before 38.8 allows remote attackers to cause a denial of service (memory corruption and application crash) or possibly execute arbitrary code via unknown vectors.
+"April 25, 2016; 06:59:00 AM -04:00","
+                            ,V3:, ,5.9 MEDIUM,
+                        ,
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2016-4006,"epan/proto.c in Wireshark 1.12.x before 1.12.11 and 2.0.x before 2.0.3 does not limit the protocol-tree depth, which allows remote attackers to cause a denial of service (stack memory consumption and application crash) via a crafted packet."
+"April 21, 2016; 07:00:10 AM -04:00","
+                            ,V3:, ,8.6 HIGH,
+                        ,
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2016-2293,The AXM-NET module in Accuenergy Acuvim II NET Firmware 3.08 and Acuvim IIR NET Firmware 3.08 allows remote attackers to discover settings via a direct request to an unspecified URL.
+"April 15, 2016; 10:59:00 AM -04:00","
+                            ,V3:, ,9.8 CRITICAL,
+                        ,
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2010-5325,Heap-based buffer overflow in the unhtmlify function in foomatic-rip in foomatic-filters before 4.0.6 allows remote attackers to cause a denial of service (memory corruption and crash) or possibly execute arbitrary code via a long job title.
+"April 13, 2016; 11:59:01 AM -04:00","
+                            ,V3:, ,9.8 CRITICAL,
+                        ,
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2015-7545,"The (1) git-remote-ext and (2) unspecified other remote helper programs in Git before 2.3.10, 2.4.x before 2.4.10, 2.5.x before 2.5.4, and 2.6.x before 2.6.1 do not properly restrict the allowed protocols, which might allow remote attackers to execute arbitrary code via a URL in a (a) .gitmodules file or (b) unknown other sources in a submodule."
+"April 07, 2016; 05:59:01 PM -04:00","
+                            ,V3:, ,9.8 CRITICAL,
+                        ,
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2016-0729,"Multiple buffer overflows in (1) internal/XMLReader.cpp, (2) util/XMLURL.cpp, and (3) util/XMLUri.cpp in the XML Parser library in Apache Xerces-C before 3.1.3 allow remote attackers to cause a denial of service (segmentation fault or memory corruption) or possibly execute arbitrary code via a crafted document."
+"March 23, 2016; 09:59:13 PM -04:00","
+                            ,V3:, ,7.8 HIGH,
+                        ,
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2016-1743,"The Intel driver in the Graphics Drivers subsystem in Apple OS X before 10.11.4 allows attackers to execute arbitrary code in a privileged context or cause a denial of service (memory corruption) via a crafted app, a different vulnerability than CVE-2016-1744."
+"March 13, 2016; 02:59:31 PM -04:00","
+                            ,V3:, ,8.8 HIGH,
+                        ,
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2016-2792,"The graphite2::Slot::getAttr function in Slot.cpp in Graphite 2 before 1.3.6, as used in Mozilla Firefox before 45.0 and Firefox ESR 38.x before 38.7, allows remote attackers to cause a denial of service (buffer over-read) or possibly have unspecified other impact via a crafted Graphite smart font, a different vulnerability than CVE-2016-2800."
+"March 09, 2016; 06:59:03 PM -05:00","
+                            ,V3:, ,8.6 HIGH,
+                        ,
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2016-1286,"named in ISC BIND 9.x before 9.9.8-P4 and 9.10.x before 9.10.3-P4 allows remote attackers to cause a denial of service (assertion failure and daemon exit) via a crafted signature record for a DNAME record, related to db.c and resolver.c."
+"February 27, 2016; 11:59:00 PM -05:00","
+                            ,V3:, ,7.8 HIGH,
+                        ,
+                            ,V2:, ,7.2 HIGH,
+                        ",CVE-2016-2521,"Untrusted search path vulnerability in the WiresharkApplication class in ui/qt/wireshark_application.cpp in Wireshark 1.12.x before 1.12.10 and 2.0.x before 2.0.2 on Windows allows local users to gain privileges via a Trojan horse riched20.dll.dll file in the current working directory, related to use of QLibrary."
+"February 12, 2016; 09:59:02 PM -05:00","
+                            ,V3:, ,8.8 HIGH,
+                        ,
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2016-0863,"Cross-site request forgery (CSRF) vulnerability in Tollgrade SmartGrid LightHouse Sensor Management System (SMS) Software EMS before 5.1, and 4.1.0 Build 16, allows remote attackers to hijack the authentication of arbitrary users."
+"February 05, 2016; 06:59:00 AM -05:00","
+                            ,V3:, ,8.8 HIGH,
+                        ,
+                            ,V2:, ,9.0 HIGH,
+                        ",CVE-2016-0861,General Electric (GE) Industrial Solutions UPS SNMP/Web Adapter devices with firmware before 4.8 allow remote authenticated users to execute arbitrary commands via unspecified vectors.
+"January 22, 2016; 10:59:00 AM -05:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2015-6013,"Unspecified vulnerability in the Oracle Outside In Technology component in Oracle Fusion Middleware 8.5.0, 8.5.1, and 8.5.2 allows local users to affect availability via unknown vectors related to Outside In Filters, a different vulnerability than CVE-2015-4808, CVE-2015-6014, CVE-2015-6015, and CVE-2016-0432.  NOTE: the previous information is from the January 2016 CPU. Oracle has not commented on third-party claims that this issue is a stack-based buffer overflow in Oracle Outside In 8.5.2 and earlier, which allows remote attackers to execute arbitrary code via a crafted WK4 file."
+"January 20, 2016; 10:02:25 PM -05:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2016-0597,"Unspecified vulnerability in Oracle MySQL 5.5.46 and earlier, 5.6.27 and earlier, and 5.7.9 and MariaDB before 5.5.47, 10.0.x before 10.0.23, and 10.1.x before 10.1.10 allows remote authenticated users to affect availability via unknown vectors related to Optimizer."
+"January 20, 2016; 10:02:04 PM -05:00","
+                            ,V2:, ,6.4 MEDIUM,
+                        ",CVE-2016-0576,Unspecified vulnerability in the Oracle Application Object Library component in Oracle E-Business Suite 11.5.10.2 allows remote attackers to affect confidentiality and integrity via vectors related to ICX LOVs.
+"January 20, 2016; 10:01:44 PM -05:00","
+                            ,V2:, ,5.5 MEDIUM,
+                        ",CVE-2016-0556,"Unspecified vulnerability in the Oracle Advanced Collections component in Oracle E-Business Suite 11.5.10.2, 12.1.1, 12.1.2, and 12.1.3 allows remote authenticated users to affect confidentiality and integrity via unknown vectors related to Administration, a different vulnerability than CVE-2016-0557."
+"January 20, 2016; 10:01:24 PM -05:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2016-0536,Unspecified vulnerability in the Oracle Universal Work Queue component in Oracle E-Business Suite 11.5.10.2 allows remote attackers to affect integrity via unknown vectors related to error messages.
+"January 20, 2016; 10:01:04 PM -05:00","
+                            ,V2:, ,6.4 MEDIUM,
+                        ",CVE-2016-0516,Unspecified vulnerability in the Oracle Quality component in Oracle E-Business Suite 11.5.10.2 allows remote attackers to affect confidentiality and integrity via unknown vectors related to QA / Order Management Integration.
+"January 20, 2016; 10:00:44 PM -05:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2016-0496,"Unspecified vulnerability in the MICROS CWDirect component in Oracle Retail Applications 12.5, 13.0, 14.0, 15.0, 16.0, 17.0, and 18.0 allows remote attackers to affect confidentiality via unknown vectors related to Order Entry."
+"January 20, 2016; 10:00:23 PM -05:00","
+                            ,V2:, ,5.8 MEDIUM,
+                        ",CVE-2016-0475,"Unspecified vulnerability in the Java SE, Java SE Embedded, and JRockit components in Oracle Java SE 8u66; Java SE Embedded 8u65; and JRockit R28.3.8 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Libraries."
+"January 20, 2016; 10:00:02 PM -05:00","
+                            ,V2:, ,1.8 LOW,
+                        ",CVE-2016-0453,Unspecified vulnerability in the Oracle GlassFish Server component in Oracle Fusion Middleware 3.1.2 allows remote attackers to affect integrity via unknown vectors related to Embedded Server.
+"January 20, 2016; 09:59:42 PM -05:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2016-0433,Unspecified vulnerability in the Web Cache component in Oracle Fusion Middleware 11.1.1.9.0 allows remote attackers to affect confidentiality via vectors related to SSL support.
+"January 20, 2016; 09:59:22 PM -05:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2016-0413,Unspecified vulnerability in the Oracle Identity Federation component in Oracle Fusion Middleware 11.1.1.7 allows remote authenticated users to affect integrity via vectors related to Federation protocol support.
+"January 20, 2016; 11:59:01 AM -05:00","
+                            ,V3:, ,7.5 HIGH,
+                        ,
+                            ,V2:, ,7.8 HIGH,
+                        ",CVE-2015-5516,"Memory leak in the last hop kernel module in F5 BIG-IP LTM, GTM, and Link Controller 10.1.x, 10.2.x before 10.2.4 HF13, 11.x before 11.2.1 HF15, 11.3.x, 11.4.x, 11.5.x before 11.5.3 HF2, and 11.6.x before HF6, BIG-IP AAM 11.4.x, 11.5.x before 11.5.3 HF2 and 11.6.0 before HF6, BIG-IP AFM and PEM 11.3.x, 11.4.x, 11.5.x before 11.5.3 HF2, and 11.6.0 before HF6, BIG-IP Analytics 11.x before 11.2.1 HF15, 11.3.x, 11.4.x, 11.5.x before 11.5.3 HF2, and 11.6.0 before HF6, BIG-IP APM and ASM 10.1.0 through 10.2.4, 11.x before 11.2.1 HF15, 11.3.x, 11.4.x, 11.5.x before 11.5.3 HF2, and 11.6.0 before HF6, BIG-IP Edge Gateway, WebAccelerator, and WOM 10.1.x, 10.2.x before 10.2.4 HF13, 11.x before 11.2.1 HF15, and 11.3.0, BIG-IP PSM 10.1.x, 10.2.x before 10.2.4 HF13, 11.x before 11.2.1 HF15, 11.3.x, and 11.4.x before 11.4.1 HF, Enterprise Manager 3.0.0 through 3.1.1, BIG-IQ Cloud and Security 4.0.0 through 4.5.0, BIG-IQ Device 4.2.0 through 4.5.0, and BIG-IQ ADC 4.5.0 might allow remote attackers to cause a denial of service (memory consumption) via a large number of crafted UDP packets."
+"January 14, 2016; 05:59:01 PM -05:00","
+                            ,V3:, ,6.5 MEDIUM,
+                        ,
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2016-0777,"The resend_bytes function in roaming_common.c in the client in OpenSSH 5.x, 6.x, and 7.x before 7.1p2 allows remote servers to obtain sensitive information from process memory by requesting transmission of an entire buffer, as demonstrated by reading a private key."
+"January 04, 2016; 12:59:18 AM -05:00","
+                            ,V3:, ,5.5 MEDIUM,
+                        ,
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2015-8727,"The dissect_rsvp_common function in epan/dissectors/packet-rsvp.c in the RSVP dissector in Wireshark 1.12.x before 1.12.9 and 2.0.x before 2.0.1 does not properly maintain request-key data, which allows remote attackers to cause a denial of service (use-after-free and application crash) via a crafted packet."
+"December 31, 2015; 12:59:00 AM -05:00","
+                            ,V3:, ,7.5 HIGH,
+                        ,
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2014-3260,Pacom 1000 CCU and RTU GMS devices allow remote attackers to spoof the controller-to-base data stream by leveraging improper use of cryptography.
+"December 23, 2015; 06:59:01 AM -05:00","
+                            ,V3:, ,8.0 HIGH,
+                        ,
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2015-7925,"Cross-site request forgery (CSRF) vulnerability on eWON devices with firmware through 10.1s0 allows remote attackers to hijack the authentication of administrators for requests that trigger firmware upload, removal of configuration data, or a reboot."
+"December 16, 2015; 06:59:20 AM -05:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2015-7222,Integer underflow in the Metadata::setData function in MetaData.cpp in libstagefright in Mozilla Firefox before 43.0 and Firefox ESR 38.x before 38.5 allows remote attackers to execute arbitrary code or cause a denial of service (incorrect memory allocation and application crash) via an MP4 video file with crafted covr metadata that triggers a buffer overflow.
+"December 11, 2015; 06:59:41 AM -05:00","
+                            ,V2:, ,7.2 HIGH,
+                        ",CVE-2015-7076,The Intel Graphics Driver component in Apple OS X before 10.11.2 allows local users to gain privileges or cause a denial of service (NULL pointer dereference) via unspecified vectors.
+"November 24, 2015; 03:59:15 PM -05:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2015-7981,"The png_convert_to_rfc1123 function in png.c in libpng 1.0.x before 1.0.64, 1.2.x before 1.2.54, and 1.4.x before 1.4.17 allows remote attackers to obtain sensitive process memory information via crafted tIME chunk data in an image file, which triggers an out-of-bounds read."
+"November 16, 2015; 06:59:00 AM -05:00","
+                            ,V2:, ,6.9 MEDIUM,
+                        ",CVE-2015-2925,"The prepend_path function in fs/dcache.c in the Linux kernel before 4.2.4 does not properly handle rename actions inside a bind mount, which allows local users to bypass an intended container protection mechanism by renaming a directory, related to a ""double-chroot attack."""
+"November 08, 2015; 05:59:03 PM -05:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2015-1994,"IBM Security QRadar Incident Forensics 7.2.x before 7.2.5 Patch 5 does not include the HTTPOnly flag in a Set-Cookie header for the session cookie, which makes it easier for remote attackers to obtain potentially sensitive information via script access to this cookie."
+"November 05, 2015; 12:59:10 AM -05:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2015-7186,Mozilla Firefox before 42.0 on Android allows user-assisted remote attackers to bypass the Same Origin Policy and trigger (1) a download or (2) cached profile-data reading via a file: URL in a saved HTML document.
+"October 28, 2015; 06:59:12 AM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2015-6490,Stack-based buffer overflow on Allen-Bradley MicroLogix 1100 devices before B FRN 15.000 and 1400 devices through B FRN 15.003 allows remote attackers to execute arbitrary code via unspecified vectors.
+"October 24, 2015; 10:59:01 PM -04:00","
+                            ,V2:, ,6.4 MEDIUM,
+                        ",CVE-2015-1002,"IniNet embeddedWebServer (aka eWebServer) before 2.02 mishandles URL encoding, which allows remote attackers to write to or delete files via a crafted string."
+"October 21, 2015; 08:00:07 PM -04:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2015-4905,Unspecified vulnerability in Oracle MySQL Server 5.6.23 and earlier allows remote authenticated users to affect availability via vectors related to Server : DML.
+"October 21, 2015; 07:59:45 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2015-4882,"Unspecified vulnerability in Oracle Java SE 6u101, 7u85, and 8u60, and Java SE Embedded 8u51, allows remote attackers to affect availability via vectors related to CORBA."
+"October 21, 2015; 07:59:27 PM -04:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2015-4862,Unspecified vulnerability in Oracle MySQL Server 5.6.26 and earlier allows remote authenticated users to affect availability via vectors related to DML.
+"October 21, 2015; 07:59:07 PM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2015-4839,"Unspecified vulnerability in the Oracle Applications Technology Stack component in Oracle E-Business Suite 11.5.10.2 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to DB Listener, a different vulnerability than CVE-2015-4798."
+"October 21, 2015; 05:59:33 PM -04:00","
+                            ,V2:, ,5.5 MEDIUM,
+                        ",CVE-2015-4818,Unspecified vulnerability in the PeopleSoft Enterprise PeopleTools component in Oracle PeopleSoft Products 8.54 allows remote authenticated users to affect confidentiality and integrity via vectors related to PIA Core Technology.
+"October 21, 2015; 05:59:13 PM -04:00","
+                            ,V2:, ,9.0 HIGH,
+                        ",CVE-2015-4796,"Unspecified vulnerability in the Java VM component in Oracle Database Server 11.2.0.4, 12.1.0.1, and 12.1.0.2, when running on Windows, allows remote authenticated users to affect confidentiality, integrity, and availability via unknown vectors, a different vulnerability than CVE-2015-4888."
+"October 18, 2015; 03:59:01 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2015-6477,Multiple cross-site scripting (XSS) vulnerabilities in the Wind Farm Portal application in Nordex Control 2 (NC2) SCADA 16 and earlier allow remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+"October 01, 2015; 04:59:00 PM -04:00","
+                            ,V2:, ,7.2 HIGH,
+                        ",CVE-2015-1335,lxc-start in lxc before 1.0.8 and 1.1.x before 1.1.4 allows local container administrators to escape AppArmor confinement via a symlink attack on a (1) mount target or (2) bind mount source.
+"September 24, 2015; 12:59:22 AM -04:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2015-7174,"The nsAttrAndChildArray::GrowBy function in Mozilla Firefox before 41.0 and Firefox ESR 38.x before 38.3 might allow remote attackers to cause a denial of service (memory corruption and application crash) or possibly have unspecified other impact via unknown vectors, related to an ""overflow."""
+"September 24, 2015; 12:59:00 AM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2015-4476,"Mozilla Firefox before 41.0 on Android allows user-assisted remote attackers to spoof address-bar attributes by leveraging lack of navigation after a paste of a URL with a nonstandard scheme, as demonstrated by spoofing an SSL attribute."
+"August 31, 2015; 06:59:12 AM -04:00","
+                            ,V2:, ,7.8 HIGH,
+                        ",CVE-2015-5364,"The (1) udp_recvmsg and (2) udpv6_recvmsg functions in the Linux kernel before 4.0.6 do not properly consider yielding a processor, which allows remote attackers to cause a denial of service (system hang) via incorrect checksums within a UDP packet flood."
+"August 24, 2015; 10:59:09 AM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2015-5964,"The (1) contrib.sessions.backends.base.SessionBase.flush and (2) cache_db.SessionStore.flush functions in Django 1.7.x before 1.7.10, 1.4.x before 1.4.22, and possibly other versions create empty sessions in certain circumstances, which allows remote attackers to cause a denial of service (session store consumption) via unspecified vectors."
+"August 15, 2015; 09:59:12 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2015-4484,The js::jit::AssemblerX86Shared::lock_addl function in the JavaScript implementation in Mozilla Firefox before 40.0 and Firefox ESR 38.x before 38.2 allows remote attackers to cause a denial of service (application crash) by leveraging the use of shared memory and accessing (1) an Atomics object or (2) a SharedArrayBuffer object.
+"August 04, 2015; 10:59:14 AM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2011-5322,"GE Healthcare Centricity Analytics Server 1.1 has a default password of (1) V0yag3r for the SQL Server sa user, (2) G3car3s for the analyst user, (3) G3car3s for the ccg user, (4) V0yag3r for the viewer user, and (5) geservice for the geservice user in the Webmin interface, which has unspecified impact and attack vectors."
+"July 20, 2015; 07:59:02 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2015-3183,"The chunked transfer coding implementation in the Apache HTTP Server before 2.4.14 does not properly parse chunk headers, which allows remote attackers to conduct HTTP request smuggling attacks via a crafted request, related to mishandling of large chunk-size values and invalid chunk-extension characters in modules/http/http_filters.c."
+"July 16, 2015; 07:01:05 AM -04:00","
+                            ,V2:, ,6.9 MEDIUM,
+                        ",CVE-2015-4775,"Unspecified vulnerability in the Data Store component in Oracle Berkeley DB 11.2.5.1.29, 11.2.5.2.42, 11.2.5.3.28, and 12.1.6.0.35 allows local users to affect confidentiality, integrity, and availability via unknown vectors, a different vulnerability than CVE-2015-2583, CVE-2015-2624, CVE-2015-2626, CVE-2015-2640, CVE-2015-2654, CVE-2015-2656, CVE-2015-4754, CVE-2015-4764, CVE-2015-4776, CVE-2015-4777, CVE-2015-4778, CVE-2015-4780, CVE-2015-4781, CVE-2015-4782, CVE-2015-4783, CVE-2015-4784, CVE-2015-4785, CVE-2015-4786, CVE-2015-4787, CVE-2015-4789, and CVE-2015-4790."
+"July 16, 2015; 07:00:47 AM -04:00","
+                            ,V2:, ,2.1 LOW,
+                        ",CVE-2015-4753,"Unspecified vulnerability in the RDBMS Support Tools component in Oracle Database Server 11.2.0.3, 11.2.0.4, 12.1.0.1, and 12.1.0.2 allows local users to affect confidentiality via unknown vectors."
+"July 16, 2015; 07:00:28 AM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2015-4732,"Unspecified vulnerability in Oracle Java SE 6u95, 7u80, and 8u45, and Java SE Embedded 7u75 and 8u33 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries, a different vulnerability than CVE-2015-2590."
+"July 16, 2015; 07:00:09 AM -04:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2015-2650,Unspecified vulnerability in the PeopleSoft Enterprise PeopleTools component in Oracle PeopleSoft Products 8.53 and 8.54 allows remote authenticated users to affect confidentiality via unknown vectors related to Multichannel Framework.
+"July 16, 2015; 06:59:51 AM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2015-2628,"Unspecified vulnerability in Oracle Java SE 6u95, 7u80, and 8u45, and Java SE Embedded 7u75 and 8u33 allows remote attackers to affect confidentiality, integrity, and availability via vectors related to CORBA."
+"July 16, 2015; 06:59:32 AM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2015-2607,"Unspecified vulnerability in the Oracle Commerce Guided Search / Oracle Commerce Experience Manager component in Oracle Commerce Platform 3.0.2, 3.1.1, 3.1.2, 11.0, and 11.1 allows remote attackers to affect confidentiality via unknown vectors related to Content Acquisition System."
+"July 16, 2015; 06:59:14 AM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2015-2587,"Unspecified vulnerability in the Siebel UI Framework component in Oracle Siebel CRM 8.1.1, 8.2.2, and 15.0 allows remote attackers to affect integrity via vectors related to SWSE Server Infrastructure."
+"July 09, 2015; 03:17:00 PM -04:00","
+                            ,V3:, ,6.5 MEDIUM,
+                        ,
+                            ,V2:, ,6.4 MEDIUM,
+                        ",CVE-2015-1793,"The X509_verify_cert function in crypto/x509/x509_vfy.c in OpenSSL 1.0.1n, 1.0.1o, 1.0.2b, and 1.0.2c does not properly process X.509 Basic Constraints cA values during identification of alternative certificate chains, which allows remote attackers to spoof a Certification Authority role and trigger unintended certificate verifications via a valid leaf certificate."
+"July 05, 2015; 10:00:59 PM -04:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2015-2728,"The IndexedDatabaseManager class in the IndexedDB implementation in Mozilla Firefox before 39.0 and Firefox ESR 31.x before 31.8 and 38.x before 38.1 misinterprets an unspecified IDBDatabase field as a pointer, which allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via unspecified vectors, related to a ""type confusion"" issue."
+"July 01, 2015; 10:59:12 AM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2015-4695,meta.h in libwmf 0.2.8.4 allows remote attackers to cause a denial of service (out-of-bounds read) via a crafted WMF file.
+"June 12, 2015; 03:59:01 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2015-1788,"The BN_GF2m_mod_inv function in crypto/bn/bn_gf2m.c in OpenSSL before 0.9.8s, 1.0.0 before 1.0.0e, 1.0.1 before 1.0.1n, and 1.0.2 before 1.0.2b does not properly handle ECParameters structures in which the curve is over a malformed binary polynomial field, which allows remote attackers to cause a denial of service (infinite loop) via a session that uses an Elliptic Curve algorithm, as demonstrated by an attack against a server that supports client authentication."
+"May 31, 2015; 01:59:07 PM -04:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2015-3939,"Directory traversal vulnerability in the NC854 and NC856 modules for IDS RTU 850C devices allows remote authenticated users to read arbitrary files via unspecified vectors involving an internal web server, as demonstrated by reading a TELNET credentials file."
+"May 20, 2015; 03:59:02 PM -04:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2015-3141,"Multiple cross-site request forgery (CSRF) vulnerabilities in Synametrics Technologies Xeams 4.5 Build 5755 and earlier allow remote attackers to hijack the authentication of administrators for requests that create an (1) SMTP domain or a (2) user via a request to /FrontController; or conduct cross-site scripting (XSS) attacks via the (3) domainname parameter to /FrontController, when creating a new SMTP domain configuration; the (4) txtRecipient parameter to /FrontController, when creating a new forwarder; the (5) popFetchServer, (6) popFetchUser, or (7) popFetchRecipient parameter to /FrontController, when creating a new POP3 Fetcher account; or the (8) Smtp HELO domain in the Advanced Server Configuration."
+"May 13, 2015; 02:59:00 PM -04:00","
+                            ,V2:, ,7.7 HIGH,
+                        ",CVE-2015-3456,"The Floppy Disk Controller (FDC) in QEMU, as used in Xen 4.5.x and earlier and KVM, allows local guest users to cause a denial of service (out-of-bounds write and guest crash) or possibly execute arbitrary code via the (1) FD_CMD_READ_ID, (2) FD_CMD_DRIVE_SPECIFICATION_COMMAND, or other unspecified commands, aka VENOM."
+"April 16, 2015; 01:00:08 PM -04:00","
+                            ,V2:, ,7.2 HIGH,
+                        ",CVE-2015-2577,"Unspecified vulnerability in Oracle Sun Solaris 10 allows local users to affect confidentiality, integrity, and availability via unknown vectors related to Accounting commands."
+"April 16, 2015; 12:59:52 PM -04:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2015-0503,Unspecified vulnerability in Oracle MySQL Server 5.6.23 and earlier allows remote authenticated users to affect availability via unknown vectors related to Server : Partition.
+"April 16, 2015; 12:59:35 PM -04:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2015-0483,"Unspecified vulnerability in the Core RDBMS component in Oracle Database Server 11.1.0.7, 11.2.0.3, 11.2.0.4, 12.1.0.1, and 12.1.0.2 allows remote authenticated users to affect integrity via unknown vectors."
+"April 16, 2015; 12:59:17 PM -04:00","
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2015-0460,"Unspecified vulnerability in Oracle Java SE 5.0u81, 6u91, 7u76, and 8u40 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Hotspot."
+"April 16, 2015; 10:59:03 AM -04:00","
+                            ,V2:, ,6.5 MEDIUM,
+                        ",CVE-2015-1822,"chrony before 1.31.1 does not initialize the last ""next"" pointer when saving unacknowledged replies to command requests, which allows remote authenticated users to cause a denial of service (uninitialized pointer dereference and daemon crash) or possibly execute arbitrary code via a large number of command requests."
+"April 03, 2015; 06:59:13 AM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2015-0991,"Inductive Automation Ignition 7.7.2 allows remote attackers to obtain sensitive information by reading an error message about an unhandled exception, as demonstrated by pathname information."
+"April 01, 2015; 06:59:03 AM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2015-0802,"Mozilla Firefox before 37.0 relies on docshell type information instead of page principal information for Window.webidl access control, which might allow remote attackers to execute arbitrary JavaScript code with chrome privileges via certain content navigation that leverages the reachability of a privileged window with an unintended persistence of access to restricted internal methods."
+"March 30, 2015; 06:59:00 AM -04:00","
+                            ,V2:, ,4.6 MEDIUM,
+                        ",CVE-2013-6501,"The default soap.wsdl_cache_dir setting in (1) php.ini-production and (2) php.ini-development in PHP through 5.6.7 specifies the /tmp directory, which makes it easier for local users to conduct WSDL injection attacks by creating a file under /tmp with a predictable filename that is used by the get_sdl function in ext/soap/php_sdl.c."
+"March 20, 2015; 10:59:03 AM -04:00","
+                            ,V2:, ,8.5 HIGH,
+                        ",CVE-2015-1804,"The bdfReadCharacters function in bitmap/bdfread.c in X.Org libXfont before 1.4.9 and 1.5.x before 1.5.1 does not properly perform type conversion for metrics values, which allows remote authenticated users to cause a denial of service (out-of-bounds memory access) and possibly execute arbitrary code via a crafted BDF font file."
+"March 13, 2015; 09:59:12 PM -04:00","
+                            ,V2:, ,9.0 HIGH,
+                        ",CVE-2015-0980,Format string vulnerability in BACnOPCServer.exe in the SOAP web interface in SCADA Engine BACnet OPC Server before 2.1.371.24 allows remote attackers to execute arbitrary code via format string specifiers in a request.
+"March 02, 2015; 06:59:00 AM -05:00","
+                            ,V2:, ,2.1 LOW,
+                        ",CVE-2013-7421,"The Crypto API in the Linux kernel before 3.18.5 allows local users to load arbitrary kernel modules via a bind system call for an AF_ALG socket with a module name in the salg_name field, a different vulnerability than CVE-2014-9644."
+"February 23, 2015; 08:59:00 PM -05:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2015-0240,"The Netlogon server implementation in smbd in Samba 3.5.x and 3.6.x before 3.6.25, 4.0.x before 4.0.25, 4.1.x before 4.1.17, and 4.2.x before 4.2.0rc5 performs a free operation on an uninitialized stack pointer, which allows remote attackers to execute arbitrary code via crafted Netlogon packets that use the ServerPasswordSet RPC API, as demonstrated by packets reaching the _netr_ServerPasswordSet function in rpc_server/netlogon/srv_netlog_nt.c."
+"February 08, 2015; 06:59:32 AM -05:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2014-9671,Off-by-one error in the pcf_get_properties function in pcf/pcfread.c in FreeType before 2.5.4 allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted PCF file with a 0xffffffff size value that is improperly incremented.
+"January 30, 2015; 06:59:28 AM -05:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2014-8816,CoreGraphics in Apple OS X before 10.10 allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption and application crash) via a crafted PDF document.
+"January 21, 2015; 02:59:15 PM -05:00","
+                            ,V2:, ,3.3 LOW,
+                        ",CVE-2015-0429,Unspecified vulnerability in Oracle Sun Solaris 10 and 11 allows local users to affect integrity and availability via vectors related to RPC Utility.
+"January 21, 2015; 01:59:51 PM -05:00","
+                            ,V2:, ,5.8 MEDIUM,
+                        ",CVE-2015-1038,p7zip 9.20.1 allows remote attackers to write to arbitrary files via a symlink attack in an archive.
+"January 21, 2015; 01:59:34 PM -05:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2015-0390,"Unspecified vulnerability in the MICROS Retail component in Oracle Retail Applications Xstore: 3.2.1, 3.4.2, 3.5.0, 4.0.1, 4.5.1, 4.8.0, 5.0.3, 5.5.3, 6.0.6, and 6.5.2 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Xstore Point of Sale."
+"January 21, 2015; 01:59:17 PM -05:00","
+                            ,V2:, ,3.5 LOW,
+                        ",CVE-2015-0370,"Unspecified vulnerability in the Core RDBMS component in Oracle Database Server 11.1.0.7, 11.2.0.3, 11.2.0.4, and 12.1.0.1 allows remote authenticated users to affect integrity via unknown vectors, a different vulnerability than CVE-2013-5858."
+"January 21, 2015; 10:28:27 AM -05:00","
+                            ,V2:, ,2.6 LOW,
+                        ",CVE-2014-6591,"Unspecified vulnerability in the Java SE component in Oracle Java SE 5.0u75, 6u85, 7u72, and 8u25 allows remote attackers to affect confidentiality via unknown vectors related to 2D, a different vulnerability than CVE-2014-6585."
+"January 21, 2015; 10:28:10 AM -05:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2014-6571,"Unspecified vulnerability in the Oracle HTTP Server component in Oracle Fusion Middleware 11.1.1.7.0, 12.1.2.0, and 12.1.3.0 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Web Listener, a different vulnerability than CVE-2011-1944."
+"January 21, 2015; 09:59:05 AM -05:00","
+                            ,V2:, ,4.9 MEDIUM,
+                        ",CVE-2014-6509,Unspecified vulnerability in Oracle Solaris 10 allows local users to affect availability via unknown vectors related to Kernel.
+"January 14, 2015; 06:59:09 AM -05:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2014-8641,"Use-after-free vulnerability in the WebRTC implementation in Mozilla Firefox before 35.0, Firefox ESR 31.x before 31.4, and SeaMonkey before 2.32 allows remote attackers to execute arbitrary code via crafted track data."
+"January 08, 2015; 09:59:10 PM -05:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2015-0204,"The ssl3_get_key_exchange function in s3_clnt.c in OpenSSL before 0.9.8zd, 1.0.0 before 1.0.0p, and 1.0.1 before 1.0.1k allows remote SSL servers to conduct RSA-to-EXPORT_RSA downgrade attacks and facilitate brute-force decryption by offering a weak ephemeral RSA key in a noncompliant role, related to the ""FREAK"" issue.  NOTE: the scope of this CVE is only client code based on OpenSSL, not EXPORT_RSA issues associated with servers or other TLS implementations."
+"December 20, 2014; 06:59:00 AM -05:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2014-8142,"Use-after-free vulnerability in the process_nested_data function in ext/standard/var_unserializer.re in PHP before 5.4.36, 5.5.x before 5.5.20, and 5.6.x before 5.6.4 allows remote attackers to execute arbitrary code via a crafted unserialize call that leverages improper handling of duplicate keys within the serialized properties of an object, a different vulnerability than CVE-2004-1019."
+"December 11, 2014; 06:59:07 AM -05:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2014-1593,"Stack-based buffer overflow in the mozilla::FileBlockCache::Read function in Mozilla Firefox before 34.0, Firefox ESR 31.x before 31.3, Thunderbird before 31.3, and SeaMonkey before 2.31 allows remote attackers to execute arbitrary code via crafted media content."
+"December 10, 2014; 10:59:06 AM -05:00","
+                            ,V2:, ,6.5 MEDIUM,
+                        ",CVE-2014-8094,"Integer overflow in the ProcDRI2GetBuffers function in the DRI2 extension in X.Org Server (aka xserver and xorg-server) 1.7.0 through 1.16.x before 1.16.3 allows remote authenticated users to cause a denial of service (crash) or possibly execute arbitrary code via a crafted request, which triggers an out-of-bounds read or write."
+"November 27, 2014; 10:59:00 AM -05:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2014-5426,MatrikonOPC OPC Server for DNP3 1.2.3 and earlier allows remote attackers to cause a denial of service (unhandled exception and DNP3 process crash) via a crafted message.
+"November 18, 2014; 10:59:00 AM -05:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2014-3613,"cURL and libcurl before 7.38.0 does not properly handle IP addresses in cookie domain names, which allows remote attackers to set cookies for or send arbitrary cookies to certain sites, as demonstrated by a site at 192.168.0.1 setting cookies for a site at 127.168.0.1."
+"November 03, 2014; 11:55:07 AM -05:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2014-8080,"The REXML parser in Ruby 1.9.x before 1.9.3-p550, 2.0.x before 2.0.0-p594, and 2.1.x before 2.1.4 allows remote attackers to cause a denial of service (memory consumption) via a crafted XML document, aka an XML Entity Expansion (XEE) attack."
+"October 18, 2014; 09:55:15 PM -04:00","
+                            ,V2:, ,1.9 LOW,
+                        ",CVE-2014-5423,CareFusion Pyxis SupplyStation 8.1 with hardware test tool before 1.0.16 allows local users to obtain potentially sensitive information by reading a temporary (1) debugging file or (2) developer file.
+"October 15, 2014; 06:55:08 PM -04:00","
+                            ,V2:, ,5.5 MEDIUM,
+                        ",CVE-2014-6554,Unspecified vulnerability in the Oracle Access Manager component in Oracle Fusion Middleware 11.1.2.1 and 11.1.2.2 allows remote authenticated users to affect confidentiality and integrity via unknown vectors related to Admin Console.
+"October 15, 2014; 06:55:07 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2014-6531,"Unspecified vulnerability in Oracle Java SE 5.0u71, 6u81, 7u67, and 8u20, and Java SE Embedded 7u60, allows remote attackers to affect confidentiality via unknown vectors related to Libraries."
+"October 15, 2014; 06:55:06 PM -04:00","
+                            ,V2:, ,2.6 LOW,
+                        ",CVE-2014-6502,"Unspecified vulnerability in Oracle Java SE 5.0u71, 6u81, 7u67, and 8u20, and Java SE Embedded 7u60, allows remote attackers to affect integrity via unknown vectors related to Libraries."
+"October 15, 2014; 11:55:08 AM -04:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2014-6482,Unspecified vulnerability in the PeopleSoft Enterprise PT PeopleTools component in Oracle PeopleSoft Products 8.53 and 8.54 allows remote authenticated users to affect integrity via unknown vectors related to Updates Change Assistant.
+"October 15, 2014; 11:55:07 AM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2014-6459,"Unspecified vulnerability in the Oracle Secure Global Desktop component in Oracle Virtualization 5.0 and 5.1 allows remote attackers to affect availability via vectors related to SGD Proxy Server (ttaauxserv), a different vulnerability than CVE-2014-2472, CVE-2014-2474, and CVE-2014-2476."
+"October 15, 2014; 11:55:06 AM -04:00","
+                            ,V2:, ,3.6 LOW,
+                        ",CVE-2014-4289,"Unspecified vulnerability in the JDBC component in Oracle Database Server 11.1.0.7, 11.2.0.3, 11.2.0.4, and 12.1.0.1 allows remote authenticated users to affect confidentiality and integrity via unknown vectors, a different vulnerability than CVE-2014-6544."
+"October 15, 2014; 06:55:09 AM -04:00","
+                            ,V2:, ,5.4 MEDIUM,
+                        ",CVE-2014-6947,"The Archie Comics (aka com.iversecomics.archie.android) application 1.07 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate."
+"October 08, 2014; 01:55:05 PM -04:00","
+                            ,V2:, ,6.4 MEDIUM,
+                        ",CVE-2014-7185,"Integer overflow in bufferobject.c in Python before 2.7.8 allows context-dependent attackers to obtain sensitive information from process memory via a large size and offset in a ""buffer"" function."
+"September 22, 2014; 11:55:07 AM -04:00","
+                            ,V2:, ,4.4 MEDIUM,
+                        ",CVE-2014-3635,"Off-by-one error in D-Bus 1.3.0 through 1.6.x before 1.6.24 and 1.8.x before 1.8.8, when running on a 64-bit system and the max_message_unix_fds limit is set to an odd number, allows local users to cause a denial of service (dbus-daemon crash) or possibly execute arbitrary code by sending one more file descriptor than the limit, which triggers a heap-based buffer overflow or an assertion failure."
+"September 19, 2014; 06:55:03 AM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2014-4393,Buffer overflow in the shader compiler in the Intel Graphics Driver subsystem in Apple OS X before 10.9.5 allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted GLSL shader.
+"September 08, 2014; 09:55:36 PM -04:00","
+                            ,V2:, ,5.4 MEDIUM,
+                        ",CVE-2014-5667,"The Vault-Hide SMS, Pics & Videos (aka com.netqin.ps) application 5.0.14.22 for Android does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and obtain sensitive information via a crafted certificate."
+"August 22, 2014; 09:55:02 PM -04:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2014-3597,"Multiple buffer overflows in the php_parserr function in ext/standard/dns.c in PHP before 5.4.32 and 5.5.x before 5.5.16 allow remote DNS servers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted DNS record, related to the dns_get_record function and the dn_expand function.  NOTE: this issue exists because of an incomplete fix for CVE-2014-4049."
+"July 24, 2014; 10:55:07 AM -04:00","
+                            ,V2:, ,6.0 MEDIUM,
+                        ",CVE-2014-2369,"Cross-site request forgery (CSRF) vulnerability in the web application on Omron NS5, NS8, NS10, NS12, and NS15 HMI terminals 8.1xx through 8.68x allows remote authenticated users to hijack the authentication of unspecified victims via unknown vectors."
+"July 20, 2014; 07:12:48 AM -04:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2014-0226,"Race condition in the mod_status module in the Apache HTTP Server before 2.4.10 allows remote attackers to cause a denial of service (heap-based buffer overflow), or possibly obtain sensitive credential information or execute arbitrary code, via a crafted request that triggers improper scoreboard handling within the status_handler function in modules/generators/mod_status.c and the lua_ap_scoreboard_worker function in modules/lua/lua_request.c."
+"July 17, 2014; 07:17:10 AM -04:00","
+                            ,V2:, ,6.9 MEDIUM,
+                        ",CVE-2014-4261,"Unspecified vulnerability in the Oracle VM VirtualBox component in Oracle Virtualization VirtualBox before 3.2.24, 4.0.26, 4.1.34, 4.2.26, and 4.3.14 allows local users to affect confidentiality, integrity, and availability via unknown vectors related to Core, a different vulnerability than CVE-2014-2487."
+"July 17, 2014; 07:17:09 AM -04:00","
+                            ,V2:, ,3.6 LOW,
+                        ",CVE-2014-4240,Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.6.17 and earlier allows local users to affect confidentiality and integrity via vectors related to SRREP.
+"July 17, 2014; 01:10:16 AM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2014-4220,"Unspecified vulnerability in Oracle Java SE 7u60 and 8u5 allows remote attackers to affect integrity via unknown vectors related to Deployment, a different vulnerability than CVE-2014-4208."
+"July 17, 2014; 01:10:15 AM -04:00","
+                            ,V2:, ,5.5 MEDIUM,
+                        ",CVE-2014-2496,Unspecified vulnerability in the PeopleSoft Enterprise PT PeopleTools component in Oracle PeopleSoft Products 8.52 and 8.53 allows remote authenticated users to affect confidentiality and integrity via unknown vectors related to Test Framework.
+"July 17, 2014; 01:10:13 AM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2014-0436,Unspecified vulnerability in the Hyperion BI+ component in Oracle Hyperion 11.1.2.2 and 11.1.2.3 allows remote attackers to affect integrity via unknown vectors related to Web Analysis.
+"July 06, 2014; 07:55:02 PM -04:00","
+                            ,V2:, ,2.6 LOW,
+                        ",CVE-2014-4721,"The phpinfo implementation in ext/standard/info.c in PHP before 5.4.30 and 5.5.x before 5.5.14 does not ensure use of the string data type for the PHP_AUTH_PW, PHP_AUTH_TYPE, PHP_AUTH_USER, and PHP_SELF variables, which might allow context-dependent attackers to obtain sensitive information from process memory by using the integer data type with crafted values, related to a ""type confusion"" vulnerability, as demonstrated by reading a private SSL key in an Apache HTTP Server web-hosting environment with mod_ssl and a PHP 5.3.x mod_php."
+"June 11, 2014; 06:57:17 AM -04:00","
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2014-1540,Use-after-free vulnerability in the nsEventListenerManager::CompileEventHandlerInternal function in the Event Listener Manager in Mozilla Firefox before 30.0 allows remote attackers to execute arbitrary code or cause a denial of service (heap memory corruption) via crafted web content.
+"June 01, 2014; 12:29:34 AM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2014-0237,The cdf_unpack_summary_info function in cdf.c in the Fileinfo component in PHP before 5.4.29 and 5.5.x before 5.5.13 allows remote attackers to cause a denial of service (performance degradation) by triggering many file_printf calls.
+"May 15, 2014; 10:55:07 AM -04:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2014-0211,"Multiple integer overflows in the (1) fs_get_reply, (2) fs_alloc_glyphs, and (3) fs_read_extent_info functions in X.Org libXfont before 1.4.8 and 1.4.9x before 1.4.99.901 allow remote font servers to execute arbitrary code via a crafted xfs reply, which triggers a buffer overflow."
+"April 30, 2014; 06:49:04 AM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2014-1523,"Heap-based buffer overflow in the read_u32 function in Mozilla Firefox before 29.0, Firefox ESR 24.x before 24.5, Thunderbird before 24.5, and SeaMonkey before 2.26 allows remote attackers to cause a denial of service (out-of-bounds read and application crash) via a crafted JPEG image."
+"April 19, 2014; 03:55:07 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2014-0778,The TCPUploader module in Progea Movicon 11.4 before 11.4.1150 allows remote attackers to obtain potentially sensitive version information via network traffic to TCP port 10651.
+"April 15, 2014; 10:55:16 PM -04:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2014-2450,Unspecified vulnerability in Oracle MySQL Server 5.6.15 and earlier allows remote authenticated users to affect availability via unknown vectors related to Optimizer.
+"April 15, 2014; 10:55:15 PM -04:00","
+                            ,V2:, ,3.5 LOW,
+                        ",CVE-2014-2430,Unspecified vulnerability in Oracle MySQL Server 5.5.36 and earlier and 5.6.16 and earlier allows remote authenticated users to affect availability via unknown vectors related to Performance Schema.
+"April 15, 2014; 10:55:14 PM -04:00","
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2014-2410,"Unspecified vulnerability in Oracle Java SE 8 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to JavaFX."
+"April 15, 2014; 09:55:09 PM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2014-0457,"Unspecified vulnerability in Oracle Java SE 5.0u61, SE 6u71, 7u51, and 8; JRockit R27.8.1 and R28.3.1; and Java SE Embedded 7u51 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries."
+"April 15, 2014; 07:13:13 PM -04:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2014-0107,"The TransformerFactory in Apache Xalan-Java before 2.7.2 does not properly restrict access to certain properties when FEATURE_SECURE_PROCESSING is enabled, which allows remote attackers to bypass expected restrictions and load arbitrary classes or access external resources via a crafted (1) xalan:content-header, (2) xalan:entities, (3) xslt:content-header, or (4) xslt:entities property, or a Java property that is bound to the XSLT 1.0 system-property function."
+"April 12, 2014; 12:37:31 AM -04:00","
+                            ,V2:, ,4.7 MEDIUM,
+                        ",CVE-2013-2828,The DNP Master Driver in the OSIsoft PI Interface before 3.1.2.54 for DNP3 allows physically proximate attackers to cause a denial of service (interface shutdown) via crafted input over a serial line.
+"March 21, 2014; 10:55:12 AM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2014-2497,"The gdImageCreateFromXpm function in gdxpm.c in libgd, as used in PHP 5.4.26 and earlier, allows remote attackers to cause a denial of service (NULL pointer dereference and application crash) via a crafted color table in an XPM file."
+"March 19, 2014; 06:55:06 AM -04:00","
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2014-1493,"Multiple unspecified vulnerabilities in the browser engine in Mozilla Firefox before 28.0, Firefox ESR 24.x before 24.4, Thunderbird before 24.4, and SeaMonkey before 2.25 allow remote attackers to cause a denial of service (memory corruption and application crash) or possibly execute arbitrary code via unknown vectors."
+"February 28, 2014; 07:01:07 PM -05:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2014-1456,Cross-site scripting (XSS) vulnerability in the login page in Open Web Analytics (OWA) before 1.5.6 allows remote attackers to inject arbitrary web script or HTML via the owa_user_id parameter to index.php.
+"February 10, 2014; 06:55:05 PM -05:00","
+                            ,V2:, ,4.4 MEDIUM,
+                        ",CVE-2014-1876,"The unpacker::redirect_stdio function in unpack.cpp in unpack200 in OpenJDK 6, 7, and 8; Oracle Java SE 5.0u61, 6u71, 7u51, and 8; JRockit R27.8.1 and R28.3.1; and Java SE Embedded 7u51 does not securely create temporary files when a log file cannot be opened, which allows local users to overwrite arbitrary files via a symlink attack on /tmp/unpack.log."
+"February 06, 2014; 12:44:24 AM -05:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2014-1478,"Multiple unspecified vulnerabilities in the browser engine in Mozilla Firefox before 27.0 and SeaMonkey before 2.24 allow remote attackers to cause a denial of service (memory corruption and application crash) or possibly execute arbitrary code via vectors related to the MPostWriteBarrier class in js/src/jit/MIR.h and stack alignment in js/src/jit/AsmJS.cpp in OdinMonkey, and unknown other vectors."
+"January 15, 2014; 11:11:05 AM -05:00","
+                            ,V2:, ,5.5 MEDIUM,
+                        ",CVE-2013-5890,"Unspecified vulnerability in the Oracle Payroll component in Oracle E-Business Suite 11.5.10.2, 12.0.6, 12.1.1, 12.1.2, 12.1.3, and 12.2.2 allows remote authenticated users to affect confidentiality and integrity via unknown vectors related to Exception Reporting."
+"January 15, 2014; 11:11:04 AM -05:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2013-5870,"Unspecified vulnerability in Oracle Java SE 7u45 and JavaFX 2.2.45 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to JavaFX."
+"January 15, 2014; 11:08:10 AM -05:00","
+                            ,V2:, ,3.5 LOW,
+                        ",CVE-2014-0444,"Unspecified vulnerability in the Oracle AutoVue Electro-Mechanical Professional component in Oracle Supply Chain Products Suite 20.1.1 allows remote authenticated users to affect confidentiality via unknown vectors related to Web General, a different vulnerability than CVE-2013-5868 and CVE-2013-5871."
+"January 15, 2014; 11:08:10 AM -05:00","
+                            ,V2:, ,5.1 MEDIUM,
+                        ",CVE-2014-0418,"Unspecified vulnerability in Oracle Java SE 6u65 and 7u45 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Deployment, a different vulnerability than CVE-2013-5889, CVE-2013-5902, CVE-2014-0410, CVE-2014-0415, and CVE-2014-0424."
+"January 15, 2014; 11:08:07 AM -05:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2014-0394,"Unspecified vulnerability in the PeopleSoft Enterprise PeopleTools component in Oracle PeopleSoft Products 8.52 and 8.53 allows remote attackers to affect confidentiality via unknown vectors related to Updates Environment Mgmt, a different vulnerability than CVE-2014-0395."
+"January 15, 2014; 11:08:06 AM -05:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2014-0373,"Unspecified vulnerability in Oracle Java SE 5.0u55, 6u65, and 7u45, and OpenJDK 7, allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Serviceability.  NOTE: the previous information is from the January 2014 CPU. Oracle has not commented on third-party claims that the issue is related to throwing of an incorrect exception when SnmpStatusException should have been used in the SNMP implementation, which allows attackers to escape the sandbox."
+"January 15, 2014; 11:08:06 AM -05:00","
+                            ,V2:, ,5.5 MEDIUM,
+                        ",CVE-2013-5897,"Unspecified vulnerability in the Oracle Agile Product Lifecycle Management for Process component in Oracle Supply Chain Products Suite 6.0, 6.1, and 6.1.1 allows remote authenticated users to affect confidentiality and integrity via unknown vectors related to Manage Data Cache."
+"December 17, 2013; 10:21:23 AM -05:00","
+                            ,V2:, ,7.1 HIGH,
+                        ",CVE-2013-2814,Cooper Power Systems Cybectec DNP3 Master OPC Server allows remote attackers to cause a denial of service (unhandled exception and process crash) via unspecified vectors.
+"December 04, 2013; 03:55:05 PM -05:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2013-2825,The DNP3 service in the Outstation component on Elecsys Director Gateway devices with kernel 2.6.32.11ael1 and earlier allows remote attackers to cause a denial of service (CPU consumption and communication outage) via crafted input.
+"November 05, 2013; 01:55:04 PM -05:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2013-4438,Salt (aka SaltStack) before 0.17.1 allows remote attackers to execute arbitrary YAML code via unspecified vectors.  NOTE: the vendor states that this might not be a vulnerability because the YAML to be loaded has already been determined to be safe.
+"October 16, 2013; 02:55:03 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2013-5859,Unspecified vulnerability in the Instantis EnterpriseTrack component in Oracle Primavera Products Suite 8.0.6 and 8.5 allows remote attackers to affect confidentiality via unknown vectors.
+"October 16, 2013; 01:55:05 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2013-5836,"Unspecified vulnerability in the PeopleSoft Enterprise PeopleTools component in Oracle PeopleSoft Products 8.51, 8.52, and 8.53 allows remote attackers to affect confidentiality via unknown vectors related to Business Interlink."
+"October 16, 2013; 01:55:05 PM -04:00","
+                            ,V2:, ,6.4 MEDIUM,
+                        ",CVE-2013-5813,"Unspecified vulnerability in the Oracle WebCenter Content component in Oracle Fusion Middleware 10.1.3.5.1, 11.1.1.6.0, 11.1.1.7.0, and 11.1.1.8.0 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Content Server."
+"October 16, 2013; 11:55:34 AM -04:00","
+                            ,V2:, ,1.5 LOW,
+                        ",CVE-2013-5791,"Unspecified vulnerability in the Oracle Outside In Technology component in Oracle Fusion Middleware 8.4.0 and 8.4.1 allows context-dependent attackers to affect availability via unknown vectors related to Outside In Filters.  NOTE: the previous information is from the October 2013 CPU. Oracle has not commented on claims from a third party that the issue is a stack-based buffer overflow in the Microsoft Access 1.x parser in vsacs.dll before 8.4.0.108 and before 8.4.1.52, which allows attackers to execute arbitrary code via a long field (aka column) name."
+"October 16, 2013; 11:55:34 AM -04:00","
+                            ,V2:, ,2.1 LOW,
+                        ",CVE-2013-5770,Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.6.11 and earlier allows remote authenticated users to affect availability via unknown vectors related to Locking.
+"October 16, 2013; 11:55:33 AM -04:00","
+                            ,V2:, ,6.4 MEDIUM,
+                        ",CVE-2013-3829,"Unspecified vulnerability in the Java SE, Java SE Embedded component in Oracle Java SE Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality and integrity via unknown vectors related to Libraries."
+"September 30, 2013; 05:55:09 PM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2013-4316,"Apache Struts 2.0.0 through 2.3.15.1 enables Dynamic Method Invocation by default, which has unknown impact and attack vectors."
+"August 21, 2013; 08:17:56 AM -04:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2013-2901,"Multiple integer overflows in (1) libGLESv2/renderer/Renderer9.cpp and (2) libGLESv2/renderer/Renderer11.cpp in Almost Native Graphics Layer Engine (ANGLE), as used in Google Chrome before 29.0.1547.57, allow remote attackers to cause a denial of service or possibly have unspecified other impact via unknown vectors."
+"July 18, 2013; 12:51:40 PM -04:00","
+                            ,V2:, ,7.8 HIGH,
+                        ",CVE-2013-4778,"core/getLog.php on the Siemens Enterprise OpenScape Branch appliance and OpenScape Session Border Controller (SBC) before 2 R0.32.0, and 7 before 7 R1.7.0, allows remote attackers to obtain sensitive server and statistics information via unspecified vectors."
+"July 17, 2013; 09:41:16 AM -04:00","
+                            ,V2:, ,3.5 LOW,
+                        ",CVE-2013-3803,"Unspecified vulnerability in the Hyperion BI+ component in Oracle Hyperion 11.1.1.3, 11.1.1.4.107 and earlier, 11.1.2.1.129 and earlier, and 11.1.2.2.305 and earlier allows remote authenticated users to affect confidentiality via unknown vectors related to Intelligence Service."
+"July 17, 2013; 09:41:16 AM -04:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2013-3781,"Unspecified vulnerability in the Oracle Outside In Technology component in Oracle Fusion Middleware 8.3.7, 8.4.0, and 8.4.1 allows context-dependent attackers to affect availability via unknown vectors related to Outside In Filters, a different vulnerability than CVE-2013-3776."
+"July 17, 2013; 09:41:16 AM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2013-3759,Unspecified vulnerability in the PeopleSoft Enterprise PeopleTools component in Oracle PeopleSoft Products 8.52 and 8.53 allows remote attackers to affect integrity via vectors related to PIA Search Functionality.
+"July 10, 2013; 06:55:03 PM -04:00","
+                            ,V2:, ,6.6 MEDIUM,
+                        ",CVE-2013-2786,"Alstom Grid MiCOM S1 Agile before 1.0.3 and Alstom Grid MiCOM S1 Studio use weak permissions for the MiCOM S1 %PROGRAMFILES% directory, which allows local users to gain privileges via a Trojan horse executable file."
+"June 18, 2013; 06:55:02 PM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2013-2464,"Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 21 and earlier, 6 Update 45 and earlier, and 5.0 Update 45 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D, a different vulnerability than CVE-2013-2463, CVE-2013-2465, CVE-2013-2469, CVE-2013-2470, CVE-2013-2471, CVE-2013-2472, and CVE-2013-2473."
+"June 18, 2013; 06:55:02 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2013-2444,"Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 21 and earlier, 6 Update 45 and earlier, and 5.0 Update 45 and earlier; JavaFX 2.2.21 and earlier; and OpenJDK 7 allows remote attackers to affect availability via vectors related to AWT.  NOTE: the previous information is from the June 2013 CPU. Oracle has not commented on claims from another vendor that this issue does not ""properly manage and restrict certain resources related to the processing of fonts,"" possibly involving temporary files."
+"May 23, 2013; 01:55:02 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2011-4520,Heap-based buffer overflow in an ActiveX component in MICROSYS PROMOTIC before 8.1.5 allows remote attackers to cause a denial of service via a crafted web page.
+"April 17, 2013; 10:25:36 PM -04:00","
+                            ,V2:, ,7.1 HIGH,
+                        ",CVE-2012-4695,"LogReceiver.exe in Rockwell Automation RSLinx Enterprise CPR9, CPR9-SR1, CPR9-SR2, CPR9-SR3, CPR9-SR4, CPR9-SR5, CPR9-SR5.1, and CPR9-SR6 allows remote attackers to cause a denial of service (service outage) via a zero-byte UDP packet that is not properly handled by Logger.dll."
+"April 17, 2013; 02:55:07 PM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2013-2420,"Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and earlier, 6 Update 43 and earlier, and 5.0 Update 41 and earlier; and OpenJDK 6 and 7; allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D.  NOTE: the previous information is from the April 2013 CPU. Oracle has not commented on claims from another vendor that this issue is related to insufficient ""validation of images"" in share/native/sun/awt/image/awt_ImageRep.c, possibly involving offsets."
+"April 17, 2013; 01:55:07 PM -04:00","
+                            ,V2:, ,4.9 MEDIUM,
+                        ",CVE-2013-2413,Unspecified vulnerability in the Siebel Enterprise Application Integration component in Oracle Siebel CRM 8.1.1 and 8.2.2 allows remote authenticated users to affect confidentiality and integrity via unknown vectors related to Web Services.
+"April 17, 2013; 01:55:06 PM -04:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2013-2389,"Unspecified vulnerability in Oracle MySQL 5.1.68 and earlier, 5.5.30 and earlier, and 5.6.10 and earlier allows remote authenticated users to affect availability via unknown vectors related to InnoDB."
+"April 17, 2013; 08:19:45 AM -04:00","
+                            ,V2:, ,2.1 LOW,
+                        ",CVE-2013-1560,"Unspecified vulnerability in the Oracle FLEXCUBE Direct Banking component in Oracle Financial Services Software 2.8.0 through 4.1.0 allows remote authenticated users to affect confidentiality via vectors related to BASE, a different vulnerability than CVE-2013-2385."
+"April 17, 2013; 08:19:44 AM -04:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2013-1536,Unspecified vulnerability in the Oracle Transportation Management component in Oracle Supply Chain Products Suite 5.5.05 and 6.2 allows remote authenticated users to affect confidentiality via unknown vectors related to Security.
+"April 17, 2013; 08:19:44 AM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2013-1515,Unspecified vulnerability in the Oracle GlassFish Server component in Oracle Sun Middleware Products 3.0.1 and 3.1.2 allows remote attackers to affect integrity via vectors related to ADMIN Interface.
+"April 17, 2013; 08:14:51 AM -04:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2013-0416,"Unspecified vulnerability in the Siebel Enterprise Application Integration component in Oracle Siebel CRM 8.1.1 and 8.2.2 allows remote authenticated users to affect confidentiality via unknown vectors related to Web Services, a different vulnerability than CVE-2013-2403."
+"April 05, 2013; 05:55:00 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2013-0681,"Cogent Real-Time Systems Cogent DataHub before 7.3.0, OPC DataHub before 6.4.22, Cascade DataHub before 6.4.22 on Windows, and DataHub QuickTrend before 7.3.0 allow remote attackers to cause a denial of service (NULL pointer dereference and application crash) via malformed data in a formatted text command."
+"March 21, 2013; 10:55:01 AM -04:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2013-0669,The HMI web application in Siemens WinCC (TIA Portal) 11 allows remote authenticated users to cause a denial of service (daemon crash) via a crafted HTTP request.
+"March 08, 2013; 01:55:01 PM -05:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2013-1491,"The Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 17 and earlier, 6 Update 43 and earlier, 5.0 Update 41 and earlier, and JavaFX 2.2.7 and earlier allows remote attackers to execute arbitrary code via vectors related to 2D, as demonstrated by Joshua Drake during a Pwn2Own competition at CanSecWest 2013."
+"February 20, 2013; 04:55:02 PM -05:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2013-1484,"Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 13 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries."
+"February 01, 2013; 07:55:02 PM -05:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2013-1472,"Unspecified vulnerability in the JavaFX component in Oracle Java SE JavaFX 2.2.4 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors, a different vulnerability than other CVEs listed in the February 2013 CPU."
+"February 01, 2013; 07:55:01 PM -05:00","
+                            ,V2:, ,6.9 MEDIUM,
+                        ",CVE-2013-0430,"Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 through Update 11 and 6 through Update 38, allows local users to affect confidentiality, integrity, and availability via unknown vectors related to the installation process of the client."
+"January 27, 2013; 01:55:03 PM -05:00","
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2013-0654,"CimWebServer in GE Intelligent Platforms Proficy HMI/SCADA - CIMPLICITY 4.01 through 8.0, and Proficy Process Systems with CIMPLICITY, allows remote attackers to execute arbitrary commands or cause a denial of service (daemon crash) via a crafted packet."
+"January 16, 2013; 08:55:06 PM -05:00","
+                            ,V2:, ,2.4 LOW,
+                        ",CVE-2013-0420,"Unspecified vulnerability in the VirtualBox component in Oracle Virtualization 4.0, 4.1, and 4.2 allows local users to affect integrity and availability via unknown vectors related to Core.  NOTE: The previous information was obtained from the January 2013 Oracle CPU. Oracle has not commented on claims from another vendor that this issue is related to an incorrect comparison in the vga_draw_text function in Devices/Graphics/DevVGA.cpp, which can cause VirtualBox to ""draw more lines than necessary."""
+"January 16, 2013; 08:55:05 PM -05:00","
+                            ,V2:, ,6.6 MEDIUM,
+                        ",CVE-2013-0385,"Unspecified vulnerability in the Server component in Oracle MySQL 5.1.66 and earlier, and 5.5.28 and earlier, allows local users to affect confidentiality and integrity via unknown vectors related to Server Replication."
+"January 16, 2013; 08:55:03 PM -05:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2013-0365,Unspecified vulnerability in the Siebel CRM component in Oracle Siebel CRM 8.1.1 and 8.2.2 allows remote authenticated users to affect confidentiality via unknown vectors related to Security.
+"January 16, 2013; 08:55:02 PM -05:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2012-3219,"Unspecified vulnerability in the Enterprise Manager Base Platform component in Oracle Enterprise Manager Grid Control EM Base Platform 10.2.0.5 and 11.1.0.1; EM DB Control 10.2.0.3, 10.2.0.4, 10.2.0.5, 11.1.0.7, 11.2.0.2, and 11.2.0.3; and EM Plugin for DB 12.1.0.1 and 12.1.0.2 allows remote attackers to affect integrity via unknown vectors related to Storage Management."
+"January 16, 2013; 08:55:01 PM -05:00","
+                            ,V2:, ,3.3 LOW,
+                        ",CVE-2012-0569,Unspecified vulnerability Oracle Sun Solaris 10 allows local users to affect confidentiality and integrity via unknown vectors related to Install/smpatch.
+"December 08, 2012; 10:55:00 AM -05:00","
+                            ,V2:, ,7.6 HIGH,
+                        ",CVE-2012-4687,"Post Oak AWAM Bluetooth Reader Traffic System does not use a sufficient source of entropy for private keys, which makes it easier for man-in-the-middle attackers to spoof a device by predicting a key value."
+"November 13, 2012; 08:39:46 AM -05:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2012-1812,eosfailoverservice.exe in C3-ilex EOScada before 11.0.19.2 allows remote attackers to obtain sensitive cleartext information via a session on TCP port 12000.
+"October 17, 2012; 06:54:31 AM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2012-5063,"Unspecified vulnerability in the Oracle FLEXCUBE Universal Banking component in Oracle Financial Services Software 10.0.0, 10.0.2, 10.1.0, 10.2.0, 10.2.2, 10.3.0, 10.5.0, 11.0.0 through 11.4.0, and 12.0.0 allows remote attackers to affect integrity, related to BASE."
+"October 16, 2012; 08:55:03 PM -04:00","
+                            ,V2:, ,4.9 MEDIUM,
+                        ",CVE-2012-3208,"Unspecified vulnerability in Oracle Sun Solaris 10 and 11 allows local users to affect availability, related to Kernel/RCTL."
+"October 16, 2012; 08:55:02 PM -04:00","
+                            ,V2:, ,4.9 MEDIUM,
+                        ",CVE-2012-3186,"Unspecified vulnerability in the Oracle WebCenter Sites component in Oracle Fusion Middleware 6.1, 6.2, 6.3.x, 7, 7.0.1, 7.0.2, 7.0.3, 7.5, 7.6.1, 7.6.2, and 11.1.1.6.0 allows remote authenticated users to affect confidentiality and integrity via unknown vectors related to Advanced UI, a different vulnerability than CVE-2012-3183 and CVE-2012-3185."
+"October 16, 2012; 07:55:04 PM -04:00","
+                            ,V2:, ,2.1 LOW,
+                        ",CVE-2012-3160,"Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.65 and earlier, and 5.5.27 and earlier, allows local users to affect confidentiality via unknown vectors related to Server Installation."
+"October 16, 2012; 07:55:03 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2012-3138,"Unspecified vulnerability in the Oracle iStore component in Oracle E-Business Suite 11.5.10.2, 12.0.6, 12.1.1, 12.1.2, and 12.1.3 allows remote attackers to affect integrity via unknown vectors related to Web interface."
+"October 16, 2012; 05:55:02 PM -04:00","
+                            ,V2:, ,7.6 HIGH,
+                        ",CVE-2012-5084,"Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 7 and earlier, 6 Update 35 and earlier, 5.0 Update 36 and earlier, and 1.4.2_38 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Swing."
+"October 16, 2012; 05:55:01 PM -04:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2012-3159,"Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 7 and earlier, and 6 Update 35 and earlier, allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Deployment, a different vulnerability than CVE-2012-1533."
+"September 18, 2012; 01:55:08 PM -04:00","
+                            ,V2:, ,6.9 MEDIUM,
+                        ",CVE-2012-4425,"libgio, when used in setuid or other privileged programs in spice-gtk and possibly other products, allows local users to gain privileges and execute arbitrary code via the DBUS_SYSTEM_BUS_ADDRESS environment variable.  NOTE: it could be argued that this is a vulnerability in the applications that do not cleanse environment variables, not in libgio itself."
+"August 23, 2012; 04:55:02 PM -04:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2011-5109,"Multiple SQL injection vulnerabilities in Freelancer calendar 1.01 and earlier allow remote attackers to inject arbitrary web script or HTML via the SearchField parameter in a search action to (1) category_list.php, (2) Copy_of_calendar_list.php, (3) customer_statistics_list.php, (4) customer_list.php, and (5) task_statistics_list.php in the worldcalendar directory."
+"July 31, 2012; 06:45:42 AM -04:00","
+                            ,V2:, ,7.8 HIGH,
+                        ",CVE-2012-3017,Siemens SIMATIC S7-400 PN CPU devices with firmware 5.x allow remote attackers to cause a denial of service (defect-mode transition and service outage) via (1) malformed HTTP traffic or (2) malformed IP packets.
+"July 17, 2012; 07:55:03 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2012-3121,Unspecified vulnerability in Oracle Sun Solaris 9 and 10 allows remote attackers to affect availability via unknown vectors related to in.tnamed and NameServer.
+"July 17, 2012; 07:55:02 PM -04:00","
+                            ,V2:, ,2.1 LOW,
+                        ",CVE-2012-1769,"Unspecified vulnerability in the Oracle Outside In Technology component in Oracle Fusion Middleware 8.3.5 and 8.3.7 allows context-dependent attackers to affect availability via unknown vectors related to Outside In Filters, a different vulnerability than CVE-2012-1766, CVE-2012-1767, CVE-2012-1770, CVE-2012-1771, CVE-2012-1772, CVE-2012-1773, CVE-2012-3106, CVE-2012-3107, CVE-2012-3108, and CVE-2012-3110."
+"July 17, 2012; 06:55:02 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2012-1746,"Unspecified vulnerability in the Network Layer component in Oracle Database Server 10.2.0.3, 10.2.0.4, 10.2.0.5, 11.1.0.7, 11.2.0.2, and 11.2.0.3, when running on Windows, allows remote attackers to affect availability via unknown vectors, a different vulnerability than CVE-2012-1747."
+"July 17, 2012; 06:55:01 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2012-1715,"Unspecified vulnerability in the Oracle Application Object Library component in Oracle E-Business Suite 11.5.10.2, 12.0.6, and 12.1.3 allows remote attackers to affect integrity, related to HTML Pages."
+"July 03, 2012; 06:55:02 PM -04:00","
+                            ,V2:, ,6.5 MEDIUM,
+                        ",CVE-2012-3834,SQL injection vulnerability in forensics/base_qry_main.php in AlienVault Open Source Security Information Management (OSSIM) 3.1 allows remote authenticated users to execute arbitrary SQL commands via the time[0][0] parameter.
+"June 16, 2012; 05:55:03 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2012-1718,"Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 update 4 and earlier, 6 update 32 and earlier, 5 update 35 and earlier, and 1.4.2_37 and earlier allows remote attackers to affect availability via unknown vectors related to Security."
+"June 07, 2012; 03:55:09 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2012-2667,"Session fixation vulnerability in lib/user/sfBasicSecurityUser.class.php in SensioLabs Symfony before 1.4.18 allows remote attackers to hijack web sessions via vectors related to the regenerate method and unspecified ""database backed session classes."""
+"May 03, 2012; 06:55:02 PM -04:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2012-1703,"Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.1.61 and earlier, and 5.5.21 and earlier, allows remote authenticated users to affect availability via unknown vectors related to Server Optimizer, a different vulnerability than CVE-2012-1690."
+"May 03, 2012; 06:55:01 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2012-0580,"Unspecified vulnerability in the Oracle Agile PLM for Process component in Oracle Supply Chain Products Suite 5.2.2, 6.0.0, and 6.1.1 allows remote attackers to affect integrity via unknown vectors related to Supplier Portal."
+"May 03, 2012; 02:55:01 PM -04:00","
+                            ,V2:, ,9.0 HIGH,
+                        ",CVE-2012-0552,"Unspecified vulnerability in the Oracle Spatial component in Oracle Database Server 10.2.0.3, 10.2.0.4, 10.2.0.5, 11.1.0.7, 11.2.0.2, and 11.2.0.3 allows remote authenticated users to affect confidentiality, integrity, and availability via unknown vectors."
+"May 03, 2012; 01:55:02 PM -04:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2012-0530,Unspecified vulnerability in the PeopleSoft Enterprise SCM component in Oracle PeopleSoft Products 9.0 and 9.1 allows remote authenticated users to affect integrity via unknown vectors related to eProcurement.
+"May 03, 2012; 01:55:01 PM -04:00","
+                            ,V2:, ,3.5 LOW,
+                        ",CVE-2012-0509,Unspecified vulnerability in the Oracle FLEXCUBE Direct Banking component in Oracle Financial Services Software 5.0.2 and 5.3.0 through 5.3.4 allows remote authenticated users to affect integrity via unknown vectors related to Core-Base.
+"April 13, 2012; 01:55:01 PM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2012-1805,"Buffer overflow in the ECOM Ethernet module in Koyo H0-ECOM, H0-ECOM100, H2-ECOM, H2-ECOM-F, H2-ECOM100, H4-ECOM, H4-ECOM-F, and H4-ECOM100 allows remote attackers to execute arbitrary code via long strings in unspecified parameters."
+"April 02, 2012; 06:46:44 AM -04:00","
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2012-0246,Directory traversal vulnerability in an unspecified ActiveX control in Ecava IntegraXor before 3.71.4200 allows remote attackers to execute arbitrary code via vectors involving an HTML document on the server.
+"February 21, 2012; 08:31:57 AM -05:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2012-0238,Stack-based buffer overflow in opcImg.asp in Advantech/BroadWin WebAccess before 7.0 allows remote attackers to execute arbitrary code via unspecified vectors.
+"February 15, 2012; 05:55:01 PM -05:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2012-0503,"Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, 5.0 Update 33 and earlier, and 1.4.2_35 and earlier allows remote untrusted Java Web Start applications and untrusted Java applets to affect confidentiality, integrity, and availability, related to I18n."
+"February 03, 2012; 03:55:01 PM -05:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2011-4512,"CRLF injection vulnerability in the HMI web server in Siemens WinCC flexible 2004, 2005, 2007, and 2008 before SP3; WinCC V11 (aka TIA portal) before SP2 Update 1; the TP, OP, MP, Comfort Panels, and Mobile Panels SIMATIC HMI panels; WinCC V11 Runtime Advanced; and WinCC flexible Runtime allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors."
+"January 18, 2012; 05:55:07 PM -05:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2012-0490,"Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.0.x, 5.1.x, and 5.5.x allows remote authenticated users to affect availability via unknown vectors."
+"January 18, 2012; 05:55:06 PM -05:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2012-0104,Unspecified vulnerability in Oracle GlassFish Enterprise Server 3.0.1 and 3.1.1 allows remote attackers to affect availability via unknown vectors related to Web Container.
+"January 18, 2012; 05:55:04 PM -05:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2012-0079,Unspecified vulnerability in Oracle OpenSSO 7.1 and 8.0 allows remote attackers to affect integrity via unknown vectors related to Administration.
+"January 18, 2012; 05:55:03 PM -05:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2011-3509,"Unspecified vulnerability in the EnterpriseOne Tools component in Oracle JD Edwards 8.98 SP 24 allows remote authenticated users to affect confidentiality, related to Enterprise Infrastructure SEC (JDENET), a different vulnerability than CVE-2011-2325, CVE-2011-2326, and CVE-2011-3524."
+"December 30, 2011; 02:55:01 PM -05:00","
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2011-5046,"The Graphics Device Interface (GDI) in win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly validate user-mode input, which allows remote attackers to execute arbitrary code or cause a denial of service (memory corruption) via crafted data, as demonstrated by a large height attribute of an IFRAME element rendered by Safari, aka ""GDI Access Violation Vulnerability."""
+"December 02, 2011; 06:55:05 AM -05:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2011-4035,"Cross-site scripting (XSS) vulnerability in Schneider Electric Vijeo Historian 4.30 and earlier, CitectHistorian 4.30 and earlier, and CitectSCADAReports 4.10 and earlier allows remote attackers to inject arbitrary web script or HTML via unspecified vectors."
+"October 19, 2011; 05:55:01 PM -04:00","
+                            ,V2:, ,3.5 LOW,
+                        ",CVE-2011-3553,"Unspecified vulnerability in the Java Runtime Environment component in Oracle Java SE JDK and JRE 7, 6 Update 27 and earlier, and JRockit R28.1.4 and earlier allows remote authenticated users to affect confidentiality, related to JAXWS."
+"October 18, 2011; 06:55:04 PM -04:00","
+                            ,V2:, ,2.1 LOW,
+                        ",CVE-2011-3536,"Unspecified vulnerability in Oracle Solaris 10 allows local users to affect availability, related to DTrace Software Library (libdtrace)."
+"October 18, 2011; 06:55:03 PM -04:00","
+                            ,V2:, ,3.6 LOW,
+                        ",CVE-2011-3511,"Unspecified vulnerability in the Database Vault component in Oracle Database Server 10.2.0.3, 10.2.0.4, 10.2.0.5, 11.1.0.7, and 11.2.0.2 allows remote authenticated users to affect integrity and availability via unknown vectors related to Privileged Account."
+"October 18, 2011; 06:55:01 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2011-2304,"Unspecified vulnerability in Oracle Solaris 10 allows remote attackers to affect confidentiality, related to Network Services Library (libnsl)."
+"September 16, 2011; 01:26:14 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2011-3502,The web server in Cogent DataHub 7.1.1.63 and earlier allows remote attackers to obtain the source code of executable files via a request with a trailing (1) space or (2) %2e (encoded dot).
+"September 02, 2011; 12:55:06 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2011-3132,"Cross-site scripting (XSS) vulnerability in TIBCO Spotfire Server 3.0.x before 3.0.2, 3.1.x before 3.1.2, 3.2.x before 3.2.1, and 3.3.x before 3.3.1, and Spotfire Analytics Server before 10.1.1, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors."
+"July 20, 2011; 08:55:02 PM -04:00","
+                            ,V2:, ,6.2 MEDIUM,
+                        ",CVE-2011-2305,"Unspecified vulnerability in Oracle VM VirtualBox 4.0 allows local users to affect confidentiality, integrity, and availability via unknown vectors."
+"July 20, 2011; 08:55:01 PM -04:00","
+                            ,V2:, ,5.5 MEDIUM,
+                        ",CVE-2011-2279,"Unspecified vulnerability in the PeopleSoft Enterprise HRMS component in Oracle PeopleSoft Products 9.1, Bundle, and #6 allows remote authenticated users to affect confidentiality and integrity via unknown vectors related to Talent Acquisition Manager."
+"July 20, 2011; 07:55:01 PM -04:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2011-2248,"Unspecified vulnerability in the SQL Performance Advisories/UIs component in Oracle Database Server 11.1.0.7, 11.2.0.1, and 11.2.0.2; and Oracle Enterprise Manager Grid Control 10.1.0.6, 10.2.0.5, and 11.1.0.1; allows remote attackers to affect confidentiality, integrity, and availability, related to SQL Details UI & Explain Plan."
+"July 20, 2011; 06:55:01 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2011-0877,"Unspecified vulnerability in the Instance Management component in Oracle Database Server 10.1.0.5, 10.2.0.3, and 10.2.0.4, and Oracle Enterprise Manager Grid Control 10.1.0.6, allows remote attackers to affect integrity via unknown vectors."
+"June 14, 2011; 02:55:02 PM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2011-0873,"Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 6 Update 25 and earlier, and 5.0 Update 29 and earlier, allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D."
+"May 04, 2011; 10:39:46 PM -04:00","
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2011-1207,"The ActiveBar1 ActiveX control in the Data Dynamics ActiveBar ActiveX controls, as distributed in ActBar.ocx 1.0.6.5 in IBM Rational System Architect 11.4.0.2, 11.4.0.1, and earlier, does not properly restrict the SetLayoutData method, which allows remote attackers to execute arbitrary code via a crafted Data argument, a different vulnerability than CVE-2007-3883.  NOTE: some of these details are obtained from third party information."
+"April 20, 2011; 06:55:01 AM -04:00","
+                            ,V2:, ,7.8 HIGH,
+                        ",CVE-2011-0841,"Unspecified vulnerability in Oracle Solaris 11 Express allows remote attackers to affect availability, related to TCP/IP."
+"April 20, 2011; 06:55:01 AM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2011-0810,"Unspecified vulnerability Oracle JD Edwards EnterpriseOne Tools 8.9 GA through 8.98.4.1 and OneWorld Tools through 24.1.3 allows remote attackers to affect availability, related to Enterprise Infrastructure SEC."
+"April 19, 2011; 11:14:04 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2011-0789,Unspecified vulnerability in the Oracle HTTP Server component in Oracle Fusion Middleware 10.1.2.3 allows remote attackers to affect integrity via unknown vectors.
+"February 18, 2011; 03:00:09 PM -05:00","
+                            ,V2:, ,7.8 HIGH,
+                        ",CVE-2011-0709,"The br_mdb_ip_get function in net/bridge/br_multicast.c in the Linux kernel before 2.6.35-rc5 allows remote attackers to cause a denial of service (NULL pointer dereference and system crash) via an IGMP packet, related to lack of a multicast table."
+"February 17, 2011; 02:00:01 PM -05:00","
+                            ,V2:, ,2.6 LOW,
+                        ",CVE-2010-4448,"Unspecified vulnerability in the Java Runtime Environment (JRE) in Oracle Java SE and Java for Business 6 Update 23 and earlier, 5.0 Update 27 and earlier, and 1.4.2_29 earlier allows remote untrusted Java Web Start applications and untrusted Java applets to affect integrity via unknown vectors related to Networking.  NOTE: the previous information was obtained from the February 2011 CPU.  Oracle has not commented on claims from a downstream vendor that this issue involves ""DNS cache poisoning by untrusted applets."""
+"January 19, 2011; 12:00:02 PM -05:00","
+                            ,V2:, ,3.6 LOW,
+                        ",CVE-2010-4460,Unspecified vulnerability in Oracle Solaris 10 allows local users to affect confidentiality and integrity via unknown vectors related to Fault Manager Daemon.
+"January 19, 2011; 12:00:02 PM -05:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2010-4434,Unspecified vulnerability in the PeopleSoft Enterprise PeopleTools component in Oracle PeopleSoft and JDEdwards Suite 8.50.0 through 8.50.14 and 8.51.0 through 8.51.04 allows remote authenticated users to affect confidentiality via unknown vectors related to Portal.
+"January 19, 2011; 11:00:03 AM -05:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2010-4413,"Unspecified vulnerability in the Scheduler Agent component in Oracle Database Server 11.1.0.7 and 11.2.0.1 allows remote authenticated users to affect confidentiality, integrity, and availability via unknown vectors."
+"January 13, 2011; 02:00:04 PM -05:00","
+                            ,V2:, ,2.1 LOW,
+                        ",CVE-2010-4529,Integer underflow in the irda_getsockopt function in net/irda/af_irda.c in the Linux kernel before 2.6.37 on platforms other than x86 allows local users to obtain potentially sensitive information from kernel heap memory via an IRLMP_ENUMDEVICES getsockopt call.
+"December 16, 2010; 02:33:02 PM -05:00","
+                            ,V2:, ,9.3 HIGH,
+                        ",CVE-2010-3947,"Heap-based buffer overflow in the TIFF image converter in the graphics filters in Microsoft Office XP SP3, Office Converter Pack, and Works 9 allows remote attackers to execute arbitrary code via a crafted TIFF image in an Office document, aka ""TIFF Image Converter Heap Overflow Vulnerability."""
+"November 03, 2010; 04:00:04 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2010-4155,"Multiple cross-site scripting (XSS) vulnerabilities in eXV2 CMS 2.10 allow remote attackers to inject arbitrary web script or HTML via the (1) rssfeedURL parameter to manual/caferss/example.php and the sumb parameter to (2) modules/news/archive.php, (3) modules/news/topics.php, and (4) modules/contact/index.php, different vectors than CVE-2007-1965."
+"October 19, 2010; 06:00:03 PM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2010-3556,"Unspecified vulnerability in the 2D component in Oracle Java SE and Java for Business 6 Update 21, 5.0 Update 25, 1.4.2_27, and 1.3.1_28 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors."
+"October 14, 2010; 02:00:17 PM -04:00","
+                            ,V2:, ,6.4 MEDIUM,
+                        ",CVE-2010-3575,"Unspecified vulnerability in the Oracle Communications Messaging Server (Sun Java System Messaging Server) component in Oracle Sun Products Suite 6.0, 6.2, 6.3, and 7.0 allows remote attackers to affect confidentiality and integrity via unknown vectors related to Web Mail."
+"October 14, 2010; 02:00:16 PM -04:00","
+                            ,V2:, ,5.5 MEDIUM,
+                        ",CVE-2010-3527,"Unspecified vulnerability in the PeopleSoft Enterprise FMS - AM component in Oracle PeopleSoft and JDEdwards Suite 8.9 Bundle #38, 9.0 Bundle #31, and 9.1 Bundle #6 allows remote authenticated users to affect integrity and availability via unknown vectors."
+"October 13, 2010; 10:00:02 PM -04:00","
+                            ,V2:, ,3.0 LOW,
+                        ",CVE-2010-3506,Unspecified vulnerability in the Oracle Explorer (Sun Explorer) component in Oracle Sun Products Suite 6.4 allows local users to affect confidentiality and integrity via unknown vectors.
+"October 13, 2010; 08:00:21 PM -04:00","
+                            ,V2:, ,6.0 MEDIUM,
+                        ",CVE-2010-2405,"Unspecified vulnerability in the Siebel Core - Highly Interactive Client component in Oracle Siebel Suite 7.7.2.12, 7.8.2.14, 8.0.0.10, and 8.1.1.3 allows remote authenticated users to affect confidentiality, integrity, and availability via unknown vectors, a different vulnerability than CVE-2010-3500."
+"August 16, 2010; 04:00:01 PM -04:00","
+                            ,V2:, ,2.1 LOW,
+                        ",CVE-2009-4269,"The password hash generation algorithm in the BUILTIN authentication functionality for Apache Derby before 10.6.1.0 performs a transformation that reduces the size of the set of inputs to SHA-1, which produces a small search space that makes it easier for local and possibly remote attackers to crack passwords by generating hash collisions, related to password substitution."
+"July 13, 2010; 06:30:02 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2010-2380,"Unspecified vulnerability in the PeopleSoft Enterprise FSCM component in Oracle PeopleSoft and JDEdwards Suite SCM 8.9 Bundle #37, SCM 9.0 Bundle #30, and SCM 9.1 Bundle #4 allows local users to affect confidentiality, integrity, and availability via unknown vectors."
+"July 13, 2010; 06:30:02 PM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2010-0907,"Unspecified vulnerability in Oracle Secure Backup 10.3.0.1 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors, a different vulnerability than CVE-2010-0898, CVE-2010-0899, CVE-2010-0904, and CVE-2010-0906."
+"July 13, 2010; 02:30:02 PM -04:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2010-2721,SQL injection vulnerability in index.php in RightInPoint Lyrics Script 3.0 allows remote attackers to execute arbitrary SQL commands via the artist_id parameter in an addalbum action.
+"May 03, 2010; 09:51:53 AM -04:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2010-1653,Directory traversal vulnerability in graphics.php in the Graphics (com_graphics) component 1.0.6 and 1.5.0 for Joomla! allows remote attackers to include and execute arbitrary local files via a .. (dot dot) in the controller parameter to index.php.  NOTE: some of these details are obtained from third party information.
+"April 13, 2010; 06:30:01 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2010-0877,Unspecified vulnerability in the PeopleTools component in Oracle PeopleSoft Enterprise and JD Edwards EnterpriseOne 8.49.26 and 8.50.07 allows remote attackers to affect integrity via unknown vectors.
+"April 13, 2010; 06:30:00 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2010-0856,Unspecified vulnerability in the Portal component in Oracle Fusion Middleware 10.1.2.3 and 10.1.4.2 allows remote attackers to affect availability via unknown vectors.
+"April 01, 2010; 12:30:00 PM -04:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2010-0838,"Unspecified vulnerability in the Java 2D component in Oracle Java SE and Java for Business 6 Update 18, 5.0, Update, and 23 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors.  NOTE: the previous information was obtained from the March 2010 CPU.  Oracle has not commented on claims from a reliable researcher that this is a stack-based buffer overflow using an untrusted size value in the readMabCurveData function in the CMM module in the JVM."
+"February 26, 2010; 02:30:00 PM -05:00","
+                            ,V2:, ,3.5 LOW,
+                        ",CVE-2010-0716,"_layouts/Upload.aspx in the Documents module in Microsoft SharePoint before 2010 uses URLs with the same hostname and port number for a web site's primary files and individual users' uploaded files (aka attachments), which allows remote authenticated users to leverage same-origin relationships and conduct cross-site scripting (XSS) attacks by uploading TXT files, a related issue to CVE-2008-5026. NOTE: the vendor disputes the significance of this issue, because cross-domain isolation can be implemented when needed."
+"January 12, 2010; 08:30:01 PM -05:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2010-0071,"Unspecified vulnerability in the Listener component in Oracle Database 9.2.0.8, 9.2.0.8DV, 10.1.0.5, 10.2.0.4, and 11.1.0.7 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors."
+"November 09, 2009; 02:30:00 PM -05:00","
+                            ,V2:, ,7.8 HIGH,
+                        ",CVE-2009-3726,"The nfs4_proc_lock function in fs/nfs/nfs4proc.c in the NFSv4 client in the Linux kernel before 2.6.31-rc4 allows remote NFS servers to cause a denial of service (NULL pointer dereference and panic) by sending a certain response containing incorrect file attributes, which trigger attempted use of an open file that lacks NFSv4 state."
+"October 22, 2009; 02:30:00 PM -04:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2009-3404,Unspecified vulnerability in the PeopleSoft PeopleTools & Enterprise Portal component in Oracle PeopleSoft Enterprise and JD Edwards EnterpriseOne 8.49.23 allows remote authenticated users to affect integrity via unknown vectors.
+"October 22, 2009; 02:30:00 PM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2009-1992,"Unspecified vulnerability in the Core RDBMS component in Oracle Database 9.2.0.8, 10.1.0.5, and 10.2.0.4 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors."
+"September 14, 2009; 10:30:00 AM -04:00","
+                            ,V2:, ,6.0 MEDIUM,
+                        ",CVE-2008-7238,Multiple unspecified vulnerabilities in Oracle E-Business Suite 12.0.3 allow (1) local users to affect confidentiality and integrity via unknown vectors related to the Mobile Application Server component (APP01); (2) remote attackers to affect confidentiality via unknown vectors related to the Oracle Applications Framework (APP03); remote authenticated users to affect confidentiality and integrity via unknown vectors related to the (3) CRM Technical Foundation (APP05) and (4) Oracle Application Object Library (APP06); and remote authenticated users to affect integrity and availability via unknown vectors related to (5) Oracle Applications Technology Stack (APP07).
+"August 05, 2009; 03:30:01 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2009-2670,"The audio system in Sun Java Runtime Environment (JRE) in JDK and JRE 6 before Update 15, and JDK and JRE 5.0 before Update 20, does not prevent access to java.lang.System properties by (1) untrusted applets and (2) Java Web Start applications, which allows context-dependent attackers to obtain sensitive information by reading these properties."
+"July 14, 2009; 07:30:00 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2009-1968,Unspecified vulnerability in the Secure Enterprise Search component in Oracle Database 10.1.8.3 allows remote attackers to affect integrity via unknown vectors.  NOTE: the previous information was obtained from the July 2009 CPU.  Oracle has not commented on claims from an established researcher that this is cross-site scripting (XSS) via the search_p_groups parameter in search/query/search.
+"May 13, 2009; 11:30:00 AM -04:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2009-0155,"Integer underflow in CoreGraphics in Apple Mac OS X 10.5 before 10.5.7, iPhone OS 1.0 through 2.2.1, and iPhone OS for iPod touch 1.1 through 2.2.1 allows remote attackers to execute arbitrary code or cause a denial of service (application crash) via a crafted PDF file that triggers a heap-based buffer overflow."
+"April 15, 2009; 06:30:00 AM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2009-1003,"Unspecified vulnerability in the WebLogic Server component in BEA Product Suite 10.3, 10.0 MP1, 9.2 MP3, 9.1, and 9.0 allows remote attackers to affect integrity via unknown vectors related to ""access to source code of web pages."""
+"April 15, 2009; 06:30:00 AM -04:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2009-0982,Unspecified vulnerability in the PeopleSoft Enterprise PeopleTools component in Oracle PeopleSoft Enterprise and JD Edwards EnterpriseOne 8.49.19 allows remote authenticated users to affect integrity via unknown vectors.
+"March 25, 2009; 07:30:00 PM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2009-1094,Unspecified vulnerability in the LDAP implementation in Java SE Development Kit (JDK) and Java Runtime Environment (JRE) 5.0 Update 17 and earlier; 6 Update 12 and earlier; SDK and JRE 1.3.1_24 and earlier; and 1.4.2_19 and earlier allows remote LDAP servers to execute arbitrary code via unknown vectors related to serialized data.
+"February 02, 2009; 08:30:00 PM -05:00","
+                            ,V2:, ,7.8 HIGH,
+                        ",CVE-2009-0396,"The Sony Ericsson W910i, W660i, K618i, K610i, Z610i, K810i, K660i, W880i, and K530i phones allow remote attackers to cause a denial of service (device reboot or hang-up) via a malformed WAP Push packet to (1) SMS or (2) UDP port 2948."
+"January 13, 2009; 09:30:00 PM -05:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2008-5438,Unspecified vulnerability in the Oracle Portal component in Oracle Application Server 10.1.2.3 and 10.1.4.2 allows remote attackers to affect integrity via unknown vectors.
+"January 13, 2009; 08:30:00 PM -05:00","
+                            ,V2:, ,5.5 MEDIUM,
+                        ",CVE-2008-3979,Unspecified vulnerability in the Oracle Spatial component in Oracle Database 10.1.0.5 and 10.2.0.2 allows remote authenticated users to affect confidentiality and integrity via unknown vectors.  NOTE: the previous information was obtained from the January 2009 CPU.  Oracle has not commented on reliable researcher claims that this issue is a SQL injection vulnerability that allows remote authenticated users to gain MDSYS privileges via the MDSYS.SDO_TOPO_DROP_FTBL trigger.
+"October 23, 2008; 04:00:01 PM -04:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2008-4717,SQL injection vulnerability in bannerclick.php in ZEELYRICS 2.0 allows remote attackers to execute arbitrary SQL commands via the adid parameter.
+"October 14, 2008; 05:11:11 PM -04:00","
+                            ,V2:, ,3.5 LOW,
+                        ",CVE-2008-3993,Unspecified vulnerability in the Oracle Applications Framework component in Oracle E-Business Suite 11.5.10.2 and 12.0.4 allows remote authenticated users to affect integrity via unknown vectors.
+"October 14, 2008; 04:00:01 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2008-4551,"strongSwan 4.2.6 and earlier allows remote attackers to cause a denial of service (daemon crash) via an IKE_SA_INIT message with a large number of NULL values in a Key Exchange payload, which triggers a NULL pointer dereference for the return value of the mpz_export function in the GNU Multiprecision Library (GMP)."
+"July 15, 2008; 07:41:00 PM -04:00","
+                            ,V2:, ,4.6 MEDIUM,
+                        ",CVE-2008-2577,Unspecified vulnerability in the WebLogic Server component in Oracle BEA Product Suite 9.2 MP1 has unknown impact and remote authenticated attack vectors.
+"July 15, 2008; 07:41:00 PM -04:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2008-2599,"Unspecified vulnerability in the TimesTen Client/Server component in Oracle Times Ten In-Memory Database 7.0.3.0.0 has unknown impact and remote attack vectors, a different vulnerability than CVE-2008-2597 and CVE-2008-2598."
+"July 15, 2008; 07:41:00 PM -04:00","
+                            ,V2:, ,6.5 MEDIUM,
+                        ",CVE-2008-2620,"Unspecified vulnerability in the PeopleSoft PeopleTools component in Oracle PeopleSoft Enterprise and JD Edwards EnterpriseOne 8.48.17 and 8.49.11 has unknown impact and remote authenticated attack vectors, a different vulnerability than CVE-2008-2615, CVE-2008-2616, CVE-2008-2617, CVE-2008-2618, CVE-2008-2621, and CVE-2008-2622."
+"May 22, 2008; 09:09:00 AM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2008-2006,"Apple iCal 3.0.1 on Mac OS X allows remote CalDAV servers, and user-assisted remote attackers, to cause a denial of service (NULL pointer dereference and application crash) or possibly execute arbitrary code via a .ics file containing (1) a large 16-bit integer on a TRIGGER line, or (2) a large integer in a COUNT field on an RRULE line."
+"April 16, 2008; 06:05:00 AM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2008-1827,"Multiple unspecified vulnerabilities in Oracle E-Business Suite 11.5.10.2 and 12.0.4 have unknown impact and attack vectors related to (a) Advanced Pricing component, aka (1) APP02, (2) APP03, and (3) APP09; (b) Application Object Library component, aka (4) APP04, (5) APP07, and (6) APP11; (c) Applications Manager component, aka (7) APP06; (d) and Applications Technology Stack component, aka (8) APP08."
+"January 17, 2008; 06:00:00 PM -05:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2008-0347,"Unspecified vulnerability in the Oracle Ultra Search component in Oracle Collaboration Suite 10.1.2; Database 9.2.0.8, 10.1.0.5, and 10.2.0.3; and Application Server 9.0.4.3 and 10.1.2.0.2; has unknown impact and local attack vectors, aka OCS01.  NOTE: Oracle has not disputed a reliable claim that this issue is related to WKSYS schema privileges."
+"October 17, 2007; 07:17:00 PM -04:00","
+                            ,V2:, ,6.5 MEDIUM,
+                        ",CVE-2007-5508,"Multiple SQL injection vulnerabilities in the CTXSYS Intermedia application for the Oracle Text component (CTX_DOC) in Oracle Database 10.1.0.5 and 10.2.0.3 allow remote authenticated users to execute arbitrary SQL commands via the (1) THEMES, (2) GIST, (3) TOKENS, (4) FILTER, (5) HIGHLIGHT, and (6) MARKUP procedures, aka DB03.  NOTE: remote unauthenticated attack vectors exist when CTXSYS is used with oracle Application Server."
+"October 17, 2007; 07:17:00 PM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2007-5528,Multiple unspecified vulnerabilities in Oracle E-Business Suite 12.0.2 have unknown impact and attack vectors related to (1) Public Sector Human Resources (APP03) and (2) Quoting component (APP06).
+"August 07, 2007; 09:17:00 PM -04:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2007-4197,"icat in Brian Carrier The Sleuth Kit (TSK) before 2.09 omits NULL pointer checks in certain code paths, which allows user-assisted remote attackers to cause a denial of service (NULL dereference and application crash) and prevent examination of certain NTFS files via a malformed NTFS image."
+"July 18, 2007; 03:30:00 PM -04:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2007-3858,Multiple unspecified vulnerabilities in Oracle Database 10.2.0.3 allow remote authenticated users to have an unknown impact via (1) EXFSYS.DBMS_RLMGR_UTL in Rules Manager (DB11) and (2) Program Interface (DB13).
+"June 28, 2007; 02:30:00 PM -04:00","
+                            ,V2:, ,2.6 LOW,
+                        ",CVE-2007-3474,Multiple unspecified vulnerabilities in the GIF reader in the GD Graphics Library (libgd) before 2.0.35 have unspecified impact and user-assisted remote attack vectors.
+"April 18, 2007; 02:19:00 PM -04:00","
+                            ,V2:, ,6.0 MEDIUM,
+                        ",CVE-2007-2109,"Multiple unspecified vulnerabilities in Oracle Database 10.2.0.3 have unknown impact and remote authenticated attack vectors related to (1) Rules Manager and Expression Filter components (DB02) and (2) Oracle Streams (DB06).  Note: as of 20070424, Oracle has not disputed reliable claims that DB02 is for a race condition in the RLMGR_TRUNCATE_MAINT trigger in the Rules Manager and Expression Filter components changing the AUTHID of a package from DEFINER to CURRENT_USER after a TRUNCATE call, and DB06 is for SQL injection in the DBMS_APPLY_USER_AGENT.SET_REGISTRATION_HANDLER procedure, which is later passed to the DBMS_APPLY_ADM_INTERNAL.ALTER_APPLY procedure, aka ""Oracle Streams""."
+"April 18, 2007; 02:19:00 PM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2007-2129,"Unspecified vulnerability in the Agent component in Oracle Enterprise Manager 9.2.0.8 has unknown impact and remote attack vectors, aka EM01."
+"February 26, 2007; 03:28:00 PM -05:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2007-0008,"Integer underflow in the SSLv2 support in Mozilla Network Security Services (NSS) before 3.11.5, as used by Firefox before 1.5.0.10 and 2.x before 2.0.0.2, SeaMonkey before 1.0.8, Thunderbird before 1.5.0.10, and certain Sun Java System server products before 20070611, allows remote attackers to execute arbitrary code via a crafted SSLv2 server message containing a public key that is too short to encrypt the ""Master Secret"", which results in a heap-based overflow."
+"January 16, 2007; 09:28:00 PM -05:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2007-0281,"Multiple unspecified vulnerabilities in Oracle HTTP Server 9.0.1.5, 9.2.0.8, 10.1.0.5, and 10.2.0.3; Application Server 9.0.4.3, 10.1.2.0.0, 10.1.2.0.1, 10.1.2.0.2, 10.1.2.1, and 10.1.3.0; and Collaboration Suite 9.0.4.2 and 10.1.2; have unknown impact and attack vectors related to the Oracle HTTP Server, aka (1) OHS03 and (2) OHS04."
+"January 05, 2007; 06:28:00 AM -05:00","
+                            ,V2:, ,6.0 MEDIUM,
+                        ",CVE-2007-0085,"Unspecified vulnerability in sys/dev/pci/vga_pci.c in the VGA graphics driver for wscons in OpenBSD 3.9 and 4.0, when the kernel is compiled with the PCIAGP option and a non-AGP device is being used, allows local users to gain privileges via unspecified vectors, possibly related to agp_ioctl NULL pointer reference."
+"November 17, 2006; 07:07:00 PM -05:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2006-5970,"Verity Ultraseek before 5.7 allows remote attackers to obtain sensitive information via direct requests with (1) a null (""%00"") terminated url parameter to help/urlstatusgo.html; or missing parameters to (2) help/header.html, (3) help/footer.html, (4) spell.html, (5) coreforma.html, (6) daterange.html, (7) hits.html, (8) hitsnavbottom.html, (9) indexform.html, (10) indexforma.html, (11) languages.html, (12) nohits.html, (13) onehit1.html, (14) onehit2.html, (15) query.html, (16) queryform0.html, (17) queryform0a.html, (18) queryform1.html, (19) queryform1a.html, (20) queryform2.html, (21) queryform2a.html, (22) quicklinks.html, (23) relatedtopics.html, (24) signin.html, (25) subtopics.html, (26) thesaurus.html, (27) topics.html, (28) hitspagebar.html, (29) highlight/highlight.html, (30) highlight/highlight_one.html, and (31) highlight/topnav.html, which leaks the installation path in the resulting error message."
+"October 17, 2006; 09:07:00 PM -04:00","
+                            ,V2:, ,9.0 HIGH,
+                        ",CVE-2006-5345,"Unspecified vulnerability in Oracle Spatial component in Oracle Database 9.0.1.5, 9.2.0.7, and 10.1.0.4 has unknown impact and remote authenticated attack vectors related to mdsys.sdo_geom, aka Vuln# DB22.  NOTE: as of 20061023, Oracle has not disputed reports from reliable third parties that DB22 is related to ""length checking"" in the RELATE function before MD2.RELATE is called."
+"October 17, 2006; 09:07:00 PM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2006-5365,"Unspecified vulnerability in Oracle Forms in Oracle Application Server 9.0.4.3 and 10.1.2.0.2, and E-Business Suite and Applications 11.5.10CU2, has unknown impact and remote attack vectors, aka Vuln# FORM02."
+"September 25, 2006; 10:07:00 PM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2006-4986,"Grayscale BandSite CMS allows remote attackers to obtain sensitive information via a direct request for (1) certain files in the includes/content directory, (2) includes/shows_preview.php, and (3) adminpanel/configform.php; and files in adminpanel/includes/ including (4) mailinglist/disphtmltbl.php, (5) mailinglist/dispxls.php, (6) mailinglist/sendshows.php, (7) previews/preview_bio.php, (8) previews/preview_genmerch.php, (9) previews/preview_fliers.php, (10) previews/preview_gbook.php, (11) previews/preview_interviews.php, (12) previews/preview_links.php, (13) previews/preview_lyrics.php, (14) previews/preview_membio.php, (15) previews/preview_merchphotos.php, (16) previews/preview_mp3s.php, (17) previews/preview_news.php, (18) previews/preview_photos.php, (19) previews/preview_releases.php, (20) previews/preview_relmerch.php, (21) previews/preview_relphotos.php, (22) previews/preview_reviews.php, (23) previews/preview_shows.php, (24) previews/preview_wearmerch.php, (25) change_forms/change_bio.php, (26) change_forms/change_fliers.php, (27) change_forms/change_gbook.php, (28) change_forms/change_gen_merch.php, (29) change_forms/change_interview.php, (30) change_forms/change_links.php, (31) change_forms/change_lyrics.php, (32) change_forms/change_members.php, (33) change_forms/change_merch.php, (34) change_forms/change_merch_pic.php, (35) change_forms/change_mp3s.php, (36) change_forms/change_news.php, (37) change_forms/change_photos.php, (38) change_forms/change_rel_merch.php, (39) change_forms/change_rel_pic.php, (40) change_forms/change_releases.php, (41) change_forms/change_reviews.php, (42) change_forms/change_shows.php, and (43) change_forms/change_wear_merch.php, which reveals the path in various error messages."
+"July 21, 2006; 10:03:00 AM -04:00","
+                            ,V2:, ,9.0 HIGH,
+                        ",CVE-2006-3699,"Unspecified vulnerability in the Core RDBMS component in Oracle Database 9.0.1.5 and 9.2.0.6 has unknown impact and attack vectors, aka Oracle Vuln# DB02."
+"July 21, 2006; 10:03:00 AM -04:00","
+                            ,V2:, ,5.5 MEDIUM,
+                        ",CVE-2006-3719,"Unspecified vulnerability in CORE: Repository for Oracle Enterprise Manager 9.0.1.0 and 9.2.0.1 has unknown impact and attack vectors, aka Oracle Vuln# EM01."
+"May 31, 2006; 06:06:00 AM -04:00","
+                            ,V2:, ,6.8 MEDIUM,
+                        ",CVE-2006-2696,Cross-site scripting (XSS) vulnerabilities in Easy-Content Forums 1.0 allow remote attackers to inject arbitrary web script or HTML via the (1) startletter parameter in userview.asp and the (2) catid parameter in topics.asp.
+"April 20, 2006; 06:02:00 AM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2006-1875,"Unspecified vulnerability in Oracle Database Server 9.0.1.5, 9.2.0.7, and 10.1.0.5 has unknown impact and attack vectors in the Oracle Spatial component, aka Vuln# DB11.  NOTE: Oracle has not disputed reliable researcher claims that this issue is SQL injection in MDSYS.SDO_LRS_TRIG_INS."
+"March 19, 2006; 06:02:00 PM -05:00","
+                            ,V2:, ,4.3 MEDIUM,
+                        ",CVE-2006-1290,"Multiple cross-site scripting (XSS) vulnerabilities in Milkeyway Captive Portal 0.1 and 0.1.1 allow remote attackers to inject arbitrary web script or HTML via the (1) ipAddress, (2) act, (3) username, and (4) unspecified other parameters in (a) authuser.php; and the (5) username and (6) unspecified other parameters in (b) userstatistics.php."
+"January 18, 2006; 06:03:00 AM -05:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2006-0263,"Multiple unspecified vulnerabilities in Oracle Database server 8.1.7.4, 9.0.1.5, 9.0.1.5 FIPS, 9.2.0.7, 10.1.0.5, and 10.2.0.1 have unspecified impact and attack vectors, as identified by Oracle Vuln# (1) DB09 in the (a) Net Listener component; and (2) DB12 and (3) DB13 in the Network Communications (RPC) component."
+"January 18, 2006; 06:03:00 AM -05:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2006-0284,"Multiple unspecified vulnerabilities in Oracle Application Server 9.0.4.2 and 10.1.2.0.2, and E-Business Suite and Applications 11.5.10, have unspecified impact and attack vectors, as identified by Oracle Vuln# (1) FORM01 and (2) FORM02 in the Oracle Forms component."
+"December 06, 2005; 08:03:00 PM -05:00","
+                            ,V2:, ,4.0 MEDIUM,
+                        ",CVE-2005-2923,"The IMAP server in IMail Server 8.20 in Ipswitch Collaboration Suite (ICS) before 2.02 allows remote attackers to cause a denial of service (crash) via a long argument to the LIST command, which causes IMail Server to reference invalid memory."
+"November 02, 2005; 06:03:00 AM -05:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2005-3450,"Unspecified vulnerability in the HTTP Server in Oracle Application Server 1.0 up to 9.0.2.3 has unknown impact and attack vectors, as identified by Oracle Vuln# AS04."
+"November 02, 2005; 06:02:00 AM -05:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2005-3440,"Unspecified vulnerability in Database Scheduler in Oracle Database Server 10g up to 10.1.0.3 has unknown impact and attack vectors, aka Oracle Vuln# DB08."
+"May 25, 2005; 12:00:00 AM -04:00","
+                            ,V2:, ,10.0 HIGH,
+                        ",CVE-2005-1255,"Multiple stack-based buffer overflows in the IMAP server in IMail 8.12 and 8.13 in Ipswitch Collaboration Suite (ICS), and other versions before IMail Server 8.2 Hotfix 2, allow remote attackers to execute arbitrary code via a LOGIN command with (1) a long username argument or (2) a long username argument that begins with a special character."
+"December 31, 2004; 12:00:00 AM -05:00","
+                            ,V2:, ,5.8 MEDIUM,
+                        ",CVE-2004-2733,"Web Wiz Forums 7.7a uses invalid logic to determine user privileges, which allows remote attackers to (1) block arbitrary IP addresses via pop_up_ip_blocking.asp or (2) modify topics via pop_up_topic_admin.asp."
+"June 09, 2003; 12:00:00 AM -04:00","
+                            ,V2:, ,5.0 MEDIUM,
+                        ",CVE-2003-0226,"Microsoft Internet Information Services (IIS) 5.0 and 5.1 allows remote attackers to cause a denial of service via a long WebDAV request with a (1) PROPFIND or (2) SEARCH method, which generates an error condition that is not properly handled."
+"November 26, 2001; 12:00:00 AM -05:00","
+                            ,V2:, ,7.5 HIGH,
+                        ",CVE-2001-0922,"ndcgi.exe in Netdynamics 4.x through 5.x, and possibly earlier versions, allows remote attackers to steal session IDs and hijack user sessions by reading the SPIDERSESSION and uniqueValue variables from the login field, then using those variables after the next user logs in."
+"June 25, 1999; 12:00:00 AM -04:00","
+                            ,V2:, ,7.2 HIGH,
+                        ",CVE-1999-0778,Buffer overflow in Xi Graphics Accelerated-X server allows local users to gain root access via a long display or query parameter.

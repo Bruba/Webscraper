@@ -1,0 +1,10 @@
+CVE_Reference,Description,Last_Update,Original_Advisory,Provided_or_Discovered,Release_Date,Solution,Title
+"CVE-2014-2369
+CVE-2014-2370
+","Two vulnerabilities have been reported in Omron NS Series HMI, which can be exploited by malicious people to conduct cross-site scripting and cross-site request forgery attacks.
+
+1) The application allows users to perform certain actions via HTTP requests without performing proper validity checks to verify the requests. This can be exploited to e.g. execute arbitrary OS commands when a logged-in administrative user visits a specially crafted web page.
+
+2) Certain unspecified input is not properly sanitised before being returned to the user. This can be exploited to execute arbitrary HTML and script code in a user's browser session in context of an affected site.
+
+The vulnerabilities are reported in the products NS5, NS8, NS10, NS12, and NS15 versions 8.1xx through 8.68x.",,ICS-CERT:,"ICS-CERT credits Joel Sevilleja Febrer, S2 Grupo.",2014-09-05,Update to version 8.69x for Japan or 8.7x.,Omron NS Series HMI Cross-Site Scripting and Cross-Site Request Forgery Vulnerabilities

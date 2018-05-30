@@ -1,0 +1,55 @@
+CVE_Reference,Description,Last_Update,Original_Advisory,Provided_or_Discovered,Release_Date,Solution,Title
+"CVE-2014-2717
+CVE-2014-3110
+","Some vulnerabilities have been reported in Honeywell FALCON XLWeb Controllers, which can be exploited by malicious people to conduct cross-site scripting attacks and bypass certain security restrictions.
+
+1) The device does not properly restrict access to the change password web page, which can be exploited to access otherwise restricted functionalities and e.g. disclose a user’s password hash and login as an administrative user.
+
+2) Certain unspecified input is not properly sanitised before being returned to the user. This can be exploited to execute arbitrary HTML and script code in a user's browser session in context of an affected site.
+
+The vulnerabilities are reported in the following products and versions:
+* FALCON Linux versions 2.04.01 and prior
+* FALCON XLWebExe versions 2.02.11 and prior",2014-10-01,ICS-CERT:,"1) Martin Jartelius, Outpost24",2014-08-05,Update to a fixed version.,Honeywell FALCON XLWeb Controllers Cross-Site Scripting and Security Bypass Vulnerabilities
+"CVE-2013-0108
+","Juan Vazquez has reported a vulnerability in multiple Honeywell products, which can be exploited by malicious people to compromise a vulnerable system.
+
+The vulnerability is caused due to the HSC Remote Deploy ActiveX (HSCRemoteDeploy.dll) control providing the insecure ""LaunchInstaller()"" method. This can be exploited to download and execute arbitrary HTA files by tricking a user into visiting a malicious website.
+
+Successful exploitation may allow execution of arbitrary code.
+
+The vulnerability is reported in the following products:
+* Honeywell Enterprise Buildings Integrator (EBI) R310, R400.2, R410.1, and R410.2
+* Honeywell SymmetrE R310, R410.1, and R410.2
+* Honeywell ComfortPoint Open Manager (CPO-M) R100",2013-05-16,CSA-2013-0131-01:,"Juan Vazquez, Rapid7.",2013-02-25,Apply Station Security Update package (please contact the vendor for more information).,Honeywell Multiple Products HSC Remote Deploy ActiveX Control Insecure Method Vulnerability
+"CVE-2012-0254
+","A vulnerability has been reported in Honeywell HMIWeb Browser ActiveX Control, which can be exploited by malicious people to compromise a user's system.
+
+The vulnerability is caused due to a boundary error within the ""RequestDSPLoad()"" method in the HSCDSPRenderDLL (HSCDSPRenderDll.dll) ActiveX control and can be exploited to cause a stack-based buffer overflow.
+
+Successful exploitation may allow execution of arbitrary code.
+
+The vulnerability is reported in the following products:
+* Honeywell Process Solutions (HPS) Experion Releases R400.x, R31x, R30x, and R2xx.
+* Honeywell Building Solutions (HBS) Enterprise Building Manager Releases.
+* Honeywell Environmental Combustion and Control (ECC) SymmetrE R400, R410.1, and R410.1 releases.",2013-01-04,ZDI:,Anonymous person via ZDI.,2012-09-10,Apply fixes. Contact the vendor for further information.,Honeywell HMIWeb Browser ActiveX Control Buffer Overflow Vulnerability
+"No CVE references.
+
+","A vulnerability has been reported in Honeywell EBI Temaline, which can be exploited by malicious people to compromise a user's system.
+
+The vulnerability is caused due to the Remote Installer ActiveX control providing the insecure ""DownloadURL()"" method. This can be exploited to download and execute arbitrary programs by tricking a user into visiting a malicious website.
+
+The vulnerability is reported in the following products:
+* EBI R310.1 - TEMA 4.8
+* EBI R310.1 - TEMA 4.9
+* EBI R310.1 - TEMA 4.10
+* EBI R400.2 SP1 - TEMA 5.2
+* EBI R410.1 - TEMA 5.3.0
+* EBI R410.2 - TEMA 5.3.1",,US-CERT:,ICS-CERT credits Billy Rios and Terry McCorkle.,2011-10-20,Apply patches (please contact the vendor for more information).,"Honeywell EBI Temaline Remote Installer ActiveX Control ""DownloadURL()"" Insecure Method"
+"CVE-2011-0331
+","Secunia Research has discovered a vulnerability in Honeywell ScanServer ActiveX Control, which can be exploited by malicious people to compromise a user's system.
+
+The vulnerability is caused due to a use-after-free error when handling the ""addOSPLext()"" method and can be exploited to dereference already freed memory via a specially crafted web page.
+
+Successful exploitation allows execution of arbitrary code.
+
+The vulnerability is confirmed in version 780.0.20.5. Other versions may also be affected.",2011-08-26,Secunia Research:,"Carsten Eiram, Secunia Research.",2011-03-21,Update to Web Toolkit ScanServer component build 862.1.10.1.,Honeywell ScanServer ActiveX Control Use-After-Free Vulnerability

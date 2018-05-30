@@ -1,0 +1,877 @@
+[INFO  - 2018-02-16T17:47:59.733Z] GhostDriver - Main - running on port 63848
+[INFO  - 2018-02-16T17:48:04.075Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-16T17:48:04.076Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.customHeaders:  - {}
+[INFO  - 2018-02-16T17:48:04.076Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-16T17:48:04.076Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 89ce97e0-1341-11e8-9f21-97550a654190
+[ERROR - 2018-02-16T17:48:09.884Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:09.884Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:163)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:22.287Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:22.287Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:30.128Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:30.129Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:36.288Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:36.288Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:41.326Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:41.326Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:46.097Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:46.097Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:50.977Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:50.977Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:56.684Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:48:56.685Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:01.710Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:01.711Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:06.462Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:06.462Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:16.376Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:16.376Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:21.100Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:21.100Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:26.676Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:26.676Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:31.396Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:31.396Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:36.342Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:36.342Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:41.475Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:41.476Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:46.467Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:46.467Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:51.424Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:49:51.424Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:00.118Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:00.118Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:06.182Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:06.182Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:11.008Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:11.008Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:16.019Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:16.019Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:21.227Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:21.228Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:26.623Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:26.623Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:31.576Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:31.577Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:36.272Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:36.272Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:46.793Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:46.793Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:50.909Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:50.910Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:56.084Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:50:56.084Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:01.541Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:01.541Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:06.396Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:06.396Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:16.090Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:16.091Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:20.847Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:20.848Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:25.996Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:25.996Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:30.762Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:30.763Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:36.305Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:36.305Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:46.082Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:46.083Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:51.380Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:51:51.380Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:06.372Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:06.372Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:13.997Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:13.998Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:20.763Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:20.763Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:30.685Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:30.685Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:36.080Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:36.080Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:41.340Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:41.341Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:46.965Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:46.965Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:51.744Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:51.744Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:56.692Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:52:56.692Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-02-16T17:52:59.735Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-02-16T17:53:01.836Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:53:01.836Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:53:06.824Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:53:06.824Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:53:11.727Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:53:11.727Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:53:16.617Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:53:16.617Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:53:21.825Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:53:21.825Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:53:26.571Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:53:26.571Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=1:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:53:35.333Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:53:35.333Z] Session [89ce97e0-1341-11e8-9f21-97550a654190] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=siemens&page=2:782)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T17:53:39.863Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1518803619853
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-02-16T17:57:59.735Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T18:02:59.735Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T18:07:59.735Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T18:12:59.735Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

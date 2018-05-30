@@ -1,0 +1,120 @@
+[INFO  - 2018-02-16T16:52:27.073Z] GhostDriver - Main - running on port 58855
+[INFO  - 2018-02-16T16:52:31.166Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-16T16:52:31.166Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - page.customHeaders:  - {}
+[INFO  - 2018-02-16T16:52:31.166Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-16T16:52:31.167Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c73d5830-1339-11e8-9fb5-39fc68acf38f
+[ERROR - 2018-02-16T16:52:37.506Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T16:52:37.507Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=Honeywell:163)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T16:52:50.321Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T16:52:50.321Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=Honeywell:456)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T16:52:55.450Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T16:52:55.450Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=Honeywell:456)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T16:53:00.186Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T16:53:00.186Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=Honeywell:456)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T16:53:05.779Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T16:53:05.780Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=Honeywell:456)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T16:53:10.472Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - page.onError - msg: TypeError: null is not an object (evaluating 'document.getElementById('light').style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T16:53:10.472Z] Session [c73d5830-1339-11e8-9fb5-39fc68acf38f] - page.onError - stack:
+  closeLightbox (https://secuniaresearch.flexerasoftware.com/community/advisories/search/?search=Honeywell:456)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-16T16:53:18.159Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1518799998113
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-02-16T16:57:27.075Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T17:02:27.075Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T17:07:27.075Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T17:12:27.077Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T17:17:27.078Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T17:22:27.078Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T17:27:27.079Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T17:32:27.079Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T17:37:27.079Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T17:42:27.079Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T17:47:27.079Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T17:52:27.080Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T17:57:27.079Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T18:02:27.079Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T18:07:27.080Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-16T18:12:27.083Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

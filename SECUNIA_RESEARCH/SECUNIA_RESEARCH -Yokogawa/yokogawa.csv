@@ -1,0 +1,85 @@
+CVE_Reference,Description,Last_Update,Original_Advisory,Provided_or_Discovered,Release_Date,Solution,Title
+"CVE-2015-5626
+CVE-2015-5627
+","Multiple vulnerabilities have been reported in multiple Yokogawa products, which can be exploited by malicious people to cause a DoS (Denial of Service) and compromise a vulnerable system.
+
+1) An unspecified error within the process that executes control over network communications can be exploited to cause a stack-based buffer overflow via specially crafted packet.
+
+2) Another unspecified error within the process that executes control over network communications can be exploited to cause a stack-based buffer overflow via specially crafted packet.
+
+3) Another unspecified error within the process that executes control over network communications can be exploited to cause a stack-based buffer overflow via specially crafted packet.
+
+Successful exploitation of vulnerability #3 may allow execution of arbitrary code.
+
+Please see the vendor's advisory for a list of affected products and versions.",,Yokogawa:,Reported by the vendor.,2015-09-11,Apply patches if available. Please see the vendor's advisory for details.,Yokogawa Multiple Products Multiple Buffer Overflow Vulnerabilities
+"CVE-2014-5208
+","A vulnerability has been reported in Yokogawa CENTUM series and Yokogawa Exaopc, which can be exploited by malicious people to disclose certain sensitive information or manipulate certain data.
+
+The vulnerability is caused due to the batch management service in BKBCopyD.exe not properly verifying authentication. This can be exploited to disclose and manipulate the content of arbitrary files by sending specially crafted packets to TCP port 20111.
+
+The vulnerabilities are reported in the following products and versions:
+* Yokogawa CENTUM CS 3000 with Batch Management Packages versions R3.09.50 and prior
+* Yokogawa CENTUM CS 3000 Small with Batch Management Packages versions R3.09.50 and prior
+* Yokogawa CENTUM VP with Batch Management Packages versions R4.03.00 and prior and R5.04.00 and prior
+* Yokogawa CENTUM VP Small with Batch Management Packages versions R4.03.00 and prior and R5.04.00 and prior
+* Yokogawa CENTUM VP Basic with Batch Management Packages versions R4.03.00 and prior and R5.04.00 and prior
+* Yokogawa Exaopc versions R3.72.10 and prior",2014-12-03,Yokogawa:,"ICS-CERT credits Tod Beardsley, Rapid7 and Jim Denaro, CipherLaw.",2014-09-24,No official solution is currently available. The fixed versions are planned to be released by the end of September 2014.,Yokogawa CENTUM Series / Exaopc Batch Management File Disclosure and Manipulation Vulnerability
+"CVE-2014-3888
+","Rapid7 has reported two vulnerabilities in multiple Yokogawa products, which can be exploited by malicious people to compromise a vulnerable system.
+
+The vulnerabilities are caused due to errors within the ""BKFSim_vhfd.exe"" module when processing certain incoming packets, which can be exploited to cause stack-based buffer overflows by sending a specially crafted packet to TCP port 20010.
+
+Successful exploitation may allow execution of arbitrary code.
+
+Please see the vendor's advisory for a list of affected products and versions.",,Yokogawa:,"Juan Vazquez and Julian Vilas Diaz, Rapid7 Inc.",2014-07-14,Apply patches. Please see the vendor's advisory for details.,"Yokogawa Multiple Products ""BKFSim_vhfd.exe"" Two Buffer Overflow Vulnerabilities"
+"CVE-2014-0781
+","A vulnerability has been reported in multiple Yokogawa products, which can be exploited by malicious people to compromise a vulnerable system.
+
+For more information:
+SA57303 (#1)
+
+Please see the vendor's advisory for a list of affected products and versions.",,http://www.yokogawa.com/dcs/security/ysar/YSAR-14-0001E.pdf,,2014-06-02,Apply patches. Please see the vendor's advisory for details.,"Yokogawa Multiple Products ""BKCLogSvr.exe"" Buffer Overflow Vulnerability"
+"CVE-2014-0781
+CVE-2014-0782
+","Multiple vulnerabilities have been reported in Yokogawa CENTUM VP and Yokogawa Exaopc, which can be exploited by malicious people to compromise a vulnerable system.
+
+For more information:
+SA57303
+SA58573
+
+The vulnerabilities are reported in the following products and versions:
+* Yokogawa CENTUM VP versions R5.03.00 and prior
+* Yokogawa CENTUM VP Entry Class versions R5.03.00 and prior
+* Yokogawa Exaopc versions R3.71.02 and prior",,http://www.yokogawa.com/dcs/security/ysar/YSAR-14-0001E.pdf,,2014-06-02,Apply patches. Please see the vendor's advisory for details.,Yokogawa CENTUM VP / Exaopc Multiple Buffer Overflow Vulnerabilities
+"CVE-2014-0781
+","A vulnerability has been reported in Yokogawa ProSafe-RS, which can be exploited by malicious people to compromise a vulnerable system.
+
+For more information:
+SA57303 (#1)
+
+The vulnerability is reported in versions R1.03.00 and prior.",,http://www.yokogawa.com/dcs/security/ysar/YSAR-14-0001E.pdf,,2014-06-02,Upgrade to a fixed version. Please see the vendor's advisory for details.,"Yokogawa ProSafe-RS ""BKCLogSvr.exe"" Buffer Overflow Vulnerability"
+"CVE-2014-0782
+","A vulnerability has been reported in Yokogawa CENTUM CS 3000, which can be exploited by malicious people to compromise a vulnerable system.
+
+The vulnerability is caused due to an error within the ""BKESimmgr.exe"" module when processing incoming packets can be exploited to cause a stack-based buffer overflow by sending a specially crafted packet to TCP port 34205.
+
+The vulnerability is reported in versions prior to R3.09.75.",2014-05-27,YSAR-14-0001E:,"Juan Vazquez, Rapid7 and Julian Vilas Diaz, Scytl.",2014-05-21,Update to version R3.09.75.,Yokogawa CENTUM CS 3000 BKESimmgr.exe Buffer Overflow Vulnerability
+"CVE-2014-0781
+CVE-2014-0783
+","Multiple vulnerabilities have been reported in Yokogawa CENTUM CS 3000, which can be exploited by malicious people to compromise a vulnerable system.
+
+1) An error within the ""BKCLogSvr.exe"" module when processing incoming packets can be exploited to cause a heap-based buffer overflow by sending specially crafted packets to UDP port 52302.
+
+2) An error within the ""BKHOdeq.exe"" module when processing incoming packets can be exploited to cause a stack-based buffer overflow by sending a specially crafted packet to TCP port 20171.
+
+3) An error within the ""BKBCopyD.exe"" module when processing incoming packets can be exploited to cause a stack-based buffer overflow by sending a specially crafted packet to TCP port 20111.
+
+The vulnerabilities are reported in versions prior to R3.09.73.",2014-05-27,YSAR-14-0001E:,"Juan Vazquez, Rapid7 and Julian Vilas Diaz, Scytl.",2014-03-12,Update to version R3.09.73.,Yokogawa CENTUM CS 3000 Multiple Buffer Overflow Vulnerabilities
+"CVE-2005-2359
+","Yukiyo Akisada has reported a security issue in FreeBSD, which potentially can be exploited by malicious people to bypass certain security restrictions.
+
+The problem is caused due to an implementation error in IPsec within the AES-XCBC-MAC authentication algorithm, which causes a constant key to be used for authentication instead of the administrator-defined key. This can potentially be exploited to spoof authentication packets from other IP addresses and bypass any IP-based access controls on the vulnerable system.
+
+Successful exploitation requires encryption to be disabled.
+
+The security issue has been reported in versions 5.3 and 5.4.",,ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-05:19.ipsec.asc,"Yukiyo Akisada, Yokogawa Electric Corporation.",2005-07-27,Update FreeBSD or apply patch.,FreeBSD IPsec AES-XCBC-MAC Authentication Security Issue

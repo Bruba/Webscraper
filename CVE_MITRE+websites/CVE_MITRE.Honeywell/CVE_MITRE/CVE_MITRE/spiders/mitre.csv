@@ -1,0 +1,648 @@
+Assigning_CNA,Date_Entry_Created,Description,CVE_ID
+Schneider Electric SE,20170626,"An Improper Access Control issue was discovered in Schneider Electric
+Pelco VideoXpert Enterprise all versions prior to 2.1. By replacing
+certain files, an authorized user can obtain system privileges and the
+inserted code would execute at an elevated privilege level.",CVE-2017-9966
+MITRE Corporation,20170411,"A Command Injection vulnerability in Schneider Electric homeLYnk
+Controller exists in all versions before 1.5.0.",CVE-2017-7689
+ICS-CERT,20170216,"A Violation of Secure Design Principles issue was discovered in
+Schneider Electric Modicon Modbus Protocol. The Modicon Modbus protocol
+has a session-related weakness making it susceptible to brute-force
+attacks.",CVE-2017-6032
+ICS-CERT,20170216,"An Authentication Bypass by Capture-Replay issue was discovered in
+Schneider Electric Modicon Modbus Protocol. Sensitive information is
+transmitted in cleartext in the Modicon Modbus protocol, which may
+allow an attacker to replay the following commands: run, stop, upload,
+and download.",CVE-2017-6034
+ICS-CERT,20170216,"An Insufficiently Protected Credentials issue was discovered in
+Schneider Electric Modicon PLCs Modicon M241, all firmware versions,
+and Modicon M251, all firmware versions. Log-in credentials are sent
+over the network with Base64 encoding leaving them susceptible to
+sniffing. Sniffed credentials could then be used to log into the web
+application.",CVE-2017-6028
+MITRE Corporation,20170406,"Schneider Electric SoMachine Basic 1.4 SP1 and Schneider Electric
+Modicon TM221CE16R 1.3.3.3 devices have a hardcoded-key vulnerability.
+The Project Protection feature is used to prevent unauthorized users
+from opening an XML protected project file, by prompting the user for a
+password. This XML file is AES-CBC encrypted; however, the key used for
+encryption (SoMachineBasicSoMachineBasicSoMa) cannot be changed. After
+decrypting the XML file with this key, the user password can be found
+in the decrypted data. After reading the user password, the project can
+be opened and modified with the Schneider product.",CVE-2017-7574
+MITRE Corporation,20170406,"Schneider Electric Modicon TM221CE16R 1.3.3.3 devices allow remote
+attackers to discover the application-protection password via a
+\x00\x01\x00\x00\x00\x05\x01\x5a\x00\x03\x00 request to the Modbus port
+(502/tcp). Subsequently the application may be arbitrarily downloaded,
+modified, and uploaded.",CVE-2017-7575
+ICS-CERT,20170216,"A Predictable Value Range from Previous Values issue was discovered in
+Schneider Electric Modicon PLCs Modicon M221, firmware versions prior
+to Version 1.5.0.0, Modicon M241, firmware versions prior to Version
+4.0.5.11, and Modicon M251, firmware versions prior to Version
+4.0.5.11. The affected products generate insufficiently random TCP
+initial sequence numbers that may allow an attacker to predict the
+numbers from previous values. This may allow an attacker to spoof or
+disrupt TCP connections.",CVE-2017-6030
+ICS-CERT,20170216,"A DLL Hijacking issue was discovered in Schneider Electric Interactive
+Graphical SCADA System (IGSS) Software, Version 12 and previous
+versions. The software will execute a malicious file if it is named the
+same as a legitimate file and placed in a location that is earlier in
+the search path.",CVE-2017-6033
+ICS-CERT,20170418,"An Improper XML Parser Configuration issue was discovered in Schneider
+Electric Wonderware Historian Client 2014 R2 SP1 and prior. An
+improperly restricted XML parser (with improper restriction of XML
+external entity reference, or XXE) may allow an attacker to enter
+malicious input through the application which could cause a denial of
+service or disclose file contents from a server or connected network.",CVE-2017-7907
+N/A,20110829,"Buffer overflow in the UnitelWay Windows Device Driver, as used in
+Schneider Electric Unity Pro 6 and earlier, OPC Factory Server 3.34,
+Vijeo Citect 7.20 and earlier, Telemecanique Driver Pack 2.6 and
+earlier, Monitor Pro 7.6 and earlier, and PL7 Pro 4.5 and earlier,
+allows local users, and possibly remote attackers, to execute
+arbitrary code via an unspecified system parameter.",CVE-2011-3330
+Schneider Electric SE,20170419,"A buffer overflow vulnerability exists in Programming Software
+executable AlTracePrint.exe, in Schneider Electric's SoMachine HVAC
+v2.1.0 for Modicon M171/M172 Controller.",CVE-2017-7965
+Schneider Electric SE,20170419,"A DLL Hijacking vulnerability in the programming software in Schneider
+Electric's SoMachine HVAC v2.1.0 allows a remote attacker to execute
+arbitrary code on the targeted system. The vulnerability exists due to
+the improper loading of a DLL.",CVE-2017-7966
+Schneider Electric SE,20170419,"A vulnerability exists in Schneider Electric's PowerSCADA Anywhere
+v1.0 redistributed with PowerSCADA Expert v8.1 and PowerSCADA Expert
+v8.2 and Citect Anywhere version 1.0 that allows the ability to
+specify Arbitrary Server Target Nodes in connection requests to the
+Secure Gateway and Server components.",CVE-2017-7970
+Schneider Electric SE,20170419,"An Incorrect Default Permissions issue was discovered in Schneider
+Electric Wonderware InduSoft Web Studio v8.0 Patch 3 and prior
+versions. Upon installation, Wonderware InduSoft Web Studio creates a
+new directory and two files, which are placed in the system's path and
+can be manipulated by non-administrators. This could allow an
+authenticated user to escalate his or her privileges.",CVE-2017-7968
+Schneider Electric SE,20170419,"All versions of VAMPSET software produced by Schneider Electric, prior
+to V2.2.189, are susceptible to a memory corruption vulnerability when
+a corrupted vf2 file is used. This vulnerability causes the software
+to halt or not start when trying to open the corrupted file. This
+vulnerability occurs when fill settings are intentionally malformed
+and is opened in a standalone state, without connection to a
+protection relay. This attack is not considered to be remotely
+exploitable. This vulnerability has no effect on the operation of the
+protection relay to which VAMPSET is connected. As Windows operating
+system remains operational and VAMPSET responds, it is able to be shut
+down through its normal closing protocol.",CVE-2017-7967
+Schneider Electric SE,20170419,"A cross-site request forgery vulnerability exists on the Secure
+Gateway component of Schneider Electric's PowerSCADA Anywhere v1.0
+redistributed with PowerSCADA Expert v8.1 and PowerSCADA Expert v8.2
+and Citect Anywhere version 1.0 for multiple state-changing requests.
+This type of attack requires some level of social engineering in order
+to get a legitimate user to click on or access a malicious link/site
+containing the CSRF attack.",CVE-2017-7969
+N/A,20070226,"PHP remote file inclusion vulnerability in index.php in Christian
+Schneider CS-Gallery 2.0 and earlier allows remote attackers to
+execute arbitrary PHP code via a URL in the album parameter during a
+securealbum todo action.",CVE-2007-1108
+N/A,20111013,"Buffer overflow in the Steema TeeChart ActiveX control, as used in
+Schneider Electric Vijeo Historian 4.30 and earlier, CitectHistorian
+4.30 and earlier, and CitectSCADAReports 4.10 and earlier, allows
+remote attackers to execute arbitrary code or cause a denial of
+service via unspecified vectors.",CVE-2011-4034
+N/A,20111013,"Buffer overflow in the Steema TeeChart ActiveX control, as used in
+Schneider Electric Vijeo Historian 4.30 and earlier, CitectHistorian
+4.30 and earlier, and CitectSCADAReports 4.10 and earlier, allows
+remote attackers to cause a denial of service via unspecified vectors.",CVE-2011-4033
+N/A,20111013,"Cross-site scripting (XSS) vulnerability in Schneider Electric Vijeo
+Historian 4.30 and earlier, CitectHistorian 4.30 and earlier, and
+CitectSCADAReports 4.10 and earlier allows remote attackers to inject
+arbitrary web script or HTML via unspecified vectors.",CVE-2011-4035
+N/A,20111102,"Cross-site scripting (XSS) vulnerability in Schneider Electric
+PowerChute Business Edition before 8.5 allows remote attackers to
+inject arbitrary web script or HTML via unspecified vectors.",CVE-2011-4263
+N/A,20111216,"The Schneider Electric Quantum Ethernet Module, as used in the Quantum
+140NOE771* and 140CPU65* modules, the Premium TSXETY* and TSXP57*
+modules, the M340 BMXNOE01* and BMXP3420* modules, and the STB DIO
+STBNIC2212 and STBNIP2* modules, uses hardcoded passwords for the (1)
+AUTCSE, (2) AUT_CSE, (3) fdrusers, (4) ftpuser, (5) loader, (6)
+nic2212, (7) nimrohs2212, (8) nip2212, (9) noe77111_v500, (10)
+ntpupdate, (11) pcfactory, (12) sysdiag, (13) target, (14) test, (15)
+USER, and (16) webserver accounts, which makes it easier for remote
+attackers to obtain access via the (a) TELNET, (b) Windriver Debug, or
+(c) FTP port.",CVE-2011-4859
+N/A,20111216,"The ComputePassword function in the Schneider Electric Quantum
+Ethernet Module on the NOE 771 device (aka the Quantum 140NOE771*
+module) generates the password for the fwupgrade account by performing
+a calculation on the MAC address, which makes it easier for remote
+attackers to obtain access via a (1) ARP request message or (2)
+Neighbor Solicitation message.",CVE-2011-4860
+N/A,20111013,"Directory traversal vulnerability in Schneider Electric Vijeo
+Historian 4.30 and earlier, CitectHistorian 4.30 and earlier, and
+CitectSCADAReports 4.10 and earlier allows remote attackers to read
+arbitrary files via unspecified vectors.",CVE-2011-4036
+N/A,20111216,"The modbus_125_handler function in the Schneider Electric Quantum
+Ethernet Module on the NOE 771 device (aka the Quantum 140NOE771*
+module) allows remote attackers to install arbitrary firmware updates
+via a MODBUS 125 function code to TCP port 502.",CVE-2011-4861
+N/A,20120915,"Buffer overflow in an unspecified third-party component in the Batch
+module for Schneider Electric CitectSCADA before 7.20 and Mitsubishi
+MX4 SCADA before 7.20 allows local users to execute arbitrary code via
+a long string in a login sequence.",CVE-2011-5163
+N/A,20120127,"Multiple buffer overflows in Schneider Electric Modicon Quantum PLC
+allow remote attackers to cause a denial of service via malformed
+requests to the (1) FTP server or (2) HTTP server.",CVE-2012-0929
+N/A,20120127,"Cross-site scripting (XSS) vulnerability in Schneider Electric Modicon
+Quantum PLC allows remote attackers to inject arbitrary web script or
+HTML via unspecified vectors.",CVE-2012-0930
+N/A,20120127,"Schneider Electric Modicon Quantum PLC does not perform authentication
+between the Unity software and PLC, which allows remote attackers to
+cause a denial of service or possibly execute arbitrary code via
+unspecified vectors.",CVE-2012-0931
+N/A,20121114,"Multiple SQL injection vulnerabilities on the Sinapsi eSolar Light
+Photovoltaic System Monitor (aka Schneider Electric Ezylog
+photovoltaic SCADA management server), Sinapsi eSolar, and Sinapsi
+eSolar DUO with firmware before 2.0.2870_2.2.12 allow remote attackers
+to execute arbitrary SQL commands via (1) the inverterselect parameter
+in a primo action to dettagliinverter.php or (2) the lingua parameter
+to changelanguagesession.php.",CVE-2012-5861
+N/A,20120402,"Multiple cross-site scripting (XSS) vulnerabilities in Schneider
+Electric Kerweb before 3.0.1 and Kerwin before 6.0.1 allow remote
+attackers to inject arbitrary web script or HTML via (1) the
+evtvariablename parameter in an evts.xml action to kw.dll, (2)
+unspecified search fields, or (3) unspecified content-display fields.",CVE-2012-1990
+N/A,20121114,"login.php on the Sinapsi eSolar Light Photovoltaic System Monitor (aka
+Schneider Electric Ezylog photovoltaic SCADA management server),
+Sinapsi eSolar, and Sinapsi eSolar DUO with firmware before
+2.0.2870_2.2.12 establishes multiple hardcoded accounts, which makes
+it easier for remote attackers to obtain administrative access by
+leveraging a (1) cleartext password or (2) password hash contained in
+this script, as demonstrated by a password of astridservice or
+36e44c9b64.",CVE-2012-5862
+N/A,20121114,"ping.php on the Sinapsi eSolar Light Photovoltaic System Monitor (aka
+Schneider Electric Ezylog photovoltaic SCADA management server),
+Sinapsi eSolar, and Sinapsi eSolar DUO with firmware before
+2.0.2870_2.2.12 allows remote attackers to execute arbitrary commands
+via shell metacharacters in the ip_dominio parameter.",CVE-2012-5863
+N/A,20121114,"The management web pages on the Sinapsi eSolar Light Photovoltaic
+System Monitor (aka Schneider Electric Ezylog photovoltaic SCADA
+management server), Sinapsi eSolar, and Sinapsi eSolar DUO with
+firmware before 2.0.2870_2.2.12 do not require authentication, which
+allows remote attackers to obtain administrative access via a direct
+request, as demonstrated by a request to ping.php.",CVE-2012-5864
+N/A,20121219,"The client in Schneider Electric Software Update (SESU) Utility 1.0.x
+and 1.1.x does not ensure that updates have a valid origin, which
+allows man-in-the-middle attackers to spoof updates, and consequently
+execute arbitrary code, by modifying the data stream on TCP port 80.",CVE-2013-0655
+N/A,20121219,"Stack-based buffer overflow in Schneider Electric Interactive
+Graphical SCADA System (IGSS) 10 and earlier allows remote attackers
+to execute arbitrary code by sending TCP port-12397 data that does not
+comply with a protocol.",CVE-2013-0657
+N/A,20121219,"Heap-based buffer overflow in RFManagerService.exe in Schneider
+Electric Accutech Manager 2.00.1 and earlier allows remote attackers
+to execute arbitrary code via a crafted HTTP request.",CVE-2013-0658
+N/A,20121219,"Multiple stack-based buffer overflows in ModbusDrv.exe in Schneider
+Electric Modbus Serial Driver 1.10 through 3.2 allow remote attackers
+to execute arbitrary code via a large buffer-size value in a Modbus
+Application Header.",CVE-2013-0662
+N/A,20121219,"Cross-site request forgery (CSRF) vulnerability on the Schneider
+Electric Quantum 140NOE77111, 140NOE77101, and 140NWM10000; M340
+BMXNOC0401, BMXNOE0100x, and BMXNOE011xx; and Premium TSXETY4103,
+TSXETY5103, and TSXWMY100 PLC modules allows remote attackers to
+hijack the authentication of arbitrary users for requests that execute
+commands, as demonstrated by modifying HTTP credentials.",CVE-2013-0663
+N/A,20121219,"The FactoryCast service on the Schneider Electric Quantum 140NOE77111
+and 140NWM10000, M340 BMXNOE0110x, and Premium TSXETY5103 PLC modules
+allows remote authenticated users to send Modbus messages, and
+consequently execute arbitrary code, by embedding these messages in
+SOAP HTTP POST requests.",CVE-2013-0664
+N/A,20121219,"The installer routine in Schneider Electric MiCOM S1 Studio uses
+world-writable permissions for executable files, which allows local
+users to modify the service or the configuration files, and
+consequently gain privileges or trigger incorrect protective-relay
+operation, via a Trojan horse executable file.",CVE-2013-0687
+N/A,20130404,"The Schneider Electric M340 BMXNOE01xx and BMXP3420xx PLC modules
+allow remote authenticated users to cause a denial of service (module
+crash) via crafted FTP traffic, as demonstrated by the FileZilla FTP
+client.",CVE-2013-2761
+N/A,20130404,"The Schneider Electric Magelis XBT HMI controller has a default
+password for authentication of configuration uploads, which makes it
+easier for remote attackers to bypass intended access restrictions via
+crafted configuration data.",CVE-2013-2762
+N/A,20130404,"** DISPUTED ** The Schneider Electric M340 PLC modules allow remote
+attackers to cause a denial of service (resource consumption) via
+unspecified vectors.  NOTE: the vendor reportedly disputes this issue
+because it ""could not be duplicated"" and ""an attacker could not
+remotely exploit this observed behavior to deny PLC control
+functions.""",CVE-2013-2763
+N/A,20130411,"Schneider Electric Trio J-Series License Free Ethernet Radio with
+firmware 3.6.0 through 3.6.3 uses the same AES encryption key across
+different customers' installations, which makes it easier for remote
+attackers to defeat cryptographic protection mechanisms by leveraging
+knowledge of this key from another installation.",CVE-2013-2782
+N/A,20130411,"Schneider Electric Vijeo Citect 7.20 and earlier, CitectSCADA 7.20 and
+earlier, and PowerLogic SCADA 7.20 and earlier allow remote attackers
+to read arbitrary files, send HTTP requests to intranet servers, or
+cause a denial of service (CPU and memory consumption) via an XML
+document containing an external entity declaration in conjunction with
+an entity reference, related to an XML External Entity (XXE) issue.",CVE-2013-2796
+N/A,20130411,"Schneider Electric StruxureWare SCADA Expert Vijeo Citect 7.40, Vijeo
+Citect 7.20 through 7.30SP1, CitectSCADA 7.20 through 7.30SP1,
+StruxureWare PowerSCADA Expert 7.30 through 7.30SR1, and PowerLogic
+SCADA 7.20 through 7.20SR1 do not properly handle exceptions, which
+allows remote attackers to cause a denial of service via a crafted
+packet.",CVE-2013-2824
+N/A,20130415,"Multiple buffer overflows in ActUWzd.dll 1.0.0.1 in Mitsubishi MX
+Component 3, as distributed in Citect CitectFacilities 7.10 and
+CitectScada 7.10r1, allow remote attackers to execute arbitrary code
+via a long string, as demonstrated by a long WzTitle property value to
+a certain ActiveX control.",CVE-2013-3075
+N/A,20131016,"DNP3Driver.exe in the DNP3 driver in Schneider Electric ClearSCADA
+2010 R2 through 2010 R3.1 and SCADA Expert ClearSCADA 2013 R1 through
+2013 R1.2 allows remote attackers to cause a denial of service
+(resource consumption) via IP packets containing errors that trigger
+event-journal messages.",CVE-2013-6142
+N/A,20131016,"The Schneider Electric Telvent SAGE 3030 RTU with firmware
+C3413-500-001D3_P4 and C3413-500-001F0_PB allows remote attackers to
+cause a denial of service (temporary outage and CPU consumption) via
+malformed DNP3 traffic.",CVE-2013-6143
+N/A,20140102,"Directory traversal vulnerability in SchneiderWEB on Schneider
+Electric Modicon PLC Ethernet modules 140CPU65x Exec before 5.5,
+140NOC78x Exec before 1.62, 140NOE77x Exec before 6.2, BMXNOC0401
+before 2.05, BMXNOE0100 before 2.9, BMXNOE0110x Exec before 6.0,
+TSXETC101 Exec before 2.04, TSXETY4103x Exec before 5.7, TSXETY5103x
+Exec before 5.9, TSXP57x ETYPort Exec before 5.7, and TSXP57x Ethernet
+Copro Exec before 5.5 allows remote attackers to visit arbitrary
+resources via a crafted HTTP request.",CVE-2014-0754
+N/A,20140102,"Unquoted Windows search path vulnerability in Schneider Electric
+Floating License Manager 1.0.0 through 1.4.0 allows local users to
+gain privileges via a Trojan horse application with a name composed of
+an initial substring of a path that contains a space character.",CVE-2014-0759
+N/A,20140102,"Stack-based buffer overflow in the C++ sample client in Schneider
+Electric OPC Factory Server (OFS) TLXCDSUOFS33 - 3.35, TLXCDSTOFS33 -
+3.35, TLXCDLUOFS33 - 3.35, TLXCDLTOFS33 - 3.35, and TLXCDLFOFS33 -
+3.35 allows local users to gain privileges via vectors involving a
+malformed configuration file.",CVE-2014-0774
+N/A,20140102,"The PLC driver in ServerMain.exe in the Kepware KepServerEX 4
+component in Schneider Electric StruxureWare SCADA Expert ClearSCADA
+2010 R2 build 71.4165, 2010 R2.1 build 71.4325, 2010 R3 build 72.4560,
+2010 R3.1 build 72.4644, 2013 R1 build 73.4729, 2013 R1.1 build
+73.4832, 2013 R1.1a build 73.4903, 2013 R1.2 build 73.4955, and 2013
+R2 build 74.5094 allows remote attackers to cause a denial of service
+(application crash) via a crafted OPF file (aka project file).",CVE-2014-0779
+N/A,20140102,"Multiple buffer overflows in the OPC Automation 2.0 Server Object
+ActiveX control in Schneider Electric OPC Factory Server (OFS)
+TLXCDSUOFS33 3.5 and earlier, TLXCDSTOFS33 3.5 and earlier,
+TLXCDLUOFS33 3.5 and earlier, TLXCDLTOFS33 3.5 and earlier, and
+TLXCDLFOFS33 3.5 and earlier allow remote attackers to cause a denial
+of service via long arguments to unspecified functions.",CVE-2014-0789
+N/A,20140313,"Schneider Electric Wonderware Information Server (WIS) Portal 4.0 SP1
+through 5.5 uses weak encryption, which allows remote attackers to
+obtain sensitive information by reading a credential file.",CVE-2014-2380
+N/A,20140313,"Schneider Electric Wonderware Information Server (WIS) Portal 4.0 SP1
+through 5.5 uses weak encryption, which allows local users to obtain
+sensitive information by reading a credential file.",CVE-2014-2381
+N/A,20140822,"Cross-site scripting (XSS) vulnerability in Schneider Electric
+Wonderware Information Server (WIS) Portal 4.0 SP1 through 5.5 allows
+remote attackers to inject arbitrary web script or HTML via
+unspecified vectors.",CVE-2014-5397
+N/A,20140822,"Schneider Electric Wonderware Information Server (WIS) Portal 4.0 SP1
+through 5.5 allows remote attackers to read arbitrary files or cause a
+denial of service via an XML external entity declaration in
+conjunction with an entity reference, related to an XML External
+Entity (XXE) issue.",CVE-2014-5398
+N/A,20140822,"SQL injection vulnerability in Schneider Electric Wonderware
+Information Server (WIS) Portal 4.0 SP1 through 5.5 allows remote
+attackers to execute arbitrary SQL commands via unspecified vectors.",CVE-2014-5399
+N/A,20140822,"Multiple stack-based buffer overflows in Schneider Electric VAMPSET
+2.2.136 and earlier allow local users to cause a denial of service
+(application halt) via a malformed (1) setting file or (2) disturbance
+recording file.",CVE-2014-5407
+N/A,20140822,"Multiple cross-site scripting (XSS) vulnerabilities in Schneider
+Electric StruxureWare SCADA Expert ClearSCADA 2010 R3 through 2014 R1
+allow remote authenticated users to inject arbitrary web script or
+HTML via unspecified vectors.",CVE-2014-5411
+N/A,20140822,"Schneider Electric StruxureWare SCADA Expert ClearSCADA 2010 R3
+through 2014 R1 allows remote attackers to read database records by
+leveraging access to the guest account.",CVE-2014-5412
+N/A,20140822,"Schneider Electric StruxureWare SCADA Expert ClearSCADA 2010 R3
+through 2014 R1 uses the MD5 algorithm for an X.509 certificate, which
+makes it easier for remote attackers to spoof servers via a
+cryptographic attack against this algorithm.",CVE-2014-5413
+N/A,20141022,"Multiple buffer overflows in Schneider Electric VAMPSET before 2.2.168
+allow local users to gain privileges via malformed
+disturbance-recording data in a (1) CFG or (2) DAT file.",CVE-2014-8390
+N/A,20141028,"Buffer overflow in an ActiveX control in Atx45.ocx in Schneider
+Electric ProClima before 6.1.7 allows remote attackers to execute
+arbitrary code via unspecified vectors, a different vulnerability than
+CVE-2014-8512.  NOTE: this may be clarified later based on details
+provided by researchers.",CVE-2014-8511
+N/A,20141028,"Buffer overflow in an ActiveX control in Atx45.ocx in Schneider
+Electric ProClima before 6.1.7 allows remote attackers to execute
+arbitrary code via unspecified vectors, a different vulnerability than
+CVE-2014-8511.  NOTE: this may be clarified later based on details
+provided by researchers.",CVE-2014-8512
+N/A,20141028,"Buffer overflow in an ActiveX control in MDraw30.ocx in Schneider
+Electric ProClima before 6.1.7 allows remote attackers to execute
+arbitrary code via unspecified vectors, a different vulnerability than
+CVE-2014-8514 and CVE-2014-9188.  NOTE: this may be clarified later
+based on details provided by researchers.",CVE-2014-8513
+N/A,20141028,"Buffer overflow in an ActiveX control in MDraw30.ocx in Schneider
+Electric ProClima before 6.1.7 allows remote attackers to execute
+arbitrary code via unspecified vectors, a different vulnerability than
+CVE-2014-8513 and CVE-2014-9188.  NOTE: this may be clarified later
+based on details provided by researchers.",CVE-2014-8514
+N/A,20141202,"Buffer overflow in an ActiveX control in MDraw30.ocx in Schneider
+Electric ProClima before 6.1.7 allows remote attackers to execute
+arbitrary code via unspecified vectors, a different vulnerability than
+CVE-2014-8513 and CVE-2014-8514.  NOTE: this may be clarified later
+based on details provided by researchers.",CVE-2014-9188
+N/A,20141202,"Stack-based buffer overflow in Schneider Electric Wonderware InTouch
+Access Anywhere Server 10.6 and 11.0 allows remote attackers to
+execute arbitrary code via a request for a filename that does not
+exist.",CVE-2014-9190
+N/A,20141202,"The Schneider Electric ETG3000 FactoryCast HMI Gateway with firmware
+before 1.60 IR 04 stores rde.jar under the web root with insufficient
+access control, which allows remote attackers to obtain sensitive
+setup and configuration information via a direct request.",CVE-2014-9197
+N/A,20141202,"The FTP server on the Schneider Electric ETG3000 FactoryCast HMI
+Gateway with firmware through 1.60 IR 04 has hardcoded credentials,
+which makes it easier for remote attackers to obtain access via an FTP
+session.",CVE-2014-9198
+N/A,20141202,"Stack-based buffer overflow in an unspecified DLL file in a DTM
+development kit in Schneider Electric Unity Pro, SoMachine, SoMove,
+SoMove Lite, Modbus Communication Library 2.2.6 and earlier, CANopen
+Communication Library 1.0.2 and earlier, EtherNet/IP Communication
+Library 1.0.0 and earlier, EM X80 Gateway DTM (MB TCP/SL), Advantys
+DTM for OTB, Advantys DTM for STB, KINOS DTM, SOLO DTM, and Xantrex
+DTMs allows remote attackers to execute arbitrary code via unspecified
+vectors.",CVE-2014-9200
+N/A,20150110,"Buffer overflow in an unspecified DLL in Schneider Electric Pelco
+DS-NVs before 7.8.90 allows remote attackers to execute arbitrary code
+via unspecified vectors.",CVE-2015-0982
+N/A,20150110,"Schneider Electric InduSoft Web Studio before 7.1.3.4 SP3 Patch 4 and
+InTouch Machine Edition 2014 before 7.1.3.4 SP3 Patch 4 rely on a
+hardcoded cleartext password to control read access to Project files
+and Project Configuration files, which makes it easier for local users
+to obtain sensitive information by discovering this password.",CVE-2015-0996
+N/A,20141202,"Stack-based buffer overflow in Device Type Manager (DTM) 3.1.6 and
+earlier for Schneider Electric Invensys SRD Control Valve Positioner
+devices 960 and 991 allows local users to gain privileges via a
+malformed DLL file.",CVE-2014-9206
+N/A,20150110,"Schneider Electric InduSoft Web Studio before 7.1.3.4 SP3 Patch 4 and
+InTouch Machine Edition 2014 before 7.1.3.4 SP3 Patch 4 provide an HMI
+user interface that lists all valid usernames, which makes it easier
+for remote attackers to obtain access via a brute-force
+password-guessing attack.",CVE-2015-0997
+N/A,20150110,"Schneider Electric InduSoft Web Studio before 7.1.3.4 SP3 Patch 4 and
+InTouch Machine Edition 2014 before 7.1.3.4 SP3 Patch 4 transmit
+cleartext credentials, which allows remote attackers to obtain
+sensitive information by sniffing the network.",CVE-2015-0998
+N/A,20150110,"Schneider Electric InduSoft Web Studio before 7.1.3.4 SP3 Patch 4 and
+InTouch Machine Edition 2014 before 7.1.3.4 SP3 Patch 4 store
+cleartext OPC User credentials in a configuration file, which allows
+local users to obtain sensitive information by reading this file.",CVE-2015-0999
+N/A,20150110,"Schneider Electric InduSoft Web Studio before 7.1.3.5 Patch 5 and
+Wonderware InTouch Machine Edition through 7.1 SP3 Patch 4 use
+cleartext for project-window password storage, which allows local
+users to obtain sensitive information by reading a file.",CVE-2015-1009
+N/A,20150512,"Untrusted search path vulnerability in Schneider Electric Wonderware
+System Platform before 2014 R2 Patch 01 allows local users to gain
+privileges via a Trojan horse DLL in an unspecified directory.",CVE-2015-3940
+N/A,20150512,"Schneider Electric StruxureWare Building Expert MPM before 2.15 does
+not use encryption for the client-server data stream, which allows
+remote attackers to discover credentials by sniffing the network.",CVE-2015-3962
+N/A,20150512,"Wind River VxWorks before 5.5.1, 6.5.x through 6.7.x before 6.7.1.1,
+6.8.x before 6.8.3, 6.9.x before 6.9.4.4, and 7.x before 7
+ipnet_coreip 1.2.2.0, as used on Schneider Electric SAGE RTU devices
+before J2 and other devices, does not properly generate TCP initial
+sequence number (ISN) values, which makes it easier for remote
+attackers to spoof TCP sessions by predicting an ISN value.",CVE-2015-3963
+N/A,20150512,"Buffer overflow in Schneider Electric IMT25 Magnetic Flow DTM before
+1.500.004 for the HART Protocol allows remote authenticated users to
+execute arbitrary code or cause a denial of service (memory
+corruption) via a crafted HART reply.",CVE-2015-3977
+N/A,20150817,"Schneider Electric Telvent Sage 2300 RTUs with firmware before
+C3413-500-S01, and LANDAC II-2, Sage 1410, Sage 1430, Sage 1450, Sage
+2400, and Sage 3030M RTUs with firmware before C3414-500-S02J2, allow
+remote attackers to obtain sensitive information from device memory by
+reading a padding field of an Ethernet packet.",CVE-2015-6485
+N/A,20150925,"The Remote Agent component in Schneider Electric InduSoft Web Studio
+before 8.0 allows remote attackers to execute arbitrary code via
+unspecified vectors, aka ZDI-CAN-2649.",CVE-2015-7374
+N/A,20150925,"Schneider Electric InduSoft Web Studio before 8.0 allows remote
+attackers to execute arbitrary code or cause a denial of service
+(unhandled runtime exception and application crash) via a crafted
+Indusoft Project file.",CVE-2015-7375
+N/A,20151022,"Multiple buffer overflows in the F1BookView ActiveX control in F1
+Bookview in Schneider Electric ProClima before 6.2 allow remote
+attackers to execute arbitrary code via the (1) Attach, (2)
+DefinedName, (3) DefinedNameLocal, (4) ODBCPrepareEx, (5)
+ObjCreatePolygon, (6) SetTabbedTextEx, or (7) SetValidationRule
+method, a different vulnerability than CVE-2015-8561.",CVE-2015-7918
+N/A,20151022,"Stack-based buffer overflow in the GoAhead Web Server on Schneider
+Electric Modicon M340 PLC BMXNOx and BMXPx devices allows remote
+attackers to execute arbitrary code via a long password in HTTP Basic
+Authentication data.",CVE-2015-7937
+N/A,20151214,"The F1BookView ActiveX control in F1 Bookview in Schneider Electric
+ProClima before 6.2 allows remote attackers to execute arbitrary code
+or cause a denial of service (memory corruption) via a crafted integer
+value to the (1) AttachToSS, (2) CopyAll, (3) CopyRange, (4)
+CopyRangeEx, or (5) SwapTable method, a different vulnerability than
+CVE-2015-7918.",CVE-2015-8561
+N/A,20160209,"Schneider Electric Struxureware Building Operations Automation Server
+AS 1.7 and earlier and AS-P 1.7 and earlier allows remote
+authenticated administrators to execute arbitrary OS commands by
+defeating an msh (aka Minimal Shell) protection mechanism.",CVE-2016-2278
+N/A,20160505,"Cross-site scripting (XSS) vulnerability in the Schneider Electric
+PowerLogic PM8ECC module before 2.651 for PowerMeter 800 devices
+allows remote attackers to inject arbitrary web script or HTML via
+unspecified vectors.",CVE-2016-4513
+N/A,20160505,"Schneider Electric Pelco Digital Sentry Video Management System with
+firmware before 7.14 has hardcoded credentials, which allows remote
+attackers to obtain access, and consequently execute arbitrary code,
+via unspecified vectors.",CVE-2016-4520
+N/A,20160505,"An unspecified ActiveX control in Schneider Electric SoMachine HVAC
+Programming Software for M171/M172 Controllers before 2.1.0 allows
+remote attackers to execute arbitrary code via unknown vectors,
+related to the INTERFACESAFE_FOR_UNTRUSTED_CALLER (aka safe for
+scripting) flag.",CVE-2016-4529
+ICS-CERT,20160623,"An issue was discovered on Schneider Electric IONXXXX series power
+meters ION73XX series, ION75XX series, ION76XX series, ION8650 series,
+ION8800 series, and PM5XXX series. There is no CSRF Token generated to
+authenticate the user during a session. Successful exploitation of this
+vulnerability can allow unauthorized configuration changes to be made
+and saved.",CVE-2016-5809
+ICS-CERT,20160623,"An issue was discovered on Schneider Electric IONXXXX series power
+meters ION73XX series, ION75XX series, ION76XX series, ION8650 series,
+ION8800 series, and PM5XXX series. No authentication is configured by
+default. An unauthorized user can access the device management portal
+and make configuration changes.",CVE-2016-5815
+ICS-CERT,20160623,"An issue was discovered in Schneider Electric PowerLogic PM8ECC device
+2.651 and older. Undocumented hard-coded credentials allow access to
+the device.",CVE-2016-5818
+ICS-CERT,20160928,"An issue was discovered in Schneider Electric ConneXium firewalls
+TCSEFEC23F3F20 all versions, TCSEFEC23F3F21 all versions,
+TCSEFEC23FCF20 all versions, TCSEFEC23FCF21 all versions, and
+TCSEFEC2CF3F20 all versions. A stack-based buffer overflow can be
+triggered during the SNMP login authentication process that may allow
+an attacker to remotely execute code.",CVE-2016-8352
+ICS-CERT,20160928,"An issue was discovered in Schneider Electric Magelis HMI Magelis GTO
+Advanced Optimum Panels, all versions, Magelis GTU Universal Panel, all
+versions, Magelis STO5xx and STU Small panels, all versions, Magelis
+XBT GH Advanced Hand-held Panels, all versions, Magelis XBT GK Advanced
+Touchscreen Panels with Keyboard, all versions, Magelis XBT GT Advanced
+Touchscreen Panels, all versions, and Magelis XBT GTW Advanced Open
+Touchscreen Panels (Windows XPe). An attacker may be able to disrupt a
+targeted web server, resulting in a denial of service because of
+UNCONTROLLED RESOURCE CONSUMPTION.",CVE-2016-8374
+ICS-CERT,20160928,"An issue was discovered in Schneider Electric Unity PRO prior to V11.1.
+Unity projects can be compiled as x86 instructions and loaded onto the
+PLC Simulator delivered with Unity PRO. These x86 instructions are
+subsequently executed directly by the simulator. A specially crafted
+patched Unity project file can make the simulator execute malicious
+code by redirecting the control flow of these instructions.",CVE-2016-8354
+ICS-CERT,20170830,"A Missing Authentication for Critical Function issue was discovered in
+Schneider Electric InduSoft Web Studio v8.0 SP2 or prior, and InTouch
+Machine Edition v8.0 SP2 or prior. InduSoft Web Studio provides the
+capability for an HMI client to trigger script execution on the server
+for the purposes of performing customized calculations or actions. A
+remote malicious entity could bypass the server authentication and
+trigger the execution of an arbitrary command. The command is executed
+under high privileges and could lead to a complete compromise of the
+server.",CVE-2017-13997
+ICS-CERT,20160928,"An issue was discovered in Schneider Electric Magelis HMI Magelis GTO
+Advanced Optimum Panels, all versions, Magelis GTU Universal Panel, all
+versions, Magelis STO5xx and STU Small panels, all versions, Magelis
+XBT GH Advanced Hand-held Panels, all versions, Magelis XBT GK Advanced
+Touchscreen Panels with Keyboard, all versions, Magelis XBT GT Advanced
+Touchscreen Panels, all versions, and Magelis XBT GTW Advanced Open
+Touchscreen Panels (Windows XPe). An attacker can open multiple
+connections to a targeted web server and keep connections open
+preventing new connections from being made, rendering the web server
+unavailable during an attack.",CVE-2016-8367
+ICS-CERT,20170830,"A Stack-based Buffer Overflow issue was discovered in Schneider
+Electric InduSoft Web Studio v8.0 SP2 Patch 1 and prior versions, and
+InTouch Machine Edition v8.0 SP2 Patch 1 and prior versions. The
+stack-based buffer overflow vulnerability has been identified, which
+may allow remote code execution with high privileges.",CVE-2017-14024
+ICS-CERT,20170103,"An issue was discovered in Schneider Electric Wonderware Historian 2014
+R2 SP1 P01 and earlier. Wonderware Historian creates logins with
+default passwords, which can allow a malicious entity to compromise
+Historian databases. In some installation scenarios, resources beyond
+those created by Wonderware Historian may be compromised as well.",CVE-2017-5155
+ICS-CERT,20170103,"A Cross-Site Request Forgery issue was discovered in Schneider Electric
+Wonderware InTouch Access Anywhere, version 11.5.2 and prior. The
+client request may be forged from a different site. This will allow an
+external site to access internal RDP systems on behalf of the currently
+logged in user.",CVE-2017-5156
+ICS-CERT,20170103,"An issue was discovered in Schneider Electric homeLYnk Controller,
+LSS100100, all versions prior to V1.5.0. The homeLYnk controller is
+susceptible to a cross-site scripting attack. User inputs can be
+manipulated to cause execution of JavaScript code.",CVE-2017-5157
+ICS-CERT,20170103,"An Information Exposure issue was discovered in Schneider Electric
+Wonderware InTouch Access Anywhere, version 11.5.2 and prior.
+Credentials may be exposed to external systems via specific URL
+parameters, as arbitrary destination addresses may be specified.",CVE-2017-5158
+ICS-CERT,20170103,"An issue was discovered in Schneider Electric Tableau Server/Desktop
+Versions 7.0 to 10.1.3 in Wonderware Intelligence Versions 2014R3 and
+prior. These versions contain a system account that is installed by
+default. The default system account is difficult to configure with
+non-default credentials after installation, and changing the default
+credentials in the embedded Tableau Server is not documented. If
+Tableau Server is used with Windows integrated security (Active
+Directory), the software is not vulnerable. However, when Tableau
+Server is used with local authentication mode, the software is
+vulnerable. The default system account could be used to gain
+unauthorized access.",CVE-2017-5178
+ICS-CERT,20170103,"An Inadequate Encryption Strength issue was discovered in Schneider
+Electric Wonderware InTouch Access Anywhere, version 11.5.2 and prior.
+The software will connect via Transport Layer Security without
+verifying the peer's SSL certificate properly.",CVE-2017-5160
+ICS-CERT,20170216,"A Resource Exhaustion issue was discovered in Schneider Electric
+Modicon M340 PLC BMXNOC0401, BMXNOE0100, BMXNOE0110, BMXNOE0110H,
+BMXNOR0200H, BMXP341000, BMXP342000, BMXP3420102, BMXP3420102CL,
+BMXP342020, BMXP342020H, BMXP342030, BMXP3420302, BMXP3420302H, and
+BMXP342030H. A remote attacker could send a specially crafted set of
+packets to the PLC causing it to freeze, requiring the operator to
+physically press the reset button on the PLC in order to recover.",CVE-2017-6017
+ICS-CERT,20170216,"An issue was discovered in Schneider Electric Conext ComBox, model
+865-1058, all firmware versions prior to V3.03 BN 830. A series of
+rapid requests to the device may cause it to reboot.",CVE-2017-6019
+ICS-CERT,20170216,"A Use of Insufficiently Random Values issue was discovered in Schneider
+Electric Modicon PLCs Modicon M241, firmware versions prior to Version
+4.0.5.11, and Modicon M251, firmware versions prior to Version
+4.0.5.11. The session numbers generated by the web application are
+lacking randomization and are shared between several users. This may
+allow a current session to be compromised.",CVE-2017-6026
+Schneider Electric SE,20170419,"A vulnerability exists in Schneider Electric's PowerSCADA Anywhere
+v1.0 redistributed with PowerSCADA Expert v8.1 and PowerSCADA Expert
+v8.2 and Citect Anywhere version 1.0 that allows the use of outdated
+cipher suites and improper verification of peer SSL Certificate.",CVE-2017-7971
+Schneider Electric SE,20170419,"A vulnerability exists in Schneider Electric's PowerSCADA Anywhere
+v1.0 redistributed with PowerSCADA Expert v8.1 and PowerSCADA Expert
+v8.2 and Citect Anywhere version 1.0 that allows the ability to escape
+out of remote PowerSCADA Anywhere applications and launch other
+processes.",CVE-2017-7972
+Schneider Electric SE,20170419,"A SQL injection vulnerability exists in Schneider Electric's U.motion
+Builder software versions 1.2.1 and prior in which an unauthenticated
+user can use calls to various paths allowing performance of arbitrary
+SQL commands against the underlying database.",CVE-2017-7973
+Schneider Electric SE,20170419,"A path traversal information disclosure vulnerability exists in
+Schneider Electric's U.motion Builder software versions 1.2.1 and
+prior in which an unauthenticated user can execute arbitrary code and
+exfiltrate files.",CVE-2017-7974
+MITRE Corporation,20170430,"Schneider Electric StruxureWare Data Center Expert before 7.4.0 uses
+cleartext RAM storage for passwords, which might allow remote attackers
+to obtain sensitive information via unspecified vectors.",CVE-2017-8371
+ICS-CERT,20170614,"An Uncontrolled Resource Consumption issue was discovered in Schneider
+Electric Wonderware ArchestrA Logger, versions 2017.426.2307.1 and
+prior. The uncontrolled resource consumption vulnerability could allow
+an attacker to exhaust the memory resources of the machine, causing a
+denial of service.",CVE-2017-9627
+ICS-CERT,20170614,"A Stack-Based Buffer Overflow issue was discovered in Schneider
+Electric Wonderware ArchestrA Logger, versions 2017.426.2307.1 and
+prior. The stack-based buffer overflow vulnerability has been
+identified, which may allow a remote attacker to execute arbitrary code
+in the context of a highly privileged account.",CVE-2017-9629
+ICS-CERT,20170614,"A Null Pointer Dereference issue was discovered in Schneider Electric
+Wonderware ArchestrA Logger, versions 2017.426.2307.1 and prior. The
+null pointer dereference vulnerability could allow an attacker to crash
+the logger process, causing a denial of service for logging and
+log-viewing (applications that use the Wonderware ArchestrA Logger
+continue to run when the Wonderware ArchestrA Logger service is
+unavailable).",CVE-2017-9631
+Schneider Electric SE,20170626,"An authentication bypass vulnerability exists in Schneider Electric's
+U.motion Builder software versions 1.2.1 and prior in which the system
+contains a hard-coded valid session. An attacker can use that session
+ID as part of the HTTP cookie of a web request, resulting in
+authentication bypass",CVE-2017-9956
+Schneider Electric SE,20170626,"A vulnerability exists in Schneider Electric's U.motion Builder
+software versions 1.2.1 and prior in which the web service contains a
+hidden system account with a hardcoded password. An attacker can use
+this information to log into the system with high-privilege
+credentials.",CVE-2017-9957
+Schneider Electric SE,20170626,"A vulnerability exists in Schneider Electric's U.motion Builder
+software versions 1.2.1 and prior in which the system accepts reboot
+in session from unauthenticated users, supporting a denial of service
+condition.",CVE-2017-9959
+Schneider Electric SE,20170626,"A vulnerability exists in Schneider Electric's Pro-Face GP Pro EX
+version 4.07.000 that allows an attacker to execute arbitrary code.
+Malicious code installation requires an access to the computer. By
+placing a specific DLL/OCX file, an attacker is able to force the
+process to load arbitrary DLL and execute arbitrary code in the
+context of the process.",CVE-2017-9961
+Schneider Electric SE,20170626,"An improper access control vulnerability exists in Schneider
+Electric's U.motion Builder software versions 1.2.1 and prior in which
+an improper handling of the system configuration can allow an attacker
+to execute arbitrary code under the context of root.",CVE-2017-9958
+Schneider Electric SE,20170626,"An information disclosure vulnerability exists in Schneider Electric's
+U.motion Builder software versions 1.2.1 and prior in which the system
+response to error provides more information than should be available
+to an unauthenticated user.",CVE-2017-9960
+Schneider Electric SE,20170626,"Schneider Electric's ClearSCADA versions released prior to August 2017
+are susceptible to a memory allocation vulnerability, whereby
+malformed requests can be sent to ClearSCADA client applications to
+cause unexpected behavior. Client applications affected include ViewX
+and the Server Icon.",CVE-2017-9962
+Schneider Electric SE,20170626,"A Path Traversal issue was discovered in Schneider Electric Pelco
+VideoXpert Enterprise all versions prior to 2.1. By sniffing
+communications, an unauthorized person can execute a directory
+traversal attack resulting in authentication bypass or session hijack.",CVE-2017-9964
+Schneider Electric SE,20170626,"A Path Traversal issue was discovered in Schneider Electric Pelco
+VideoXpert Enterprise all versions prior to 2.1. Using a directory
+traversal attack, an unauthorized person can view web server files.",CVE-2017-9965
